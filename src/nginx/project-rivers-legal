@@ -1,0 +1,13 @@
+server {
+  listen 80;
+  listen [::]:80;
+
+  root /home/static/rivers-legal;
+  index index.html index.htm;
+
+  server_name sandbox.rivers-legal.getmore.mx;
+
+  location / {
+      try_files $uri $uri/ =404;
+  }
+}

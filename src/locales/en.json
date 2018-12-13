@@ -1,0 +1,141 @@
+{
+  "en": {
+    "nav": {
+      "logo": "/img/logos/menu-logo.png",
+      "logoAlt": "Site logo in the navigation bar",
+      "hamburgerLogoAlt": "Site logo in the hambuger menu",
+      "hamburgerCloseAlt": "X-shaped icon to close the hamburger menu",
+      "sections": [
+        {
+          "name": " About Us",
+          "link": "about-us.html",
+          "viewName": "homepage"
+        },
+        {
+          "name": "Practice Areas",
+          "link": "practice-areas.html",
+          "viewName": "practiceareas"
+        },
+        {
+          "name": "Members",
+          "link": "members.html",
+          "viewName": "members"
+        },
+        {
+          "name": "Contact",
+          "link": "contact.html",
+          "viewName": "contact"
+        },
+        {
+          "name": "Careers",
+          "link": "careers.html",
+          "viewName": "careers"
+        }
+      ]
+    },
+    "home": {
+      "cover": {
+        "title": "Business Aligned",
+        "titleSpan": "Legal Advice",
+        "subtitle": "Understanding Our Clients Business to Meet Their Legal Needs",
+        "link": "about-us.html",
+        "linkText": "about us",
+        "scroll": "/img/icons/scroll-indicator.png",
+        "scrollAlt": "Scroll down indicator"
+      },
+      "practice": {
+        "carousel": [
+          {
+            "title": "Corporate Law",
+            "imgClass": "corporateLaw",
+            "layerTitle": "Corporate Law",
+            "layerDesc": "We help through you every step of the way"
+          },
+          {
+            "title": "Labor Law",
+            "imgClass": "laborLaw",
+            "layerTitle": "Labor Law",
+            "layerDesc": "We help through you every step of the way"
+          },
+          {
+            "title": "Intellectual Property",
+            "imgClass": "intellProperty",
+            "layerTitle": "Intellectual Property",
+            "layerDesc": "We help through you every step of the way"
+          },
+          {
+            "title": "Immigration",
+            "imgClass": "immigration",
+            "layerTitle": "Immigration",
+            "layerDesc": "We help through you every step of the way"
+          },
+          {
+            "title": "Commercial Litigation",
+            "imgClass": "commLitigation",
+            "layerTitle": "Commercial Litigation",
+            "layerDesc": "We help through you every step of the way"
+          },
+          {
+            "title": "Administrative Litigation",
+            "imgClass": "adminLitigation",
+            "layerTitle": "Administrative Litigation",
+            "layerDesc": "We help through you every step of the way"
+          },
+          {
+            "title": "Civil Law",
+            "imgClass": "civilLaw",
+            "layerTitle": "Civil Law",
+            "layerDesc": "We help through you every step of the way"
+          },
+          {
+            "title": "Administrative Law",
+            "imgClass": "adminLaw",
+            "layerTitle": "Administrative Law",
+            "layerDesc": "We help through you every step of the way"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "logo": "/img/logos/footer-logo.png",
+      "logoAlt": "Site logo in the footer",
+      "sections": [
+        {
+          "name": " About Us",
+          "link": "about-us.html",
+          "viewName": "homepage"
+        },
+        {
+          "name": "Practice Areas",
+          "link": "practice-areas.html",
+          "viewName": "practiceareas"
+        },
+        {
+          "name": "Members",
+          "link": "members.html",
+          "viewName": "members"
+        },
+        {
+          "name": "Contact",
+          "link": "contact.html",
+          "viewName": "contact"
+        },
+        {
+          "name": "Careers",
+          "link": "careers.html",
+          "viewName": "careers"
+        }
+      ],
+      "phoneIcon": "/img/icons/phone-icon.png",
+      "phoneIconAlt": "Phone icon",
+      "phone": "+52 (444) 825 36 14",
+      "mailIcon": "/img/icons/mail-icon.png",
+      "mailIconAlt": "Mail icon",
+      "mail": "contact@rvrs.mx",
+      "addressIcon": "/img/icons/address-icon.png",
+      "addressIconAlt": "Pin icon",
+      "address": "Calle Las Trojes 120-B, Lomas 4ta sección C.P. 78216, San Luis Potosí, S.L.P",
+      "copyright": "Rivers Legal  2018® Copyright"
+    }
+  }
+}

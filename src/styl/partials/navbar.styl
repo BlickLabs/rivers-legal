@@ -1,0 +1,196 @@
+.nav
+  align-items flex-start
+  background-color transparent
+  display flex
+  flex-direction column
+  height 100px
+  left 0
+  padding 33px 100px 0 100px
+  position fixed
+  top 0
+  transition 0.3s
+  width 100%
+  z-index 12
+
+  &-logo
+    height 44px
+    width 159px
+
+  &-scroll
+    align-items center
+    background-color #42507a
+    box-shadow 0 6px 8px 0 rgba(0,0,0,0.2)
+    flex-direction row
+    height 94px
+    opacity 0.9
+    padding-top 0
+
+    & .nav-option-container
+      margin 0 0 0 54px
+
+  &-option
+    color black
+
+    &.active
+      color white
+
+    &:hover:before,
+    &.active:before
+      background-color $c-strongBlue
+      top -18px
+      content ""
+      height 2px
+      left -10px
+      position absolute
+      right -10px
+
+    &:hover
+      color white
+
+    &-container
+      border-top solid 2px $c-white
+      display flex
+      flex-direction row
+      margin-top 26px
+      padding 16px 0 0 10px
+      width 100%
+
+    &-content
+      margin-right 40px
+      position relative
+
+  &-lang
+    &-container
+      display flex
+      flex-direction row
+      margin-left auto
+
+    &-content
+      margin 0 10px
+
+      & a
+        padding 5px
+
+    &-active
+      color $c-strongBlue !important
+      font-weight $bold !important
+
+.hamburger
+  &-visibility
+    position absolute
+
+  &-menu
+    &-container
+      display none
+
+@media screen and (max-width: 900px)
+  .nav
+    align-items center
+    flex-direction row
+    height 70px
+    justify-content space-between
+    padding 0 30px
+
+    &:after
+      background-color $c-white
+      bottom 0
+      content ""
+      height 1px
+      left 30px
+      position absolute
+      right 30px
+
+
+    // &-logo
+    //   height 22px
+    //   width 79px
+
+    &-option
+      &-container
+        display none
+
+    &-lang
+      color $c-white !important
+
+      &-active
+        font-weight $bold !important
+
+  .hamburger
+    background-color transparent
+    display flex
+    height 33px
+    justify-content center
+    width 33px
+
+    &-visibility
+      cursor pointer
+      position initial
+
+    &-logo
+      height 25px
+      width auto
+
+    &-close
+      cursor pointer
+      height 16px
+      width 16px
+
+    &-menu
+      &-container
+        background-color $c-strongBlue
+        display inline
+        bottom 0
+        overflow scroll
+        padding-bottom 50px
+        position fixed
+        right 0
+        top 0
+        transition width 0.5s
+        width 0%
+        z-index 13
+        -webkit-transition width 0.5s
+
+      &-header
+        align-items center
+        display flex
+        flex-direction row
+        justify-content space-between
+        padding 22px 36px 50px 36px
+
+      &-body
+        margin-left 36px
+
+    &-text
+      color white
+      padding 10px 0
+
+      &-container
+        margin 35px 0
+
+    &-active,
+    &-text:hover
+      font-weight bold
+      text-decoration underline
+
+    &-line
+      &-icon
+        background-color #fff
+        height 2px
+        width 20px
+
+        &-container
+          display flex
+          flex-direction column
+          justify-content center
+
+        &:nth-child(2)
+          margin 4px 0
+
+        &:first-child
+          width 12px
+
+@media screen and (max-width 750px)
+  .nav
+    &-logo
+      height 30px
+      width auto
