@@ -37,7 +37,7 @@
     &:hover:before,
     &.active:before
       background-color $c-strongBlue
-      top -18px
+      top -17px
       content ""
       height 2px
       left -10px
@@ -48,7 +48,7 @@
       color white
 
     &-container
-      border-top solid 2px $c-white
+      border-top solid 1px $c-white
       display flex
       flex-direction row
       margin-top 26px
@@ -83,7 +83,15 @@
     &-container
       display none
 
-@media screen and (max-width: 900px)
+@media screen and (max-width 1110px)
+  .nav
+    padding 33px 30px 0 30px
+
+    &-option,
+    &-lang
+      font-size 14px !important
+
+@media screen and (max-width 900px)
   .nav
     align-items center
     flex-direction row
@@ -111,6 +119,9 @@
 
     &-lang
       color $c-white !important
+
+      &-content
+        margin 0 0 0 -5px
 
       &-active
         font-weight $bold !important
@@ -170,7 +181,6 @@
     &-active,
     &-text:hover
       font-weight bold
-      text-decoration underline
 
     &-line
       &-icon

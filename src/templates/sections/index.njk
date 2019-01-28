@@ -1,11 +1,11 @@
 {% extends "partials/base.njk" %}
 
-{% block title %}This{% endblock %}
+{% block title %}Business Aligned Legal Advice{% endblock %}
 
-{% set meta_description = "" %}
+{% set meta_description = "Understanding Our Clients Business to Meet Their Legal Needs" %}
 {% set og_url = "" %}
-{% set og_title = "" %}
-{% set og_description = "" %}
+{% set og_title = "Business Aligned Legal Advice | Rivers Legal" %}
+{% set og_description = "Understanding Our Clients Business to Meet Their Legal Needs" %}
 {% set og_img = "" %}
 {% set og_img_width = "" %}
 {% set og_img_height = "" %}
@@ -22,17 +22,18 @@
   </section>
 
   <section class="home-practice">
-    <h2 class="home-practice-title">Practice areas</h2>
+    <h2 class="home-practice-title">Practice Areas</h2>
     <div class="home-practice-carousel owl-carousel">
       {% for item in en.home.practice.carousel %}
-      <div class="home-practice-item">
-        <span class="item-title">{{item.title}}</span>
-        <div class="item-img {{item.imgClass}}"></div>
-        <div class="layer">
-          <h3 class="layer-title">{{item.layerTitle}}</h3>
-          <p class="layer-desc">{{item.layerDesc}}</p>
+      <a href="">
+        <div class="home-practice-item">
+          <span class="item-title">{{item.title}}</span>
+          <div class="item-img {{item.imgClass}}"></div>
+          <div class="layer">
+            <h3 class="layer-title">{{item.layerTitle}}</h3>
+          </div>
         </div>
-      </div>
+      </a>
       {% endfor %}
     </div>
     <a class="btn blue" href="{{en.home.cover.link}}">view all</a>
@@ -45,7 +46,7 @@
     </div>
     <div class="second">
       <h3 class="home-members-tag">comprehensive legal solutions</h3>
-      <span class="home-members-tag">Services Clearly Oriented Towars Business Development.</span>
+      <span class="home-members-tag">Services Clearly Oriented Towards Business Development.</span>
       <a class="btn blue" href="{{en.home.cover.link}}">view members</a>
     </div>
   </section>

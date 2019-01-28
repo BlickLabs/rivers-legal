@@ -9,7 +9,7 @@
         {
           "name": " About Us",
           "link": "about-us.html",
-          "viewName": "homepage"
+          "viewName": "aboutus"
         },
         {
           "name": "Practice Areas",
@@ -46,52 +46,49 @@
       "practice": {
         "carousel": [
           {
-            "title": "Corporate Law",
-            "imgClass": "corporateLaw",
-            "layerTitle": "Corporate Law",
-            "layerDesc": "We help through you every step of the way"
+            "title": "Corporate",
+            "imgClass": "corporate",
+            "layerTitle": "Corporate"
           },
           {
-            "title": "Labor Law",
-            "imgClass": "laborLaw",
-            "layerTitle": "Labor Law",
-            "layerDesc": "We help through you every step of the way"
+            "title": "Mergers & Acquisitions",
+            "imgClass": "mergersAcquisitions",
+            "layerTitle": "Mergers & Acquisitions"
+          },
+          {
+            "title": "Labor & Employment",
+            "imgClass": "laborEmployment",
+            "layerTitle": "Labor & Employment"
           },
           {
             "title": "Intellectual Property",
             "imgClass": "intellProperty",
-            "layerTitle": "Intellectual Property",
-            "layerDesc": "We help through you every step of the way"
+            "layerTitle": "Intellectual Property"
           },
           {
             "title": "Immigration",
             "imgClass": "immigration",
-            "layerTitle": "Immigration",
-            "layerDesc": "We help through you every step of the way"
+            "layerTitle": "Immigration"
           },
           {
-            "title": "Commercial Litigation",
-            "imgClass": "commLitigation",
-            "layerTitle": "Commercial Litigation",
-            "layerDesc": "We help through you every step of the way"
+            "title": "Real Estate",
+            "imgClass": "realEstate",
+            "layerTitle": "Real Estate"
           },
           {
-            "title": "Administrative Litigation",
-            "imgClass": "adminLitigation",
-            "layerTitle": "Administrative Litigation",
-            "layerDesc": "We help through you every step of the way"
+            "title": "Foreign Investment",
+            "imgClass": "foreignInvestment",
+            "layerTitle": "Foreign Investment"
           },
           {
-            "title": "Civil Law",
-            "imgClass": "civilLaw",
-            "layerTitle": "Civil Law",
-            "layerDesc": "We help through you every step of the way"
+            "title": "Constitutional Amparo & Administrative Proceedings",
+            "imgClass": "constitutional",
+            "layerTitle": "Constitutional Amparo & Administrative Proceedings"
           },
           {
-            "title": "Administrative Law",
-            "imgClass": "adminLaw",
-            "layerTitle": "Administrative Law",
-            "layerDesc": "We help through you every step of the way"
+            "title": "Civil & Commercial Litigation",
+            "imgClass": "commercialLitigation",
+            "layerTitle": "Civil & Commercial Litigation"
           }
         ]
       }
@@ -103,7 +100,7 @@
         {
           "name": " About Us",
           "link": "about-us.html",
-          "viewName": "homepage"
+          "viewName": "aboutus"
         },
         {
           "name": "Practice Areas",
@@ -126,6 +123,9 @@
           "viewName": "careers"
         }
       ],
+      "inIcon": "img/icons/icon-in.png",
+      "inLink": "https://www.linkedin.com/company/rivers-legal-s.c./about/",
+      "inIconAlt": "Linked In icon",
       "phoneIcon": "/img/icons/phone-icon.png",
       "phoneIconAlt": "Phone icon",
       "phone": "+52 (444) 825 36 14",
@@ -135,7 +135,7 @@
       "addressIcon": "/img/icons/address-icon.png",
       "addressIconAlt": "Pin icon",
       "address": "Calle Las Trojes 120-B, Lomas 4ta sección C.P. 78216, San Luis Potosí, S.L.P",
-      "copyright": "Rivers Legal  2018® Copyright"
+      "copyright": "Rivers Legal  2019® Copyright"
     }
   }
 }
