@@ -62,7 +62,7 @@
       {% for section in en.nav.sections %}
       <div class="hamburger-text-container">
         <a href="{{section.link}}">
-          <span class="hamburger-text {% if view_name == nav.viewName %}hamburger-active{% endif %}">{{section.name}}</span>
+          <span class="hamburger-text link-section{% if view_name == nav.viewName %}hamburger-active{% endif %}">{{section.name}}</span>
         </a>
       </div>
       {% endfor %}
