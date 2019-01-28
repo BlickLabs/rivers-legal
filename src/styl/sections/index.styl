@@ -102,7 +102,7 @@
         margin-right 10px
 
     &-item
-      height 187px
+      height 220px/*187px*/
       position relative
       width 295px
 
@@ -117,34 +117,39 @@
         color $c-white
         display flex
         font-family 'DINNextW01Regular'
-        font-size 19px
+        font-size 17px
         font-weight normal
         height 44px
+        justify-content center
         letter-spacing 0.6px
         opacity 0.7
-        padding-left 23px
+        text-align center
         width 100%
 
       & .item-img
-        &.corporateLaw,
-        &.laborLaw,
+        &.corporate,
+        &.mergersAcquisitions,
+        &.laborEmployment,
         &.intellProperty,
         &.immigration,
-        &.commLitigation,
-        &.adminLitigation,
-        &.civilLaw,
-        &.adminLaw
+        &.realEstate,
+        &.foreignInvestment,
+        &.constitutional,
+        &.commercialLitigation
           background-position center
           background-repeat no-repeat
           background-size cover
-          height 143px
+          height 176px/*143px*/
           width 295px
 
-        &.corporateLaw
-          background-image url("../img/home/corporate-law.jpg")
+        &.corporate
+          background-image url("../img/home/corporate.jpg")
 
-        &.laborLaw
-          background-image url("../img/home/labor-law.jpg")
+        &.mergersAcquisitions
+          background-image url("../img/home/mergers-acquisitions.jpg")
+
+        &.laborEmployment
+          background-image url("../img/home/labor-employment.jpg")
 
         &.intellProperty
           background-image url("../img/home/intellectual-property.jpg")
@@ -152,17 +157,17 @@
         &.immigration
           background-image url("../img/home/immigration.jpg")
 
-        &.commLitigation
-          background-image url("../img/home/commercial-litigation.jpg")
+        &.realEstate
+          background-image url("../img/home/real-estate.jpg")
 
-        &.adminLitigation
-          background-image url("../img/home/administrative-litigation.jpg")
+        &.foreignInvestment
+          background-image url("../img/home/foreign-investment.jpg")
 
-        &.civilLaw
-          background-image url("../img/home/civil-law.jpg")
+        &.constitutional
+          background-image url("../img/home/constitutional-amparo-administrative-proceedings.jpg")
 
-        &.adminLaw
-          background-image url("../img/home/administrative-law.jpg")
+        &.commercialLitigation
+          background-image url("../img/home/civil-commercial-litigation.jpg")
 
       & .layer
         align-items center
@@ -188,7 +193,7 @@
           font-family 'PlayfairDisplayRegular'
           font-size 19px
           font-weight normal
-          margin-bottom 20px
+          text-align center
 
         &-desc
           font-family 'DINNextW01Regular'
@@ -263,7 +268,7 @@
 
       & span.home-members-tag
         display block
-        margin 18px 0 10px 0
+        margin 22px 0 25px 0
         text-transform capitalize
 
   &-contact
@@ -314,11 +319,23 @@
       margin-bottom 22px
       max-width 315px
 
+@media screen and (min-width: 1281px)
+  .home
+    &-members
+      background-position left center
+
 @media screen and (max-width: 1280px)
   .home
     &-practice
       &-carousel
+        margin 69px 0 120px 0
         width 603px
+
+        & .owl-nav
+          bottom -86px
+
+        & .owl-dots
+          bottom -70px
 
 @media screen and (max-width: 1040px)
   .home
@@ -326,10 +343,16 @@
     & .first
       margin-right 13%
 
+@media screen and (min-width 420px) and (max-width 860px)
+  .home
+    &-members
+      background-position top !important
+      height 360px !important
+
 @media screen and (max-width: 860px)
   .home
     &-cover
-      height 400px
+      height 100vh/*400px*/
       padding-bottom 37px
 
       &-scroll
@@ -350,7 +373,7 @@
           bottom -70px
           margin 0 auto
           right 0
-          width 232px
+          width 262px
 
         & .owl-dot
           margin 0 9px
@@ -364,7 +387,7 @@
     &-members
       align-items center
       background-image url("../img/backgrounds/home-members-mobile.jpg")
-      background-position center
+      background-position bottom -20px center
       height 600px
       justify-content flex-start
       padding-top 46px
@@ -375,6 +398,7 @@
 
         &:before
           background-color transparent
+          margin 10px 0 18px 0
           width auto
 
       & .first
@@ -396,7 +420,17 @@
           width 210px
 
       &-info
-        margin 40px auto 0 auto
+        margin 40px auto 0 0
+
+      &-desc
+        font-size 12px
+        line-height 20px
+        max-width 190px
+
+    .btn
+      font-size 13px
+      height 37px
+      width 130px
 
   .bigTitle,
   .whiteSubtitle
