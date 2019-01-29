@@ -1,0 +1,41 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}We are looking for talented people{% endblock %}
+
+{% set meta_description = "If you are interested in becoming a part of our team, please send us your resume." %}
+{% set og_url = "" %}
+{% set og_title = "We are looking for talented people | Rivers Legal" %}
+{% set og_description = "If you are interested in becoming a part of our team, please send us your resume." %}
+{% set og_img = "" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "careers" %}
+
+{% block content %}
+<section class="careers">
+  <section class="cover">
+    <div>
+      <h1 class="title">Careers</h1>
+      <h2 class="subtitle">Rivers Legal, S.C.</h2>
+      <p class="description">Stands out as a firm committed in providing services of excellence through a highly qualified staff identified with our values. We are looking for talented people who has affinity with our values and whose professional goals align with our vision.</p>
+    </div>
+    <div class="column-right">
+      <h3 class="send-subtitle">send us your resume</h3>
+      <p class="send-description">If you are interested in becoming a part of our team, please send us your resume to hr@rvrs.mx.</p>
+    </div>
+  </section>
+  <section class="form">
+    <form action="">
+      <label for="name">Name</label>
+      <input type="text" id="name">
+      <label for="email">E-mail</label>
+      <input type="text" id="email">
+      <label for="phone">Phone number</label>
+      <input type="text" id="phone">
+      <button class="btn blue" type="submit">send application</button>
+    </form>
+    <p class="description">We appreciate your interest in Rivers Legal, S.C.<br>We will contact you shortly.</p>
+  </section>
+</section>
+{% endblock %}

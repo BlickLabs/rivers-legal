@@ -13,7 +13,7 @@
   </head>
   <body>
     <div id="page">
-      {% if section == 'en/index' or section == 'index' %}
+      {% if section == 'en/index' or section == 'index' or section == 'en/careers' %}
         {% include 'partials/navbar-en.njk' %}
       {% else %}
         {% include 'partials/navbar.njk' %}
@@ -21,7 +21,7 @@
       <main>
         {% block content %}{% endblock %}
       </main>
-      {% if section == 'en/index' or section == 'index' %}
+      {% if section == 'en/index' or section == 'index' or section == 'en/careers' %}
         {% include 'partials/footer-en.njk' %}
       {% else %}
         {% include 'partials/footer.njk' %}

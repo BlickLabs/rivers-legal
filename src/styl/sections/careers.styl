@@ -1,0 +1,162 @@
+.careers
+  margin-top 94px
+
+  .cover
+    background-image url("../img/backgrounds/careers-cover.jpg")
+    background-position center
+    background-size cover
+    height 457px
+    padding 50px 98px 0 98px
+
+    .title
+      color $c-strongBlue
+      font-family 'PlayfairDisplay'
+      font-size 33px
+      font-weight normal
+      line-height 26px
+      padding-bottom 11px
+      position relative
+
+      &:before,
+      &:after
+        bottom 0
+        content ""
+        height 1px
+        position absolute
+
+      &:before
+        background-color #d3d3d3
+        width 313px
+
+      &:after
+        background-color $c-strongBlue
+        left 0
+        width 133px
+
+    .subtitle
+      color $c-strongBlue
+      font-family 'PlayfairDisplay'
+      font-size 27px
+      font-weight normal
+      letter-spacing -0.24px
+      line-height 26px
+      margin 35px 0 20px 0
+      position relative
+
+    .description
+      color $c-strongBlue
+      font-family 'DINNextW01Regular'
+      font-size 18px
+      font-weight normal
+      letter-spacing 0.3px
+      line-height 29px
+      max-width 540px
+
+    .column-right
+      margin 15px 0 0 auto
+      max-width 445px
+
+    .send
+      &-subtitle
+        color $c-strongBlue
+        font-family 'DINNextW01Regular'
+        font-size 13px
+        font-weight normal
+        letter-spacing 1.12px
+        text-transform uppercase
+        position relative
+
+        &:before
+          background-color $c-strongBlue
+          content ""
+          display block
+          height 1px
+          left -50px
+          position absolute
+          top 6px
+          width 39px
+
+      &-description
+        color $c-strongBlue
+        font-family 'PlayfairDisplay'
+        font-size 20px
+        font-weight normal
+        letter-spacing 0.4px
+        line-height 30px
+
+  .form
+    background-image url("../img/backgrounds/careers-form-bg.png")
+    background-position center
+    background-size cover
+    height 720px
+    padding 75px 98px 0 98px
+
+    form
+      display flex
+      flex-direction column
+      margin 0 0 0 auto
+      max-width 600px
+
+    label
+      color $c-strongBlue
+      font-family 'DINNextW01Regular'
+      font-size 19px
+      font-weight normal
+      letter-spacing 0.3px
+      margin-bottom 10px
+    
+    input
+      background-color $c-white
+      border none
+      border-radius 3px
+      color $c-strongBlue
+      font-family 'DINNextW01Regular'
+      font-size 19px
+      font-weight normal
+      height 53px
+      letter-spacing 0.3px
+      margin-bottom 28px
+      padding 0 15px
+    
+    button
+      cursor pointer
+      margin 26px 0 60px 0
+      min-width 239px
+
+    .description
+      color $c-strongBlue
+      font-family 'PlayfairDisplay'
+      font-size 25px
+      font-weight normal
+      letter-spacing 0.6px
+      line-height 39px
+      margin 0 0 0 auto
+      max-width 600px
+
+
+
+@media screen and (min-width 1320px)
+  .careers
+    .cover
+      background-position top 34% center
+
+@media screen and (max-width 940px)
+  .careers
+    .cover
+      background-position top -70px center
+
+@media screen and (max-width 940px)
+  .careers
+    .cover
+      height auto
+      padding 50px 30px
+
+      .title:before
+        width 230px
+
+      .column-right
+        margin-left 50px
+    
+    .form
+      height auto
+      padding 60px 30px
