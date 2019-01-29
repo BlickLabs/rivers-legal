@@ -1,0 +1,43 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Contact Us{% endblock %}
+
+{% set meta_description = "For advice, or for an initial quote please get in touch." %}
+{% set og_url = "" %}
+{% set og_title = "Contact Us | Rivers Legal" %}
+{% set og_description = "For advice, or for an initial quote please get in touch." %}
+{% set og_img = "" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "contact" %}
+
+{% block content %}
+<section class="contact">
+  <section class="cover">
+    <div class="card">
+      <h1 class="title">{{ en.contact.cover.title }}</h1>
+      <div class="second-row">
+        <a class="card-address" href="https://goo.gl/maps/j7p1oVvC5ak" target="_blank">{{ en.contact.cover.address }}</a>
+        <div class="wayOfContact-container">
+          <a class="wayOfContact card-mail" href="mailto:{{ en.contact.cover.email }}">{{ en.contact.cover.email }}</a>
+          <a class="wayOfContact card-phone" href="tel:{{ en.contact.cover.phone }}">{{ en.contact.cover.phone }}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="leave">
+    <h2 class="title">{{ en.contact.leave.subtitle }}</h2>
+    <form action="">
+      <label for="name">{{ en.contact.leave.labelName }}</label>
+      <input type="text" id="name">
+      <label for="email">{{ en.contact.leave.labelEmail }}</label>
+      <input type="text" id="email">
+      <label for="message">{{ en.contact.leave.labelMessage }}</label>
+      <textarea name="" id="message"></textarea>
+      <button class="btn blue" type="submit">{{ en.contact.leave.btn }}</button>
+    </form>
+  </section>
+</section>
+{% endblock %}
