@@ -8,22 +8,22 @@
       "sections": [
         {
           "name": " About Us",
-          "link": "about-us.html",
+          "link": "en/about-us.html",
           "viewName": "aboutus"
         },
         {
           "name": "Practice Areas",
-          "link": "practice-areas.html",
+          "link": "en/practice-areas.html",
           "viewName": "practiceareas"
         },
         {
           "name": "Members",
-          "link": "members.html",
+          "link": "en/members.html",
           "viewName": "members"
         },
         {
           "name": "Contact",
-          "link": "contact.html",
+          "link": "en/contact.html",
           "viewName": "contact"
         },
         {
@@ -93,28 +93,43 @@
         ]
       }
     },
+    "contact": {
+      "cover": {
+        "title": "Address",
+        "address": "Calle Las Trojes 120-B, Lomas 4ta sección C.P. 78216, San Luis Potosí, S.L.P.",
+        "email": "contact@vrs.mx",
+        "phone": "+52 (444) 825 36 14"
+      },
+      "leave": {
+        "subtitle": "Leave your message",
+        "labelName": "Name",
+        "labelEmail": "Email",
+        "labelMessage": "Message",
+        "btn": "send"
+      }
+    },
     "footer": {
       "logo": "/img/logos/footer-logo.png",
       "logoAlt": "Site logo in the footer",
       "sections": [
         {
           "name": " About Us",
-          "link": "about-us.html",
+          "link": "en/about-us.html",
           "viewName": "aboutus"
         },
         {
           "name": "Practice Areas",
-          "link": "practice-areas.html",
+          "link": "en/practice-areas.html",
           "viewName": "practiceareas"
         },
         {
           "name": "Members",
-          "link": "members.html",
+          "link": "en/members.html",
           "viewName": "members"
         },
         {
           "name": "Contact",
-          "link": "contact.html",
+          "link": "en/contact.html",
           "viewName": "contact"
         },
         {
