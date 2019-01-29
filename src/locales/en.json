@@ -28,7 +28,7 @@
         },
         {
           "name": "Careers",
-          "link": "careers.html",
+          "link": "en/careers.html",
           "viewName": "careers"
         }
       ]
@@ -119,11 +119,11 @@
         },
         {
           "name": "Careers",
-          "link": "careers.html",
+          "link": "en/careers.html",
           "viewName": "careers"
         }
       ],
-      "inIcon": "img/icons/icon-in.png",
+      "inIcon": "/img/icons/icon-in.png",
       "inLink": "https://www.linkedin.com/company/rivers-legal-s.c./about/",
       "inIconAlt": "Linked In icon",
       "phoneIcon": "/img/icons/phone-icon.png",
