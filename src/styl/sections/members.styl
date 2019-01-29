@@ -1,0 +1,136 @@
+.members
+  margin-top 94px
+  padding 69px 0 59px 0
+  position relative
+
+  &:before,
+  &:after
+    content ""
+    position absolute
+    width 100%
+    z-index -1
+
+  &:before
+    background-color #dde5f8
+    height 40%
+    top 0
+
+  &:after
+    background-image url("../img/backgrounds/members-bg.jpg")
+    background-size cover
+    bottom 0
+    height 60%
+
+  .title
+    color $c-strongBlue
+    font-family 'PlayfairDisplayRegular'
+    font-size 33px
+    font-weight normal
+    margin-bottom 52px
+    padding-bottom 12px
+    position relative
+    text-align center
+    width 100%
+
+    &:before
+      background-color #ffffff
+      bottom 0
+      content ""
+      height 1px
+      left 0
+      margin 0 auto
+      position absolute
+      right 0
+      width 385px
+
+    &:after
+      background-color $c-strongBlue
+      bottom 0
+      content ""
+      height 1px
+      left 0
+      margin 0 auto
+      position absolute
+      right 0
+      width 146px
+  
+  .tree
+    margin-top 60px
+
+    .subtitle
+      color $c-strongBlue
+      font-family 'DINNextW01Regular'
+      font-size 29px
+      font-weight normal
+      letter-spacing 0.5px
+      text-align center
+      text-transform uppercase
+
+    .wrapper
+      display flex
+      flex-wrap wrap
+      // justify-content center
+      margin 20px auto 0 auto
+      max-width 1110px
+
+    .card
+      &-container
+        height 338px
+        margin 15px
+        width 192px
+
+        .category
+          align-items center
+          background-color $c-strongBlue
+          color $c-white
+          display flex
+          font-family 'DINNextW01Bold'
+          font-size 16px
+          font-weight normal
+          letter-spacing 3.3px
+          text-transform uppercase
+          height 28px
+          padding 2px 14px 0 14px
+
+        .name
+          align-items center
+          background-color $c-white
+          color $c-strongBlue
+          display flex
+          font-family 'DINNextW01Regular'
+          font-size 18px
+          font-weight normal
+          letter-spacing 0.3px
+          line-height 27px
+          height 73px
+          padding 0 14px
+
+        .photo
+          height 238px
+          width 192px
+
+@media screen and (max-width 1125px)
+  .members
+    .tree
+      .wrapper
+        max-width 666px
+
+@media screen and (max-width 681px)
+  .members
+    .tree
+      .wrapper
+        max-width 444px
+
+@media screen and (max-width 444px)
+  .members
+    .title
+      &:before
+        width 260px
+
+    .tree
+      .wrapper
+        max-width 320px
+
+      .card
+        &-container
+          zoom 0.72

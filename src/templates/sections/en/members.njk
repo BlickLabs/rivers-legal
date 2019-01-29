@@ -1,0 +1,71 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Get to know all of our members{% endblock %}
+
+{% set meta_description = "Services Clearly Oriented Towards Business Development." %}
+{% set og_url = "" %}
+{% set og_title = "Get to know all of our members | Rivers Legal" %}
+{% set og_description = "Services Clearly Oriented Towards Business Development." %}
+{% set og_img = "" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "homepage" %}
+
+{% block content %}
+<section class="members">
+  <h1 class="title">{{ en.members.title }}</h1>
+
+  <section class="tree">
+    <h2 class="subtitle">{{ en.members.partners.title }}</h2>
+    <div class="wrapper">
+      {% for card in en.members.partners.cards %}
+      <div class="card-container">
+        <span class="category">{{ card.category }}</span>
+        <span class="name">{{ card.name }}</span>
+        <img class="photo" src="{{ card.photo }}" alt="{{ card.name }}">
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="tree">
+    <h2 class="subtitle">{{ en.members.associates.title }}</h2>
+    <div class="wrapper">
+      {% for card in en.members.associates.cards %}
+      <div class="card-container">
+        <span class="category">{{ card.category }}</span>
+        <span class="name">{{ card.name }}</span>
+        <img class="photo" src="{{ card.photo }}" alt="{{ card.name }}">
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+    <section class="tree">
+      <h2 class="subtitle">{{ en.members.paralegals.title }}</h2>
+      <div class="wrapper">
+        {% for card in en.members.paralegals.cards %}
+        <div class="card-container">
+          <span class="category">{{ card.category }}</span>
+          <span class="name">{{ card.name }}</span>
+          <img class="photo" src="{{ card.photo }}" alt="{{ card.name }}">
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="tree">
+      <h2 class="subtitle">{{ en.members.ofCounsel.title }}</h2>
+      <div class="wrapper">
+        {% for card in en.members.ofCounsel.cards %}
+        <div class="card-container">
+          <span class="category">{{ card.category }}</span>
+          <span class="name">{{ card.name }}</span>
+          <img class="photo" src="{{ card.photo }}" alt="{{ card.name }}">
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+</section>
+{% endblock %}

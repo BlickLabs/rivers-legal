@@ -8,27 +8,27 @@
       "sections": [
         {
           "name": " About Us",
-          "link": "en/about-us.html",
+          "link": "/en/about-us.html",
           "viewName": "aboutus"
         },
         {
           "name": "Practice Areas",
-          "link": "en/practice-areas.html",
+          "link": "/en/practice-areas.html",
           "viewName": "practiceareas"
         },
         {
           "name": "Members",
-          "link": "en/members.html",
+          "link": "/en/members.html",
           "viewName": "members"
         },
         {
           "name": "Contact",
-          "link": "en/contact.html",
+          "link": "/en/contact.html",
           "viewName": "contact"
         },
         {
           "name": "Careers",
-          "link": "en/careers.html",
+          "link": "/en/careers.html",
           "viewName": "careers"
         }
       ]
@@ -38,7 +38,7 @@
         "title": "Business Aligned",
         "titleSpan": "Legal Advice",
         "subtitle": "Understanding Our Clients Business to Meet Their Legal Needs",
-        "link": "about-us.html",
+        "link": "/en/about-us.html",
         "linkText": "about us",
         "scroll": "/img/icons/scroll-indicator.png",
         "scrollAlt": "Scroll down indicator"
@@ -93,6 +93,149 @@
         ]
       }
     },
+    "members": {
+      "title": "Members",
+      "partners": {
+        "title": "partners",
+        "cards": [
+          {
+            "category": "partner",
+            "name": "Héctor Alejandro Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "partner",
+            "name": "Marcela Patricia Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "partner",
+            "name": "Manuel Victorio Ortiz Chevaile",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "partner",
+            "name": "Francisco Javier Padilla Mitre",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "partner",
+            "name": "Jaime Eduardo Martínez Terrazas",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "partner",
+            "name": "Héctor Alejandro Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          }
+        ]
+      },
+      "associates": {
+        "title": "associates",
+        "cards": [
+          {
+            "category": "associate",
+            "name": "Héctor Alejandro Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "associate",
+            "name": "Marcela Patricia Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "associate",
+            "name": "Manuel Victorio Ortiz Chevaile",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "associate",
+            "name": "Francisco Javier Padilla Mitre",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "associate",
+            "name": "Jaime Eduardo Martínez Terrazas",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "partner",
+            "name": "Héctor Alejandro Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          }
+        ]
+      },
+      "paralegals": {
+        "title": "paralegals",
+        "cards": [
+          {
+            "category": "paralegal",
+            "name": "Héctor Alejandro Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "paralegal",
+            "name": "Marcela Patricia Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "paralegal",
+            "name": "Manuel Victorio Ortiz Chevaile",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "paralegal",
+            "name": "Francisco Javier Padilla Mitre",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "paralegal",
+            "name": "Jaime Eduardo Martínez Terrazas",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "partner",
+            "name": "Héctor Alejandro Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          }
+        ]
+      },
+      "ofCounsel": {
+        "title": "of counsel",
+        "cards": [
+          {
+            "category": "of counsel",
+            "name": "Héctor Alejandro Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "of counsel",
+            "name": "Marcela Patricia Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "of counsel",
+            "name": "Manuel Victorio Ortiz Chevaile",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "of counsel",
+            "name": "Francisco Javier Padilla Mitre",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "of counsel",
+            "name": "Jaime Eduardo Martínez Terrazas",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "partner",
+            "name": "Héctor Alejandro Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          }
+        ]
+      }
+    },
     "contact": {
       "cover": {
         "title": "Address",
@@ -114,27 +257,27 @@
       "sections": [
         {
           "name": " About Us",
-          "link": "en/about-us.html",
+          "link": "/en/about-us.html",
           "viewName": "aboutus"
         },
         {
           "name": "Practice Areas",
-          "link": "en/practice-areas.html",
+          "link": "/en/practice-areas.html",
           "viewName": "practiceareas"
         },
         {
           "name": "Members",
-          "link": "en/members.html",
+          "link": "/en/members.html",
           "viewName": "members"
         },
         {
           "name": "Contact",
-          "link": "en/contact.html",
+          "link": "/en/contact.html",
           "viewName": "contact"
         },
         {
           "name": "Careers",
-          "link": "en/careers.html",
+          "link": "/en/careers.html",
           "viewName": "careers"
         }
       ],
