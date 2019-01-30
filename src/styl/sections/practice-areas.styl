@@ -1,0 +1,175 @@
+.practice
+  background-color #e9e9e9
+  margin-top 94px
+  padding 60px 0 66px 0
+
+  .title
+    color $c-strongBlue
+    font-family 'PlayfairDisplayRegular'
+    font-size 33px
+    font-weight normal
+    margin-bottom 79px
+    padding-bottom 12px
+    position relative
+    text-align center
+    width 100%
+
+    &:before
+      background-color #d3d3d3
+      bottom 0
+      content ""
+      height 1px
+      left 0
+      margin 0 auto
+      position absolute
+      right 0
+      width 385px
+
+    &:after
+      background-color $c-strongBlue
+      bottom 0
+      content ""
+      height 1px
+      left 0
+      margin 0 auto
+      position absolute
+      right 0
+      width 146px
+
+  &-carousel
+    &-controls
+      margin-top 72px
+      position relative
+
+    .owl-item.active.center
+      transform scale(1)
+
+    .owl-item
+      transform scale(0.86)
+      transition all 1s
+
+    .owl-prev,
+    .owl-next
+      background-color $c-strongBlue !important
+      bottom 0
+      height 53px
+      margin auto 0
+      position absolute
+      top 0
+      width 51px
+
+      & svg path
+        fill $c-white
+
+    .owl-prev
+      left 0
+
+    .owl-next
+      right 0
+
+    .owl-dots
+      display flex
+      justify-content center
+
+      .owl-dot
+        background-color $c-white
+        border-radius 100px
+        height 11px
+        margin 0 9px
+        width 11px
+
+        &.active
+          background-color $c-strongBlue
+
+    .card
+      height 417px
+      position relative
+      width 301px
+
+      &-layer
+        align-items center
+        background-color $c-strongBlue
+        bottom 0
+        display flex
+        left 0
+        justify-content center
+        opacity 0
+        position absolute
+        padding 0 42px
+        right 0
+        top 0
+        transition 0.3s
+
+        &-title
+          color $c-white
+          font-family 'PlayfairDisplayRegular'
+          font-size 19px
+          font-weight normal
+          text-align center
+
+      &:hover .card-layer
+        opacity 1
+        transition 0.3s
+
+      &-title
+        align-items center
+        background-color $c-strongBlue
+        color $c-white
+        display flex
+        font-family 'DINNextW01Regular'
+        font-size 19px
+        font-weight normal
+        height 44px
+        justify-content center
+        letter-spacing 0.6px
+        text-align center
+
+      .bgImg
+        background-size cover
+        height 373px
+        width 301px
+
+        &.corporate
+          background-image url("../img/home/corporate.jpg")
+
+        &.mergersAcquisitions
+          background-image url("../img/home/mergers-acquisitions.jpg")
+
+        &.laborEmployment
+          background-image url("../img/home/labor-employment.jpg")
+
+        &.intellProperty
+          background-image url("../img/home/intellectual-property.jpg")
+
+        &.immigration
+          background-image url("../img/home/immigration.jpg")
+
+        &.realEstate
+          background-image url("../img/home/real-estate.jpg")
+
+        &.foreignInvestment
+          background-image url("../img/home/foreign-investment.jpg")
+
+        &.constitutional
+          background-image url("../img/home/constitutional-amparo-administrative-proceedings.jpg")
+
+        &.commercialLitigation
+          background-image url("../img/home/civil-commercial-litigation.jpg")
+
+@media screen and (max-width 480px)
+  .practice
+    .title
+      &:before
+        width 250px
+
+    &-carousel
+      &-controls
+        margin-top 60px
+
+      .owl-dots
+        flex-wrap wrap
+        margin 0 auto
+        width 174px
+
+      .owl-dot
+        margin 9px !important
