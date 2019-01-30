@@ -93,6 +93,47 @@
         ]
       }
     },
+    "practiceAreas": {
+      "title": "Practice Areas",
+      "cards": [
+        {
+          "title": "Corporate",
+          "imgClass": "corporate"
+        },
+        {
+          "title": "Mergers & Acquisitions",
+          "imgClass": "mergersAcquisitions"
+        },
+        {
+          "title": "Labor & Employment",
+          "imgClass": "laborEmployment"
+        },
+        {
+          "title": "Intellectual Property",
+          "imgClass": "intellProperty"
+        },
+        {
+          "title": "Immigration",
+          "imgClass": "immigration"
+        },
+        {
+          "title": "Real Estate",
+          "imgClass": "realEstate"
+        },
+        {
+          "title": "Foreign Investment",
+          "imgClass": "foreignInvestment"
+        },
+        {
+          "title": "Constitutional Amparo & Administrative Proceedings",
+          "imgClass": "constitutional"
+        },
+        {
+          "title": "Civil & Commercial Litigation",
+          "imgClass": "commercialLitigation"
+        }
+      ]
+    },
     "members": {
       "title": "Members",
       "partners": {
