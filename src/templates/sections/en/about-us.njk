@@ -1,0 +1,50 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}About Us{% endblock %}
+
+{% set meta_description = "We are a law firm with vast experience" %}
+{% set og_url = "" %}
+{% set og_title = "About Us | Rivers Legal" %}
+{% set og_description = "We are a law firm with vast experience" %}
+{% set og_img = "" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "aboutus" %}
+
+{% block content %}
+<section class="about">
+  <section class="about-cover">
+    <h1 class="about-cover-title">About Us</h1>
+    <div class="about-cover-info">
+      <h2 class="about-cover-subtitle">We are a law firm with <span>vast experience</span></h2>
+      <p class="about-cover-description">In all areas associated with Business Law, additionally to our lawyers’ comprehensive legal knowledge with respect to the business world, they also have a fresh and pragmatic vision for addressing legal matters with an absolute commitment to their clients, which makes us stand out as an innovative and reliable option for modern corporations.</p>
+      <a class="btn blue" href="">contact</a>
+    </div>
+  </section>
+
+  <section class="about-mvv">
+    <div class="about-mvv-content">
+      <div class="about-mvv-card">
+        <h3 class="card-title">Mission</h3>
+        <p class="card-description">Understanding our clients’ business to meet their legal needs proactively with a preventive approach.</p>
+      </div>
+  
+      <div class="about-mvv-card">
+        <h3 class="card-title">Vision</h3>
+        <p class="card-description">To be an institution recognized by its integrity, dedication and performance exceeding expectations of our clients, and with a highly motivated, skillful, insightful and integrated team.</p>
+      </div>
+  
+      <div class="about-mvv-card">
+        <h3 class="card-title">Values</h3>
+        <ul class="card-ul">
+          <li class="card-li">Reliable</li>
+          <li class="card-li">Versatile</li>
+          <li class="card-li">Resourceful</li>
+          <li class="card-li">Sustained</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}

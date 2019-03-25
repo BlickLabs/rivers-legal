@@ -13,7 +13,7 @@
   </head>
   <body>
     <div id="page">
-      {% if section == 'en/index' or section == 'index' or section == 'en/careers' or section == 'en/contact' or section == 'en/members'  or section == 'en/practice-areas' %}
+      {% if section == 'en/index' or section == 'index' or section == 'en/careers' or section == 'en/contact' or section == 'en/members'  or section == 'en/practice-areas'  or section == 'en/about-us' %}
         {% include 'partials/navbar-en.njk' %}
       {% else %}
         {% include 'partials/navbar.njk' %}
@@ -21,7 +21,7 @@
       <main>
         {% block content %}{% endblock %}
       </main>
-      {% if section == 'en/index' or section == 'index' or section == 'en/careers' or section == 'en/contact' or section == 'en/members'  or section == 'en/practice-areas' %}
+      {% if section == 'en/index' or section == 'index' or section == 'en/careers' or section == 'en/contact' or section == 'en/members'  or section == 'en/practice-areas'  or section == 'en/about-us' %}
         {% include 'partials/footer-en.njk' %}
       {% else %}
         {% include 'partials/footer.njk' %}
