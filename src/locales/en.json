@@ -141,12 +141,7 @@
         "cards": [
           {
             "category": "partner",
-            "name": "Héctor Alejandro Gómez Sánchez",
-            "photo": "/img/members/member-proof.jpg"
-          },
-          {
-            "category": "partner",
-            "name": "Marcela Patricia Gómez Sánchez",
+            "name": "Jaime Eduardo Martínez Terrazas",
             "photo": "/img/members/member-proof.jpg"
           },
           {
@@ -161,12 +156,12 @@
           },
           {
             "category": "partner",
-            "name": "Jaime Eduardo Martínez Terrazas",
+            "name": "Héctor Alejandro Gómez Sánchez",
             "photo": "/img/members/member-proof.jpg"
           },
           {
             "category": "partner",
-            "name": "Héctor Alejandro Gómez Sánchez",
+            "name": "Marcela Patricia Gómez Sánchez",
             "photo": "/img/members/member-proof.jpg"
           }
         ]
@@ -176,32 +171,37 @@
         "cards": [
           {
             "category": "associate",
-            "name": "Héctor Alejandro Gómez Sánchez",
+            "name": "Montserrat del Río Castañeda",
             "photo": "/img/members/member-proof.jpg"
           },
           {
             "category": "associate",
-            "name": "Marcela Patricia Gómez Sánchez",
+            "name": "Mauricio Christopher Arevalo Alcalde",
             "photo": "/img/members/member-proof.jpg"
           },
           {
             "category": "associate",
-            "name": "Manuel Victorio Ortiz Chevaile",
+            "name": "Vivian Ramirez Valladolid",
             "photo": "/img/members/member-proof.jpg"
           },
           {
             "category": "associate",
-            "name": "Francisco Javier Padilla Mitre",
+            "name": "Valeria Larrondo Tafoya",
             "photo": "/img/members/member-proof.jpg"
           },
           {
             "category": "associate",
-            "name": "Jaime Eduardo Martínez Terrazas",
+            "name": "Kristopher Rubén Ortiz Hernández",
             "photo": "/img/members/member-proof.jpg"
           },
           {
-            "category": "partner",
-            "name": "Héctor Alejandro Gómez Sánchez",
+            "category": "associate",
+            "name": "Mauro Alberto Ortega Castillo",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "category": "associate",
+            "name": "Salvador Rodríguez Sánchez",
             "photo": "/img/members/member-proof.jpg"
           }
         ]
@@ -211,32 +211,12 @@
         "cards": [
           {
             "category": "paralegal",
-            "name": "Héctor Alejandro Gómez Sánchez",
+            "name": "Salim Chemas Torres",
             "photo": "/img/members/member-proof.jpg"
           },
           {
             "category": "paralegal",
-            "name": "Marcela Patricia Gómez Sánchez",
-            "photo": "/img/members/member-proof.jpg"
-          },
-          {
-            "category": "paralegal",
-            "name": "Manuel Victorio Ortiz Chevaile",
-            "photo": "/img/members/member-proof.jpg"
-          },
-          {
-            "category": "paralegal",
-            "name": "Francisco Javier Padilla Mitre",
-            "photo": "/img/members/member-proof.jpg"
-          },
-          {
-            "category": "paralegal",
-            "name": "Jaime Eduardo Martínez Terrazas",
-            "photo": "/img/members/member-proof.jpg"
-          },
-          {
-            "category": "partner",
-            "name": "Héctor Alejandro Gómez Sánchez",
+            "name": "Pascual Leos Zenteno",
             "photo": "/img/members/member-proof.jpg"
           }
         ]
@@ -246,32 +226,7 @@
         "cards": [
           {
             "category": "of counsel",
-            "name": "Héctor Alejandro Gómez Sánchez",
-            "photo": "/img/members/member-proof.jpg"
-          },
-          {
-            "category": "of counsel",
-            "name": "Marcela Patricia Gómez Sánchez",
-            "photo": "/img/members/member-proof.jpg"
-          },
-          {
-            "category": "of counsel",
-            "name": "Manuel Victorio Ortiz Chevaile",
-            "photo": "/img/members/member-proof.jpg"
-          },
-          {
-            "category": "of counsel",
-            "name": "Francisco Javier Padilla Mitre",
-            "photo": "/img/members/member-proof.jpg"
-          },
-          {
-            "category": "of counsel",
-            "name": "Jaime Eduardo Martínez Terrazas",
-            "photo": "/img/members/member-proof.jpg"
-          },
-          {
-            "category": "partner",
-            "name": "Héctor Alejandro Gómez Sánchez",
+            "name": "Maria Elena Sánchez Guzmán",
             "photo": "/img/members/member-proof.jpg"
           }
         ]
@@ -281,7 +236,7 @@
       "cover": {
         "title": "Address",
         "address": "Calle Las Trojes 120-B, Lomas 4ta sección C.P. 78216, San Luis Potosí, S.L.P.",
-        "email": "contact@vrs.mx",
+        "email": "contact@rvrs.mx",
         "phone": "+52 (444) 825 36 14"
       },
       "leave": {
