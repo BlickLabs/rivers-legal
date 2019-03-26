@@ -61,7 +61,7 @@
   <body>
     <div id="page">
       
-        <nav class="nav  otherViews ">
+        <nav class="nav otherViews">
   <div>
     <a href="index.html">
       <img class="nav-logo" src="/img/logos/menu-logo.png" alt="Site logo in the navigation bar">
@@ -102,7 +102,7 @@
     <div class="nav-lang-container">
       <div class="nav-lang-content">
         <a href="">
-          <span class="nav-lang link-section ">EN</span>
+          <span class="nav-lang link-section  nav-lang-active ">EN</span>
         </a>
       </div>
       <div class="nav-lang-content">
@@ -191,7 +191,7 @@
       <div class="second-row">
         <a class="card-address" href="https://goo.gl/maps/j7p1oVvC5ak" target="_blank">Calle Las Trojes 120-B, Lomas 4ta sección C.P. 78216, San Luis Potosí, S.L.P.</a>
         <div class="wayOfContact-container">
-          <a class="wayOfContact card-mail" href="mailto:contact@vrs.mx">contact@vrs.mx</a>
+          <a class="wayOfContact card-mail" href="mailto:contact@rvrs.mx">contact@rvrs.mx</a>
           <a class="wayOfContact card-phone" href="tel:+52 (444) 825 36 14">+52 (444) 825 36 14</a>
         </div>
       </div>
@@ -200,13 +200,13 @@
 
   <section class="leave">
     <h2 class="title">Leave your message</h2>
-    <form action="">
+    <form name="rivers-contact" action="http://integrations.blick.mx/riverslegal/contact/" method="post">
       <label for="name">Name</label>
-      <input type="text" id="name">
+      <input type="text" id="name" name="name" required>
       <label for="email">Email</label>
-      <input type="text" id="email">
+      <input type="text" id="email" name="email" required>
       <label for="message">Message</label>
-      <textarea name="" id="message"></textarea>
+      <textarea id="message" name="message"></textarea>
       <button class="btn blue" type="submit">send</button>
     </form>
   </section>
@@ -268,5 +268,7 @@
     <script src="/js/rivers-legal.js"></script>
     
     
+
+    <script src="//code.tidio.co/ugvcypcfaddua7v9cuifnybpno1jgxn1.js"></script>
   </body>
 </html>

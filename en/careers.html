@@ -61,7 +61,7 @@
   <body>
     <div id="page">
       
-        <nav class="nav  otherViews ">
+        <nav class="nav otherViews">
   <div>
     <a href="index.html">
       <img class="nav-logo" src="/img/logos/menu-logo.png" alt="Site logo in the navigation bar">
@@ -102,7 +102,7 @@
     <div class="nav-lang-container">
       <div class="nav-lang-content">
         <a href="">
-          <span class="nav-lang link-section ">EN</span>
+          <span class="nav-lang link-section  nav-lang-active ">EN</span>
         </a>
       </div>
       <div class="nav-lang-content">
@@ -197,13 +197,13 @@
     </div>
   </section>
   <section class="form">
-    <form action="">
+    <form name="rivers-careers" action="http://integrations.blick.mx/riverslegal/careers/" method="post">
       <label for="name">Name</label>
-      <input type="text" id="name">
+      <input type="text" id="name" name="name" required>
       <label for="email">E-mail</label>
-      <input type="text" id="email">
-      <label for="phone">Phone number</label>
-      <input type="text" id="phone">
+      <input type="text" id="email" name="email">
+      <label for="phone" name="phone" required>Phone number</label>
+      <input type="text" id="phone" name="phone">
       <button class="btn blue" type="submit">send application</button>
     </form>
     <p class="description">We appreciate your interest in Rivers Legal, S.C.<br>We will contact you shortly.</p>
@@ -266,5 +266,7 @@
     <script src="/js/rivers-legal.js"></script>
     
     
+
+    <script src="//code.tidio.co/ugvcypcfaddua7v9cuifnybpno1jgxn1.js"></script>
   </body>
 </html>
