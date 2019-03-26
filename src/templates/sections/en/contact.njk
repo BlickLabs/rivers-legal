@@ -29,13 +29,13 @@
 
   <section class="leave">
     <h2 class="title">{{ en.contact.leave.subtitle }}</h2>
-    <form action="">
+    <form name="rivers-contact" action="http://integrations.blick.mx/riverslegal/contact/" method="post">
       <label for="name">{{ en.contact.leave.labelName }}</label>
-      <input type="text" id="name">
+      <input type="text" id="name" name="name" required>
       <label for="email">{{ en.contact.leave.labelEmail }}</label>
-      <input type="text" id="email">
+      <input type="text" id="email" name="email" required>
       <label for="message">{{ en.contact.leave.labelMessage }}</label>
-      <textarea name="" id="message"></textarea>
+      <textarea id="message" name="message"></textarea>
       <button class="btn blue" type="submit">{{ en.contact.leave.btn }}</button>
     </form>
   </section>
