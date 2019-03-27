@@ -5,7 +5,7 @@ var siteNavbar = document.querySelector('.nav');
 
 //navbar-fixed-top
 function doSomething(scroll_pos) {
-  if (window.location.pathname === '/index.html' || window.location.pathname === '/' || window.location.pathname === '/project-name/index.html' || window.location.pathname === '/project-name/' || window.location.pathname === '/en/index.html'  || window.location.pathname === 'es/index.html') {
+  if (window.location.pathname === '/index.html' || window.location.pathname === '/' || window.location.pathname === '/project-name/index.html' || window.location.pathname === '/project-name/' || window.location.pathname === '/en/index.html'  || window.location.pathname === 'es/index.html' || window.location.pathname === 'en/jaime-eduardo-martinez-terrazas.html' || window.location.pathname === 'es/jaime-eduardo-martinez-terrazas.html') {
     if (scroll_pos > 30) {
       siteNavbar.classList.add('nav-scroll');
 
