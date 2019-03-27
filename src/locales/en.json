@@ -97,38 +97,47 @@
       "title": "Practice Areas",
       "cards": [
         {
+          "link": "/en/practice-areas/corporate.html",
           "title": "Corporate",
           "imgClass": "corporate"
         },
         {
+          "link": "/en/practice-areas/mergers-and-acquisitions.html",
           "title": "Mergers & Acquisitions",
           "imgClass": "mergersAcquisitions"
         },
         {
+          "link": "/en/practice-areas/labor-and-employment.html",
           "title": "Labor & Employment",
           "imgClass": "laborEmployment"
         },
         {
+          "link": "/en/practice-areas/intellectual-property.html",
           "title": "Intellectual Property",
           "imgClass": "intellProperty"
         },
         {
+          "link": "/en/practice-areas/immigration.html",
           "title": "Immigration",
           "imgClass": "immigration"
         },
         {
+          "link": "/en/practice-areas/real-estate.html",
           "title": "Real Estate",
           "imgClass": "realEstate"
         },
         {
+          "link": "/en/practice-areas/foreign-investment.html",
           "title": "Foreign Investment",
           "imgClass": "foreignInvestment"
         },
         {
+          "link": "/en/practice-areas/constitutional-amparo-and-administrative-proceedings.html",
           "title": "Constitutional Amparo & Administrative Proceedings",
           "imgClass": "constitutional"
         },
         {
+          "link": "/en/practice-areas/civil-and-commercial-litigation.html",
           "title": "Civil & Commercial Litigation",
           "imgClass": "commercialLitigation"
         }
@@ -361,17 +370,181 @@
     "practiceTemplate": {
       "cover": {
         "title": "Corporate",
-        "subtitle": "Rivers Legal, S.C.",
-        "descriptionOne": "Has vast experience in incorporation of Mexican business corporations, transformations, Mergers and Acquisitions, spin-offs, dissolution and winding-up processes, so as strategic decision making and corporate actions (shareholders’ resolutions, shareholders’ agreements and board meetings). The firm specializes as well in compliance with foreign",
-        "descriptionTwo": "investment laws, privacy, anti-corruption, anti-trust laws, among others. Our lawyers have considerable experience in coordination and performance of due diligence processes,  including issuance of legal opinions for preventive, corrective or transactional purposes, either for assets or stock acquisitions;"
+        "descriptionOne": "Has vast experience in incorporation of Mexican business corporations, transformations, Mergers and Acquisitions, spin-offs, dissolution and winding-up processes, so as strategic decision making and corporate actions (shareholders’ resolutions, shareholders’ agreements and board meetings). The firm also specializes in compliance with foreign",
+        "descriptionTwo": "investment laws, privacy, anti-corruption, anti-trust laws, among others. Our lawyers also have considerable experience in coordination and performance of due diligence processes, including issuance of legal opinions for preventive, corrective or transactional purposes, either for stock acquisitions or other assets; our field of expertise includes planning and preparing corporate and associative strategies, restructure (asset management, corporate governance, succession, strategic alliances, etc.), domestic and international transactions, drafting and negotiation of all sorts of contracts, agreements,"
       },
       "fold2": {
-        "title": "our field of expertise",
         "subtitle": "Includes planning and preparing corporate and associative strategies,",
         "description": "Restructure (asset management, corporate governance, succession, strategic alliances, etc.), domestic and international transactions, drafting and negotiation of all sorts of contracts, agreements, understandings, letters of intent, so as following-up of administrative compliance, including filing for, renewing and updating of licenses, permits and authorizations, either local, state or federal."
       },
       "practice": {
-        "title": "Members in the practice",
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "partner",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "associate",
+            "description": "Montserrat del Rio Castañeda"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramirez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate2": {
+      "cover": {
+        "title": "Mergers & Acquisitions",
+        "descriptionOne": "Lawyers have broad experience and in-depth knowledge in handling mergers and acquisitions.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "Include advising to national and international clients,",
+        "description": "In the instrumentation of joint ventures, corporate and associative strategies or restructures and other schemes of commercial development."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "partner",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "associate",
+            "description": "Montserrat del Rio Castañeda"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramirez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate3": {
+      "cover": {
+        "title": "Labor & Employment",
+        "descriptionOne": "Our Labor Law Practice Group focuses mainly on providing preventive assistance, covering all aspects of a labor relationship (individual and union’s), including all sort of counselling in drafting and execution of individual employment or union contracts.",
+        "descriptionTwo": "Besides our preventive approach, all members to the Labor Law Practice Group have plenty of experience in handling cases and representing our clients on litigation proceedings, so as administrative inspections by state or federal authorities."
+      },
+      "fold2": {
+        "subtitle": "Includes preparation and execution of strategies,",
+        "description": "Associated with transferring personnel due to corporate restructuring, as well as hiring foreign staff and sending Mexican staff for training abroad."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Francisco Javier Padilla Mitre"
+          },
+          {
+            "title": "associate",
+            "description": "Mauricio Christopher Arevalo Alcalde"
+          },
+          {
+            "title": "associate",
+            "description": "Kristopher Ruben Ortiz Hernández"
+          }
+        ]
+      }
+    },
+    "practiceTemplate4": {
+      "cover": {
+        "title": "Intellectual Property",
+        "descriptionOne": "Has a practice group specialized in intellectual property, including feasibility analysis for inventions and trademarks, copyright and drafting and negotiation of licences, franchises, transfer of technologies, confidentiality, software development.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "Includes advising on strategies for confidential information",
+        "description": "As well as for trade secrets, advertising and other transactions involving transfer or protection of intellectual property."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "partner",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "associate",
+            "description": "Mauricio Christopher Arevalo Alcalde"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramirez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate5": {
+      "cover": {
+        "title": "Immigration",
+        "descriptionOne": "Has vast experience in handling all sorts of immigration proceedings required by companies hiring foreign staff and/or due to new job offers, corporate restructure and so on.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "Includes assistance in obtaining and/or renewing visas",
+        "description": "Granted by other countries through their respective Consulates or Embassies."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "associate",
+            "description": "Mauricio Christopher Arevalo Alcalde"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramirez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          },
+          {
+            "title": "associate",
+            "description": "Kristopher Ruben Ortiz Hernández"
+          }
+        ]
+      }
+    },
+    "practiceTemplate6": {
+      "cover": {
+        "title": "Real Estate",
+        "descriptionOne": "Members have been involved in real estate development projects of industrial, commercial and housing type, supporting its clients in all legal aspects during the planning, construction, sale and up to the finalization of the project.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "Includes our assistance in transactions",
+        "description": "Related to the sale and acquisition of real estate properties, so as the coordination and performance of enhanced due diligence processes in connection to such properties."
+      },
+      "practice": {
         "cards": [
           {
             "title": "partner",
@@ -383,19 +556,124 @@
           },
           {
             "title": "partner",
-            "description": "Francisco Javier Padilla Mitre"
+            "description": "Héctor Alejandro Gómez Sánchez"
           },
           {
             "title": "associate",
+            "description": "Montserrat del Rio Castañeda"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramirez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate7": {
+      "cover": {
+        "title": "Foreign Investment",
+        "descriptionOne": "Lawyers have vast experience with foreign investment projects in Mexico, counseling foreign clients with investment schemes in Mexico, as well as Mexican clients with investment projects with foreign investors.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "Includes the counseling on the compliance",
+        "description": "Of applicable foreign investment laws, and the representation before the National Foreign Investment Commission, the General Bureau of Foreign Investment, and the National Foreign Investment Registry, among others."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
             "description": "Jaime Eduardo Martínez Terrazas"
           },
           {
-            "title": "associate",
+            "title": "partner",
             "description": "Manuel Victorio Ortiz Chevaile"
           },
           {
             "title": "associate",
-            "description": "Francisco Javier Padilla Mitre"
+            "description": "Montserrat del Rio Castañeda"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramirez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate8": {
+      "cover": {
+        "title": "Constitutional Amparo & Administrative Proceedings",
+        "descriptionOne": "Specialize in filing for and keeping up to date all governmental licences, permits and authorizations before the government authorities, as well as in the performance of due diligence procedures and the improvement of actions tending to comply with the administrative laws, regulations and ordinances, either federal, state and/or municipal.",
+        "descriptionTwo": "In addition to the preventive approach, the lawyers of this practice area handle the assistance and monitoring of audits or reviews initiated to our clients by administrative authorities, either federal, state or municipal, as well as in the challenging of authority resolutions, and the representation of our clients in litigations before Federal and Local Administrative Courts."
+      },
+      "fold2": {
+        "subtitle": "Includes specialize in Amparo proceedings",
+        "description": "which is a highly sophisticated constitutional appeal, through which we have achieved great success in the challenging of laws, administrative or judicial authority resolutions, among other acts that unlawfully restrict our clients’ interests."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "partner",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "partner",
+            "description": "Héctor Alejandro Gómez Sánchez"
+          },
+          {
+            "title": "partner",
+            "description": "Marcela Patricia Gómez Sánchez"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramirez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          },
+          {
+            "title": "associate",
+            "description": "Mauro Alberto Ortega Castillo"
+          }
+        ]
+      }
+    },
+    "practiceTemplate9": {
+      "cover": {
+        "title": "Civil & Commercial Litigation",
+        "descriptionOne": "Has a team of specialists in civil & commercial litigation, who have a broad knowledge and experience in the handling of conflicts aroused from the performance of contractual obligations, shareholders’ disputes, and wrongful acts in general,",
+        "descriptionTwo": "Through the representation in alternative dispute resolution methods, or in court trials to be held before local and federal courts in Mexico."
+      },
+      "fold2": {
+        "subtitle": "Includes the main approach of avoiding",
+        "description": "To the extent possible, the promotion of lengthy litigations with big costs that tend to be impractical from our client’s business standpoint."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Héctor Alejandro Gómez Sánchez"
+          },
+          {
+            "title": "partner",
+            "description": "Marcela Patricia Gómez Sánchez"
+          },
+          {
+            "title": "associate",
+            "description": "Mauro Alberto Ortega Castillo"
           }
         ]
       }
