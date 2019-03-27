@@ -17,7 +17,7 @@
   <h1 class="title">{{en.practiceAreas.title}}</h1>
   <section class="practice-carousel owl-carousel">
     {% for card in en.practiceAreas.cards %}
-    <a href="">
+    <a href="{{ card.link }}">
       <div class="card">
         <h2 class="card-title">{{ card.title }}</h2>
         <div class="bgImg {{ card.imgClass }}"></div>
