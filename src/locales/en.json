@@ -247,6 +247,117 @@
         "btn": "send"
       }
     },
+    "membersTemplate": {
+      "leftBar": {
+        "area": "partner",
+        "member": "Jaime Eduardo Martínez Terrazas",
+        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Jaime Eduardo Martínez has more than 15 years of experience counseling local and multinational companies on corporate and contractual law, among other fields related with business legal advice. His field of expertise includes counseling and advice in protection of IP rights, as well as in immigration procedures."
+          },
+          {
+            "text": "Jaime Eduardo has acted as counsel to a considerable number of foreign companies all-along their investment process in Mexico, from incorporation and structuring of subsidiaries and including negotiation and improvement of joint venture agreements and other business-integration contracts, including mergers and acquisitions, as well as execution and coordination of due diligence processes."
+          },
+          {
+            "text": "Furthermore, he has participated in the negotiation of commercial contracts for a broad range of transactions among national and multinational clients, including the brokering of credits, provision of securities, shareholders’ agreements, and others."
+          }
+        ]
+      },
+      "representative": {
+        "practiceCol1": [
+          {
+            "text": "Corporate"
+          },
+          {
+            "text": "Mergers and Acquisitions"
+          },
+          {
+            "text": "Civil and Commercial Contracts"
+          },
+          {
+            "text": "Real Estate"
+          }
+        ],
+        "practiceCol2": [
+          {
+            "text": "Intellectual Property"
+          },
+          {
+            "text": "Foreign Investment"
+          },
+          {
+            "text": "Immigration"
+          }
+        ]
+      },
+      "industry": {
+        "typesCol1": [
+          {
+            "text": "Automotive"
+          },
+          {
+            "text": "Petrochemical"
+          },
+          {
+            "text": "Food"
+          }
+        ],
+        "typesCol2": [
+          {
+            "text": "Mining"
+          },
+          {
+            "text": "Manufacturing & Maquila Services"
+          },
+          {
+            "text": "Logistics"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Various postgraduate courses and seminars on Public and Private International Law, Corporate Law, Intellectual Property and Alternative Dispute Resolution Systems with emphasis on Negotiation, Mediation and Arbitration."
+          },
+          {
+            "item": "Professor of Civil Contracts, Intellectual Property and Public International Law, Instituto Tecnológico de Estudios Superiores of Monterrey – Campus San Luis Potosí, San Luis Potosi, Mexico."
+          },
+          {
+            "item": "Course on Recent Developments in American Law at Fordham Law School, New York, USA."
+          },
+          {
+            "item": "BA in Law , Universidad Marista – Universidad Champagnat, San Luis Potosi,  Mexico."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": "Founding Member of the Barra Mexicana Colegio de Abogados."
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": "Graduated as BA in Law with honors from Universidad Marista – Universidad Champagnat, San Luis Potosi, Mexico."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          }
+        ]
+      }
+    },
     "practiceTemplate": {
       "cover": {
         "title": "Corporate",
