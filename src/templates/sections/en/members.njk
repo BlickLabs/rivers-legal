@@ -20,7 +20,7 @@
     <h2 class="subtitle">{{ en.members.partners.title }}</h2>
     <div class="wrapper">
       {% for card in en.members.partners.cards %}
-      <a class="card-container" href="">
+      <a class="card-container" href="{{ card.link }}">
         <span class="category">{{ card.category }}</span>
         <span class="name">{{ card.name }}</span>
         <img class="photo" src="{{ card.photo }}" alt="{{ card.name }}">
@@ -33,7 +33,7 @@
     <h2 class="subtitle">{{ en.members.associates.title }}</h2>
     <div class="wrapper">
       {% for card in en.members.associates.cards %}
-      <a class="card-container" href="">
+      <a class="card-container" href="{{ card.link }}">
         <span class="category">{{ card.category }}</span>
         <span class="name">{{ card.name }}</span>
         <img class="photo" src="{{ card.photo }}" alt="{{ card.name }}">
@@ -46,7 +46,7 @@
       <h2 class="subtitle">{{ en.members.paralegals.title }}</h2>
       <div class="wrapper">
         {% for card in en.members.paralegals.cards %}
-        <a class="card-container" href="">
+        <a class="card-container" href="{{ card.link }}">
           <span class="category">{{ card.category }}</span>
           <span class="name">{{ card.name }}</span>
           <img class="photo" src="{{ card.photo }}" alt="{{ card.name }}">
@@ -59,7 +59,7 @@
       <h2 class="subtitle">{{ en.members.ofCounsel.title }}</h2>
       <div class="wrapper">
         {% for card in en.members.ofCounsel.cards %}
-        <a class="card-container" href="">
+        <a class="card-container" href="{{ card.link }}">
           <span class="category">{{ card.category }}</span>
           <span class="name">{{ card.name }}</span>
           <img class="photo" src="{{ card.photo }}" alt="{{ card.name }}">
