@@ -1,6 +1,6 @@
-<nav class="nav">
+<nav class="nav {% include 'partials/navOtherViewsES.njk' %}">
   <div>
-    <a href="index.html">
+    <a href="/es/index.html">
       <img class="nav-logo" src="{{es.nav.logo}}" alt="{{es.nav.logoAlt}}">
     </a>
   </div>
@@ -8,19 +8,19 @@
     {% for section in es.nav.sections %}
     <div class="nav-option-content">
       <a href="{{section.link}}">
-        <span class="nav-option {% if view_name == section.viewName %}active{% endif %}">{{section.name}}</span>
+        <span class="nav-option link-section {% if view_name == section.viewName %}active{% endif %}">{{section.name}}</span>
       </a>
     </div>
     {% endfor %}
     <div class="nav-lang-container">
       <div class="nav-lang-content">
-        <a href="{% if section == 'en/index' %} /es/index.html {% endif %}">
-          <span class="nav-lang {% if section == 'es/index' or section == 'index' %} nav-lang-active {% endif %}">ES</span>
+        <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/quienes-somos' %} /en/about-us.html {% elif section == 'es/miembros' %} /en/members.html {% elif section == 'es/contactanos' %} /en/contact.html {% elif section == 'es/trabaja-con-nosotros' %} /en/careers.html {% endif %}">
+          <span class="nav-lang link-section {% include 'partials/navLangEN.njk' %}">EN</span>
         </a>
       </div>
       <div class="nav-lang-content">
-        <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% endif %}">
-          <span class="nav-lang">EN</span>
+        <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'en/about-us' %} /es/quienes-somos.html {% elif section == 'en/members' %} /es/miembros.html {% elif section == 'en/contact' %} /es/contactanos.html {% elif section == 'en/careers' %} /es/trabaja-con-nosotros.html {% endif %}">
+          <span class="nav-lang link-section {% include 'partials/navLangES.njk' %}">ES</span>
         </a>
       </div>
     </div>
@@ -38,7 +38,7 @@
   <div class="hamburger-menu-container" id="menuContainer" data-attribute="">
     <div class="hamburger-menu-header" data-attribute="">
       <div class="" data-attribute="">
-        <a href="index.html" data-attribute="">
+        <a href="/es/index.html" data-attribute="">
           <img class="hamburger-logo" src="{{es.nav.logo}}" data-attribute="" alt="{{es.nav.hamburgerLogoAlt}}">
         </a>
       </div>
@@ -49,20 +49,20 @@
     <div class="hamburger-menu-body nunitosans-regular" data-attribute="">
       <div class="nav-lang-container">
         <div class="nav-lang-content">
-          <a href="{% if section == 'en/index' %} /es/index.html {% endif %}">
-            <span class="nav-lang {% if section == 'es/index' or section == 'index' %} nav-lang-active {% endif %}">ES</span>
+          <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/quienes-somos' %} /en/about-us.html {% elif section == 'es/miembros' %} /en/members.html {% elif section == 'es/contactanos' %} /en/contact.html {% elif section == 'es/trabaja-con-nosotros' %} /en/careers.html {% endif %}">
+            <span class="nav-lang link-section {% include 'partials/navLangEN.njk' %}">EN</span>
           </a>
         </div>
         <div class="nav-lang-content">
-          <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% endif %}">
-            <span class="nav-lang">EN</span>
+          <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'en/about-us' %} /es/quienes-somos.html {% elif section == 'en/members' %} /es/miembros.html {% elif section == 'en/contact' %} /es/contactanos.html {% elif section == 'en/careers' %} /es/trabaja-con-nosotros.html {% endif %}">
+            <span class="nav-lang link-section {% include 'partials/navLangES.njk' %}">ES</span>
           </a>
         </div>
       </div>
       {% for section in es.nav.sections %}
       <div class="hamburger-text-container">
         <a href="{{section.link}}">
-          <span class="hamburger-text {% if view_name == nav.viewName %}hamburger-active{% endif %}">{{section.name}}</span>
+          <span class="hamburger-text link-section{% if view_name == nav.viewName %}hamburger-active{% endif %}">{{section.name}}</span>
         </a>
       </div>
       {% endfor %}

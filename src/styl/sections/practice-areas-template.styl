@@ -6,7 +6,9 @@
     background-position bottom right
     background-repeat no-repeat
     background-size cover
-    height 542px
+    // height 542px
+    height auto
+    padding-bottom 70px
     padding-top 48px
 
     &-content
@@ -14,6 +16,10 @@
       justify-content center
       margin-top 36px
       padding 0 30px
+
+      &.only-paragraph
+        justify-content flex-start
+        padding-left 21%
 
     &-title
       color $c-strongBlue
@@ -81,7 +87,7 @@
       background-position center
       background-repeat no-repeat
       background-size cover
-      height 470px
+      // height 470px
       width 550px
 
     &-content
@@ -189,6 +195,7 @@
         letter-spacing 3.3px
         padding 0 24px
         text-transform uppercase
+        -webkit-font-smoothing antialiased
 
       &-description
         align-items center
@@ -202,6 +209,12 @@
         letter-spacing 0.3px
         line-height 27px
         padding 0 24px
+
+@media screen and (max-width 1250px) and (min-width 1151px)
+  .practiceTemplate
+    .fold2
+      &-description
+        margin-left 20%
 
 @media screen and (max-width 1150px)
   .practiceTemplate
@@ -229,6 +242,10 @@
       &-content
         align-items center
         flex-direction column
+        
+        &.only-paragraph
+          justify-content center
+          padding-left 30px
 
       &-info
         &-col1 p
@@ -252,4 +269,5 @@
   .practiceTemplate
     .membersPractice
       .card-container
+        justify-content center
         width 100%

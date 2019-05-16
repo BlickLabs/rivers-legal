@@ -48,47 +48,56 @@
           {
             "title": "Corporate",
             "imgClass": "corporate",
-            "layerTitle": "Corporate"
+            "layerTitle": "Corporate",
+            "url": "/en/practice-areas/corporate.html"
           },
           {
             "title": "Mergers & Acquisitions",
             "imgClass": "mergersAcquisitions",
-            "layerTitle": "Mergers & Acquisitions"
+            "layerTitle": "Mergers & Acquisitions",
+            "url": "/en/practice-areas/mergers-and-acquisitions.html"
           },
           {
             "title": "Labor & Employment",
             "imgClass": "laborEmployment",
-            "layerTitle": "Labor & Employment"
+            "layerTitle": "Labor & Employment",
+            "url": "/en/practice-areas/labor-and-employment.html"
           },
           {
             "title": "Intellectual Property",
             "imgClass": "intellProperty",
-            "layerTitle": "Intellectual Property"
+            "layerTitle": "Intellectual Property",
+            "url": "/en/practice-areas/intellectual-property.html"
           },
           {
             "title": "Immigration",
             "imgClass": "immigration",
-            "layerTitle": "Immigration"
+            "layerTitle": "Immigration",
+            "url": "/en/practice-areas/immigration.html"
           },
           {
             "title": "Real Estate",
             "imgClass": "realEstate",
-            "layerTitle": "Real Estate"
+            "layerTitle": "Real Estate",
+            "url": "/en/practice-areas/real-estate.html"
           },
           {
             "title": "Foreign Investment",
             "imgClass": "foreignInvestment",
-            "layerTitle": "Foreign Investment"
+            "layerTitle": "Foreign Investment",
+            "url": "/en/practice-areas/foreign-investment.html"
           },
           {
             "title": "Constitutional Amparo & Administrative Proceedings",
             "imgClass": "constitutional",
-            "layerTitle": "Constitutional Amparo & Administrative Proceedings"
+            "layerTitle": "Constitutional Amparo & Administrative Proceedings",
+            "url": "/en/practice-areas/constitutional-amparo-and-administrative-proceedings.html"
           },
           {
             "title": "Civil & Commercial Litigation",
             "imgClass": "commercialLitigation",
-            "layerTitle": "Civil & Commercial Litigation"
+            "layerTitle": "Civil & Commercial Litigation",
+            "url": "/en/practice-areas/civil-and-commercial-litigation.html"
           }
         ]
       }
@@ -151,31 +160,36 @@
           {
             "link": "/en/members/jaime-eduardo-martinez-terrazas.html",
             "category": "partner",
-            "name": "Jaime Eduardo Martínez Terrazas",
+            "name": "Jaime Eduardo",
+            "lastname": "Martínez Terrazas",
             "photo": "/img/members/member-proof.jpg"
           },
           {
             "link": "/en/members/manuel-victorio-ortiz-chevaile.html",
             "category": "partner",
-            "name": "Manuel Victorio Ortiz Chevaile",
+            "name": "Manuel Victorio",
+            "lastname": "Ortiz Chevaile",
             "photo": "/img/members/member-proof.jpg"
           },
           {
             "link": "/en/members/francisco-javier-padilla-mitre.html",
             "category": "partner",
-            "name": "Francisco Javier Padilla Mitre",
+            "name": "Francisco Javier",
+            "lastname": "Padilla Mitre",
             "photo": "/img/members/member-proof.jpg"
           },
           {
             "link": "",
             "category": "partner",
-            "name": "Héctor Alejandro Gómez Sánchez",
+            "name": "Héctor Alejandro",
+            "lastname": "Gómez Sánchez",
             "photo": "/img/members/member-proof.jpg"
           },
           {
             "link": "",
             "category": "partner",
-            "name": "Marcela Patricia Gómez Sánchez",
+            "name": "Marcela Patricia",
+            "lastname": "Gómez Sánchez",
             "photo": "/img/members/member-proof.jpg"
           }
         ]
@@ -192,13 +206,14 @@
           {
             "link": "/en/members/mauricio-cristopher-arevalo-alcalde.html",
             "category": "associate",
-            "name": "Mauricio Christopher Arevalo Alcalde",
+            "name": "Mauricio Christopher",
+            "lastname": "Arevalo Alcalde",
             "photo": "/img/members/member-proof.jpg"
           },
           {
             "link": "/en/members/vivian-ramirez-valladolid.html",
             "category": "associate",
-            "name": "Vivian Ramirez Valladolid",
+            "name": "Vivian Ramírez Valladolid",
             "photo": "/img/members/member-proof.jpg"
           },
           {
@@ -210,13 +225,15 @@
           {
             "link": "/en/members/Kristopher-ruben-ortiz-hernandez.html",
             "category": "associate",
-            "name": "Kristopher Rubén Ortiz Hernández",
+            "name": "Kristopher Rubén",
+            "lastname": "Ortiz Hernández",
             "photo": "/img/members/member-proof.jpg"
           },
           {
             "link": "",
             "category": "associate",
-            "name": "Mauro Alberto Ortega Castillo",
+            "name": "Mauro Alberto",
+            "lastname": "Ortega Castillo",
             "photo": "/img/members/member-proof.jpg"
           },
           {
@@ -233,7 +250,8 @@
           {
             "link": "",
             "category": "paralegal",
-            "name": "Salim Chemas Torres",
+            "name": "Salim Chemas",
+            "lastname": "Torres",
             "photo": "/img/members/member-proof.jpg"
           },
           {
@@ -250,7 +268,8 @@
           {
             "link": "",
             "category": "of counsel",
-            "name": "Maria Elena Sánchez Guzmán",
+            "name": "Maria Elena",
+            "lastname": "Sánchez Guzmán",
             "photo": "/img/members/member-proof.jpg"
           }
         ]
@@ -280,49 +299,56 @@
       "overview": {
         "paragraphs": [
           {
+            "text": "Francisco Padilla’s practice focuses mainly in Labor and Employment Law."
+          },
+          {
             "text": "He has participated in due diligence processes focused on the compliance with social security, labor and employment laws, he has counseled several local and transnational companies in individual and collective labor matters, including advice in hiring procedures, union matters and social security procedures as well as adversarial and non-adversarial/conciliatory proceedings."
           },
           {
             "text": "His experience includes alternate dispute resolution methods applied to labor matters, such as negotiation, mediation and conciliation."
           },
           {
-            "text": "Francisco has successfully represented to local and international companies in labor trials (individual and union-related) before Labor Courts all over México."
+            "text": "Francisco has successfully represented to local and international companies in labor trials (individual and union-related) before Labor Courts all over Mexico."
           }
         ]
       },
       "representative": {
-        "practiceCol1": [
+        "practice": [
           {
-            "text": "Labor and Employment (Advice and Litigation)"
+            "text": "Labor and Employment (Advice and Litigation)",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Social Security"
-          }
-        ],
-        "practiceCol2": [
-          {
-            "text": "Labor Contracts"
+            "text": "Social Security",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Negotiation"
+            "text": "Labor Contracts",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Negotiation",
+            "order": "order: 3;"
           }
         ]
       },
       "industry": {
-        "typesCol1": [
+        "types": [
           {
-            "text": "Automotive"
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Food"
-          }
-        ],
-        "typesCol2": [
-          {
-            "text": "Manufacturing & Maquila Services"
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Logistics"
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Logistics",
+            "order": "order: 3;"
           }
         ]
       },
@@ -343,13 +369,6 @@
         "list": [
           {
             "item": "Member of the Mexican National Lawyers’ Bar Association (Barra Mexicana Colegio de Abogados)."
-          }
-        ]
-      },
-      "recognitions": {
-        "list": [
-          {
-            "item": "Quitar sección (no aplica en esta persona)."
           }
         ]
       },
@@ -384,53 +403,62 @@
         ]
       },
       "representative": {
-        "practiceCol1": [
+        "practice": [
           {
-            "text": "Corporate"
+            "text": "Corporate",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Mergers and Acquisitions"
+            "text": "Mergers and Acquisitions",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Civil and Commercial Contracts"
+            "text": "Civil and Commercial Contracts",
+            "order": "order: 4; margin-right: 24px;"
           },
           {
-            "text": "Real Estate"
-          }
-        ],
-        "practiceCol2": [
-          {
-            "text": "Intellectual Property"
+            "text": "Real Estate",
+            "order": "order: 6; margin-right: 24px;"
           },
           {
-            "text": "Foreign Investment"
+            "text": "Intellectual Property",
+            "order": "order: 1;"
           },
           {
-            "text": "Immigration"
+            "text": "Foreign Investment",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Immigration",
+            "order": "order: 5;"
           }
         ]
       },
       "industry": {
-        "typesCol1": [
+        "types": [
           {
-            "text": "Automotive"
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Petrochemical"
+            "text": "Petrochemical",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Food"
-          }
-        ],
-        "typesCol2": [
-          {
-            "text": "Mining"
+            "text": "Food",
+            "order": "order: 4; margin-right: 24px;"
           },
           {
-            "text": "Manufacturing & Maquila Services"
+            "text": "Mining",
+            "order": "order: 1;"
           },
           {
-            "text": "Logistics"
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Logistics",
+            "order": "order: 5;"
           }
         ]
       },
@@ -495,38 +523,42 @@
         ]
       },
       "representative": {
-        "practiceCol1": [
+        "practice": [
           {
-            "text": "Labor and Employment (Advise and Litigation)"
+            "text": "Labor and Employment (Advise and Litigation)",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Social Security"
-          }
-        ],
-        "practiceCol2": [
-          {
-            "text": "Labor Contracts"
+            "text": "Social Security",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Immigration"
+            "text": "Labor Contracts",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Immigration",
+            "order": "order: 3;"
           }
         ]
       },
       "industry": {
-        "typesCol1": [
+        "types": [
           {
-            "text": "Automotive"
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Food"
-          }
-        ],
-        "typesCol2": [
-          {
-            "text": "Manufacturing & Maquila Services"
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Logistics"
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Logistics",
+            "order": "order: 3;"
           }
         ]
       },
@@ -588,38 +620,42 @@
         ]
       },
       "representative": {
-        "practiceCol1": [
+        "practice": [
           {
-            "text": "Labor and Employment (Advise and Litigation)"
+            "text": "Labor and Employment (Advise and Litigation)",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Social Security"
-          }
-        ],
-        "practiceCol2": [
-          {
-            "text": "Administrative Proceedings"
+            "text": "Social Security",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Immigration"
+            "text": "Administrative Proceedings",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Immigration",
+            "order": "order: 3;"
           }
         ]
       },
       "industry": {
-        "typesCol1": [
+        "types": [
           {
-            "text": "Automotive"
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Food"
-          }
-        ],
-        "typesCol2": [
-          {
-            "text": "Manufacturing & Maquila Services"
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Logistics"
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Logistics",
+            "order": "order: 3;"
           }
         ]
       },
@@ -681,38 +717,42 @@
         ]
       },
       "representative": {
-        "practiceCol1": [
+        "practice": [
           {
-            "text": "Corporate"
+            "text": "Corporate",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Mergers and Acquisitions"
+            "text": "Mergers and Acquisitions",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Civil and Commercial Contracts"
-          }
-        ],
-        "practiceCol2": [
-          {
-            "text": "Real Estate"
+            "text": "Civil and Commercial Contracts",
+            "order": "order: 4; margin-right: 24px;"
           },
           {
-            "text": "Foreign Investment"
+            "text": "Real Estate",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Foreign Investment",
+            "order": "order: 3;"
           }
         ]
       },
       "industry": {
-        "typesCol1": [
+        "types": [
           {
-            "text": "Automotive"
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Food"
-          }
-        ],
-        "typesCol2": [
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
+          },
           {
-            "text": "Manufacturing and Maquila Services"
+            "text": "Manufacturing and Maquila Services",
+            "order": "order: 1;"
           }
         ]
       },
@@ -774,44 +814,50 @@
         ]
       },
       "representative": {
-        "practiceCol1": [
+        "practice": [
           {
-            "text": "Corporate"
+            "text": "Corporate",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Business"
+            "text": "Business",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Mergers and Acquisitions"
-          }
-        ],
-        "practiceCol2": [
-          {
-            "text": "Civil & Commercial Contracts"
+            "text": "Mergers and Acquisitions",
+            "order": "order: 4; margin-right: 24px;"
           },
           {
-            "text": "Foreign Investment"
+            "text": "Civil & Commercial Contracts",
+            "order": "order: 1;"
           },
           {
-            "text": "Real Estate"
+            "text": "Foreign Investment",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Real Estate",
+            "order": "order: 5;"
           }
         ]
       },
       "industry": {
-        "typesCol1": [
+        "types": [
           {
-            "text": "Automotive"
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Petrochemical"
-          }
-        ],
-        "typesCol2": [
-          {
-            "text": "Food"
+            "text": "Petrochemical",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Manufacturing & Maquila Services"
+            "text": "Food",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 3;"
           }
         ]
       },
@@ -882,41 +928,46 @@
         ]
       },
       "representative": {
-        "practiceCol1": [
+        "practice": [
           {
-            "text": "Corporate"
+            "text": "Corporate",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Administrative"
+            "text": "Administrative",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Foreign Investment"
-          }
-        ],
-        "practiceCol2": [
-          {
-            "text": "Civil & Commercial Contracts"
+            "text": "Foreign Investment",
+            "order": "order: 4; margin-right: 24px;"
           },
           {
-            "text": "Immigration"
+            "text": "Civil & Commercial Contracts",
+            "order": "order: 1;"
           },
           {
-            "text": "Mergers and Acquisitions"
+            "text": "Immigration",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Mergers and Acquisitions",
+            "order": "order: 5;"
           }
         ]
       },
       "industry": {
-        "typesCol1": [
+        "types": [
           {
-            "text": "Automotive"
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Food"
-          }
-        ],
-        "typesCol2": [
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
+          },
           {
-            "text": "Manufacturing & Maquila Services"
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 1;"
           }
         ]
       },
@@ -956,7 +1007,7 @@
             "item": "English"
           },
           {
-            "items": "Japanese (Beginner)"
+            "item": "Japanese (Beginner)"
           }
         ]
       }
@@ -984,35 +1035,38 @@
         ]
       },
       "representative": {
-        "practiceCol1": [
+        "practice": [
           {
-            "text": "Corporate"
+            "text": "Corporate",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Business Law"
-          }
-        ],
-        "practiceCol2": [
-          {
-            "text": "Commercial Contracts"
+            "text": "Business Law",
+            "order": "order: 2; margin-right: 24px;"
           },
           {
-            "text": "Administrative Law"
+            "text": "Commercial Contracts",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Administrative Law",
+            "order": "order: 3;"
           }
         ]
       },
       "industry": {
-        "typesCol1": [
+        "types": [
           {
-            "text": "Automotive"
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
           },
           {
-            "text": "Petrochemical"
-          }
-        ],
-        "typesCol2": [
+            "text": "Petrochemical",
+            "order": "order: 2; margin-right: 24px;"
+          },
           {
-            "text": "Manufacturing and Maquila Services"
+            "text": "Manufacturing and Maquila Services",
+            "order": "order: 1;"
           }
         ]
       },
@@ -1060,8 +1114,8 @@
     "practiceTemplate": {
       "cover": {
         "title": "Corporate",
-        "descriptionOne": "Has vast experience in incorporation of Mexican business corporations, transformations, Mergers and Acquisitions, spin-offs, dissolution and winding-up processes, so as strategic decision making and corporate actions (shareholders’ resolutions, shareholders’ agreements and board meetings). The firm also specializes in compliance with foreign",
-        "descriptionTwo": "investment laws, privacy, anti-corruption, anti-trust laws, among others. Our lawyers also have considerable experience in coordination and performance of due diligence processes, including issuance of legal opinions for preventive, corrective or transactional purposes, either for stock acquisitions or other assets; our field of expertise includes planning and preparing corporate and associative strategies, restructure (asset management, corporate governance, succession, strategic alliances, etc.), domestic and international transactions, drafting and negotiation of all sorts of contracts, agreements,"
+        "descriptionOne": "Has vast experience in incorporation of Mexican business corporations, transformations, Mergers and Acquisitions, spin-offs, dissolution and winding-up processes, so as strategic decision making and corporate actions (shareholders’ resolutions, shareholders’ agreements and board meetings). The firm also specializes in compliance with foreign investment laws, privacy, anti-corruption, anti-trust laws, among others.",
+        "descriptionTwo": "Our lawyers also have considerable experience in coordination and performance of due diligence processes, including issuance of legal opinions for preventive, corrective or transactional purposes, either for stock acquisitions or other assets; our field of expertise includes planning and preparing corporate and associative strategies, restructure (asset management, corporate governance, succession, strategic alliances, etc.), domestic and international transactions, drafting and negotiation of all sorts of contracts, agreements,"
       },
       "fold2": {
         "subtitle": "Includes planning and preparing corporate and associative strategies,",
@@ -1079,11 +1133,11 @@
           },
           {
             "title": "associate",
-            "description": "Montserrat del Rio Castañeda"
+            "description": "Montserrat del Río Castañeda"
           },
           {
             "title": "associate",
-            "description": "Vivian Ramirez Valladolid"
+            "description": "Vivian Ramírez Valladolid"
           },
           {
             "title": "associate",
@@ -1114,11 +1168,11 @@
           },
           {
             "title": "associate",
-            "description": "Montserrat del Rio Castañeda"
+            "description": "Montserrat del Río Castañeda"
           },
           {
             "title": "associate",
-            "description": "Vivian Ramirez Valladolid"
+            "description": "Vivian Ramírez Valladolid"
           },
           {
             "title": "associate",
@@ -1180,7 +1234,7 @@
           },
           {
             "title": "associate",
-            "description": "Vivian Ramirez Valladolid"
+            "description": "Vivian Ramírez Valladolid"
           },
           {
             "title": "associate",
@@ -1211,7 +1265,7 @@
           },
           {
             "title": "associate",
-            "description": "Vivian Ramirez Valladolid"
+            "description": "Vivian Ramírez Valladolid"
           },
           {
             "title": "associate",
@@ -1250,11 +1304,11 @@
           },
           {
             "title": "associate",
-            "description": "Montserrat del Rio Castañeda"
+            "description": "Montserrat del Río Castañeda"
           },
           {
             "title": "associate",
-            "description": "Vivian Ramirez Valladolid"
+            "description": "Vivian Ramírez Valladolid"
           },
           {
             "title": "associate",
@@ -1285,11 +1339,11 @@
           },
           {
             "title": "associate",
-            "description": "Montserrat del Rio Castañeda"
+            "description": "Montserrat del Río Castañeda"
           },
           {
             "title": "associate",
-            "description": "Vivian Ramirez Valladolid"
+            "description": "Vivian Ramírez Valladolid"
           },
           {
             "title": "associate",
@@ -1306,7 +1360,7 @@
       },
       "fold2": {
         "subtitle": "Includes specialize in Amparo proceedings",
-        "description": "which is a highly sophisticated constitutional appeal, through which we have achieved great success in the challenging of laws, administrative or judicial authority resolutions, among other acts that unlawfully restrict our clients’ interests."
+        "description": "Which is a highly sophisticated constitutional appeal, through which we have achieved great success in the challenging of laws, administrative or judicial authority resolutions, among other acts that unlawfully restrict our clients’ interests."
       },
       "practice": {
         "cards": [
@@ -1328,7 +1382,7 @@
           },
           {
             "title": "associate",
-            "description": "Vivian Ramirez Valladolid"
+            "description": "Vivian Ramírez Valladolid"
           },
           {
             "title": "associate",
