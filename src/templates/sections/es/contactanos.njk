@@ -1,0 +1,49 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Contáctanos{% endblock %}
+
+{% set meta_description = "Para asesoramiento o para una cotización, por favor póngase en contacto." %}
+{% set og_url = "" %}
+{% set og_title = "Contáctanos | Rivers Legal" %}
+{% set og_description = "Para asesoramiento o para una cotización, por favor póngase en contacto." %}
+{% set og_img = "/img/seo/seo-contact.jpg" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "contact" %}
+
+{% block content %}
+<section class="contact">
+  <section class="cover">
+    <div class="card">
+      <h1 class="title">{{ es.contact.cover.title }}</h1>
+      <div class="second-row">
+        <a class="card-address" href="https://goo.gl/maps/j7p1oVvC5ak" target="_blank">{{ es.contact.cover.address }}</a>
+        <div class="wayOfContact-container">
+          <a class="wayOfContact card-mail" href="mailto:{{ es.contact.cover.email }}">{{ es.contact.cover.email }}</a>
+          <a class="wayOfContact card-phone" href="tel:{{ es.contact.cover.phone }}">{{ es.contact.cover.phone }}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="leave">
+    <h2 class="title">{{ es.contact.leave.subtitle }}</h2>
+    <form name="rivers-contact" action="http://integrations.blick.mx/riverslegal/contact/" method="post">
+      <div class="form-content-wrapper">
+        <label for="name">{{ es.contact.leave.labelName }}</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-content-wrapper">
+        <label for="email">{{ es.contact.leave.labelEmail }}</label>
+        <input type="text" id="email" name="email" required>
+      </div>
+      <div class="form-content-wrapper">
+        <label for="message">{{ es.contact.leave.labelMessage }}</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <button class="btn blue" type="submit">{{ es.contact.leave.btn }}</button>
+    </form>
+  </section>
+</section>
+{% endblock %}
