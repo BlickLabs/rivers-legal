@@ -403,19 +403,19 @@
         "title": "socios",
         "cards": [
           {
-            "link": "/es/members/jaime-eduardo-martinez-terrazas.html",
+            "link": "/es/miembros/jaime-eduardo-martinez-terrazas.html",
             "category": "socio",
             "name": "Jaime Eduardo Martínez Terrazas",
             "photo": "/img/members/member-proof.jpg"
           },
           {
-            "link": "/es/members/manuel-victorio-ortiz-chevaile.html",
+            "link": "/es/miembros/manuel-victorio-ortiz-chevaile.html",
             "category": "socio",
             "name": "Manuel Victorio Ortiz Chevaile",
             "photo": "/img/members/member-proof.jpg"
           },
           {
-            "link": "/es/members/francisco-javier-padilla-mitre.html",
+            "link": "/es/miembros/francisco-javier-padilla-mitre.html",
             "category": "socio",
             "name": "Francisco Javier Padilla Mitre",
             "photo": "/img/members/member-proof.jpg"
@@ -438,31 +438,31 @@
         "title": "asociados",
         "cards": [
           {
-            "link": "/es/members/montserrat-del-rio-castaneda.html",
+            "link": "/es/miembros/montserrat-del-rio-castaneda.html",
             "category": "asociada",
             "name": "Montserrat del Río Castañeda",
             "photo": "/img/members/member-proof.jpg"
           },
           {
-            "link": "/es/members/mauricio-cristopher-arevalo-alcalde.html",
+            "link": "/es/miembros/mauricio-cristopher-arevalo-alcalde.html",
             "category": "asociado",
             "name": "Mauricio Christopher Arevalo Alcalde",
             "photo": "/img/members/member-proof.jpg"
           },
           {
-            "link": "/es/members/vivian-ramirez-valladolid.html",
+            "link": "/es/miembros/vivian-ramirez-valladolid.html",
             "category": "asociada",
             "name": "Vivian Ramirez Valladolid",
             "photo": "/img/members/member-proof.jpg"
           },
           {
-            "link": "/es/members/valeria-larrondo-tafoya.html",
+            "link": "/es/miembros/valeria-larrondo-tafoya.html",
             "category": "asociada",
             "name": "Valeria Larrondo Tafoya",
             "photo": "/img/members/member-proof.jpg"
           },
           {
-            "link": "/es/members/Kristopher-ruben-ortiz-hernandez.html",
+            "link": "/es/miembros/Kristopher-ruben-ortiz-hernandez.html",
             "category": "asociado",
             "name": "Kristopher Rubén Ortiz Hernández",
             "photo": "/img/members/member-proof.jpg"
@@ -506,6 +506,827 @@
             "category": "consultora",
             "name": "Maria Elena Sánchez Guzmán",
             "photo": "/img/members/member-proof.jpg"
+          }
+        ]
+      }
+    },
+    "membersTemplate1": {
+      "leftBar": {
+        "area": "socio",
+        "member": "Francisco Javier Padilla Mitre",
+        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "La práctica de Francisco Padilla se enfoca principalmente en el Derecho Laboral."
+          },
+          {
+            "text": "Ha participado en procesos de due diligence enfocados al cumplimiento de las leyes laborales y de seguridad social, ha asesorado a numerosas empresas locales y transnacionales en distintos asuntos laborales de índole individual y colectiva, destacando la asesoría en trámites relacionados con la vida sindical y la seguridad social, así como en procedimientos litigiosos y para-procesales ante las juntas laborales."
+          },
+          {
+            "text": "Cuenta con un amplio conocimiento y experiencia en psicología laboral y en medios alternativos de solución de conflictos aplicados a disputas laborales, como la negociación, mediación y conciliación."
+          },
+          {
+            "text": "Asimismo, ha representado exitosamente a compañías locales e internacionales en litigios laborales (individuales y/o colectivos) ante los Tribunales del Trabajo en diversos estados de México."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Laboral (Consultoría y Litigio)",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Seguridad Social",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Contratos Laborales",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Negociación",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotriz",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Alimenticia",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufactura y Servicios de Maquila",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Logística",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Curso de posgrado sobre la Reforma Laboral, Instituto Tecnológico de Estudios Superiores de Monterrey, San Luis Potosí, México, 2013."
+          },
+          {
+            "item": "Diplomado en Derecho Público y Privado, Universidad Autónoma de San Luis Potosí, San Luis Potosí, México, 2011."
+          },
+          {
+            "item": "Licenciado en Derecho, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, México, 2011."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": "Miembro de la Barra Mexicana Colegio de Abogados, 2015."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Español"
+          },
+          {
+            "item": "Inglés"
+          }
+        ]
+      }
+    },
+    "membersTemplate2": {
+      "leftBar": {
+        "area": "socio",
+        "member": "Jaime Eduardo Martínez Terrazas",
+        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Jaime Eduardo Martínez cuenta con más de 15 años de experiencia asesorando a compañías locales y multinacionales en materia de derecho corporativo y contractual, entre otras áreas relacionadas con la asesoría legal empresarial. Es especialista en la protección de derechos de propiedad industrial y derechos de autor, así como en procedimientos de derecho migratorio."
+          },
+          {
+            "text": "Parte importante de su desarrollo profesional se ha enfocado a asesorar a compañías extranjeras a lo largo de su proceso de inversión en México a partir de la constitución y estructuración de subsidiarias o la negociación e implementación de joint ventures y otros acuerdos de negocios, incluyendo un número considerable de fusiones y adquisiciones, así como ejecución y coordinación de procesos de due diligence."
+          },
+          {
+            "text": "Ha participado en la negociación de contratos comerciales para distintas operaciones y transacciones entre clientes nacionales y extranjeros, incluyendo la contratación de créditos (colocación de notas, emisión de deudas, otorgamiento de garantías, convenios entre accionistas, entre otros."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Corporativo",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Fusiones y Adquisiciones",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Contratos Civiles y Comerciales",
+            "order": "order: 4; margin-right: 24px;"
+          },
+          {
+            "text": "Inmobiliario",
+            "order": "order: 6; margin-right: 24px;"
+          },
+          {
+            "text": "Propiedad Intelectual",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Inversión Extranjera",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Migratorio",
+            "order": "order: 5;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotriz",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Petroquímica",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Alimenticia",
+            "order": "order: 4; margin-right: 24px;"
+          },
+          {
+            "text": "Minera",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Manufactura y Servicios de Maquila",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Logística",
+            "order": "order: 5;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Diversos diplomados y seminarios de posgrado en Derecho Internacional Público y Privado, Derecho Corporativo, Propiedad Intelectual y Medios Alternativos de Resolución de Controversias con enfoque en Negociación, Mediación y Arbitraje."
+          },
+          {
+            "item": "Profesor de las materias de Contratos Civiles, Propiedad Intelectual y Derecho Internacional Público en el Instituto Tecnológico de Estudios Superiores de Monterrey, San Luis Potosí, México."
+          },
+          {
+            "item": "Curso en Desarrollos Recientes de la Legislación Americana por Fordham Law School, Nueva York, E.U.A."
+          },
+          {
+            "item": "Licenciado en Derecho por la Universidad Marista - Universidad Champagnat, San Luis Potosí, México."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": "Miembro Fundador de la Barra Mexicana Colegio de Abogados."
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": "Graduado como Licenciado en Derecho con honores por la Universidad Marista - Universidad Champagnat, San Luis Potosí, México."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Español"
+          },
+          {
+            "item": "Inglés"
+          }
+        ]
+      }
+    },
+    "membersTemplate3": {
+      "leftBar": {
+        "area": "asociado",
+        "member": "Kristopher Ruben Ortiz Hernández",
+        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Kristopher Ortiz se enfoca principalmente en la práctica del Derecho Laboral y Derecho Migratorio."
+          },
+          {
+            "text": "Parte de su experiencia consiste en asesorar a compañías nacionales e internacionales en asuntos laborales de índole individual y colectiva, incluyendo la representación en procedimientos litigiosos y paraprocesales ante las juntas laborales."
+          },
+          {
+            "text": "Asimismo, ha participado en diversos procedimientos y trámites migratorios necesarios para la internación y obtención de legal estancia para extranjeros que laborarán en el país y sus familias."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Laboral (Consultoría y Litigio)",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Seguridad Social",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Contratos Laborales",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Migratorio",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotriz",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Alimenticia",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufactura y Servicios de Maquila",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Logística",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Diplomado en Derecho Público, Privado y Social, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, México."
+          },
+          {
+            "item": "Licenciado en Derecho, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, México."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": ""
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": ""
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Español"
+          },
+          {
+            "item": "Inglés"
+          }
+        ]
+      }
+    },
+    "membersTemplate4": {
+      "leftBar": {
+        "area": "asociado",
+        "member": "Mauricio Cristopher Arévalo Alcalde",
+        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Mauricio Arévalo brinda asesoría a compañías nacionales e internacionales principalmente en las materias de Derecho Laboral y Derecho Migratorio."
+          },
+          {
+            "text": "Ha implementado estrategias y procesos tendientes a prevenir litigios laborales y ha representado exitosamente a compañías en procedimientos ante los Tribunales del Trabajo."
+          },
+          {
+            "text": "Parte importante de su práctica ha sido su consultoría en inspecciones de autoridades del Trabajo en materia de capacitación y adiestramiento, seguridad e higiene, PTU, entre otras obligaciones patronales."
+          },
+          {
+            "text": "Asimismo, ha participado en todo tipo de procedimientos y trámites migratorios necesarios para la internación y obtención de legal estancia para extranjeros que laborarán en el país y sus familias."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Laboral (Consultoría y Litigio)",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Seguridad Social",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Procedimientos Administrativos",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Migratorio",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotriz",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Alimenticia",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufactura y Servicios de Maquila",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Logística",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Curso de posgrado sobre la Reforma a la Ley Federal del Trabajo, Instituto Tecnológico de Estudios Superiores de Monterrey, San Luis Potosí, México."
+          },
+          {
+            "item": "Seminario de posgrado en Justicia Administrativa y Fiscal, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, México."
+          },
+          {
+            "item": "Diplomado en Derecho Público, Privado y Social, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, México."
+          },
+          {
+            "item": "Licenciado en Derecho, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, México."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": ""
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": ""
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Español"
+          },
+          {
+            "item": "Inglés"
+          }
+        ]
+      }
+    },
+    "membersTemplate5": {
+      "leftBar": {
+        "area": "asociada",
+        "member": "Montserrat del Río Castañeda",
+        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Montserrat del Río ha participado en reestructuras corporativas complejas para grupos empresariales nacionales e internacionales, así como en operaciones de crédito y garantía a nivel nacional e internacional, además ha intervenido en un número considerable de transacciones relacionadas con adquisiciones y fusiones."
+          },
+          {
+            "text": "Cuenta con vasta experiencia en la elaboración de contratos civiles y mercantiles, además de asesorar a sociedades mercantiles con capital extranjero en materia de inversión, adquisición de inmuebles y protección patrimonial."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Corporativo",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Fusiones y Adquisiciones",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Contratos Civiles y Comerciales",
+            "order": "order: 4; margin-right: 24px;"
+          },
+          {
+            "text": "Inmobiliario",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Inversión Extranjera",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotriz",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Alimenticia",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufactura y Servicios de Maquila",
+            "order": "order: 1;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Diversos diplomados y seminarios de posgrado en Derecho Contractual, Derecho Fiscal, Derecho Empresarial y Medios Alternativos de Resolución de Controversias con enfoque en Negociación, Mediación y Arbitraje."
+          },
+          {
+            "item": "Licenciatura en Derecho por la Universidad Autónoma de San Luis Potosí – Facultad de Derecho, San Luis Potosí, México."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": "Miembro Fundador de la Barra Mexicana Colegio de Abogados."
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": "Graduada como Licenciada en Derecho con honores por la Universidad Autónoma de San Luis Potosí – Facultad de Derecho, San Luis Potosí, México."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Español"
+          },
+          {
+            "item": "Inglés"
+          }
+        ]
+      }
+    },
+    "membersTemplate6": {
+      "leftBar": {
+        "area": "socio",
+        "member": "Manuel Victorio Ortiz Chevaile",
+        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "La práctica de Victorio Ortiz se enfoca principalmente en el Derecho Corporativo y Derecho Empresarial."
+          },
+          {
+            "text": "Ha intervenido en procesos de reestructuración de grupos corporativos, fusiones y adquisiciones y constitución de sociedades, ha asesorado a compañías respecto de estrategias legales, análisis de riesgos, y ha llevado a cabo procesos de due diligence enfocados al cumplimiento general o de materias específicas."
+          },
+          {
+            "text": "Victorio ha dirigido la formación, desarrollo y coordinación del departamento legal de subsidiarias mexicanas de compañías internacionales, así como la armonización de prácticas y políticas corporativas globales para México y Latinoamérica."
+          },
+          {
+            "text": "Ha representado a compañías nacionales e internacionales en la negociación de contratos comerciales y en la ejecución de sus obligaciones contractuales."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Derecho Corporativo",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Derecho Empresarial",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Fusiones y Adquisiciones",
+            "order": "order: 4; margin-right: 24px;"
+          },
+          {
+            "text": "Contratos Civiles y Comerciales",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Inversión Extranjera",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Inmobiliario",
+            "order": "order: 5;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotriz",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Petroquímica",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Alimenticia",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Manufactura y Servicios de Maquila",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Curso de posgrado en Traducción de Documentos Legales: Inglés - Español, Escuela Libre de Derecho, Ciudad de México, México."
+          },
+          {
+            "item": "Diplomado en Derecho Corporativo, Instituto Nacional Autónomo de México, Ciudad de México, México."
+          },
+          {
+            "item": "Curso de posgrado en Negociación y Elaboración de Contratos Comerciales, Instituto Nacional Autónomo de México, Ciudad de México, México."
+          },
+          {
+            "item": "Licenciado en Derecho, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, México."
+          },
+          {
+            "item": "Curso de Inglés Jurídico en The London School of English, Londres, Inglaterra."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": "Miembro de la Barra Mexicana Colegio de Abogados."
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": "Premio Ceneval al Desempeño de Excelencia otorgado por el Centro Nacional de Evaluación para la Educación Superior (CENEVAL)."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Español"
+          },
+          {
+            "item": "Inglés"
+          }
+        ]
+      }
+    },
+    "membersTemplate7": {
+      "leftBar": {
+        "area": "asociada",
+        "member": "Valeria Larrondo Tafoya",
+        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "La práctica de Valeria Larrondo se enfoca principalmente en las materias de Derecho Corporativo y Procedimientos Administrativos."
+          },
+          {
+            "text": "Parte importante de su práctica consiste en asesorar a empresas nacionales e internacionales en el cumplimiento general o de materias específicas, incluyendo la obtención de todo tipo de permisos, licencias y autorizaciones gubernamentales, así como su asesoría a sociedades mercantiles con capital extranjero en materia de inversión."
+          },
+          {
+            "text": "Cuenta con amplia experiencia en la elaboración y negociación de contratos civiles y mercantiles, incluyendo contratos de fideicomiso y otras transacciones inmobiliarias."
+          },
+          {
+            "text": "Asimismo, ha participado en todo tipo de procedimientos y trámites migratorios necesarios para la internación y obtención de legal estancia para extranjeros que laborarán en el país y sus familias, así como en procedimientos de obtención de visas para nacionales que viajarán al extranjero."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Corporativo",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Procedimientos Administrativos",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Inversión Extranjera",
+            "order": "order: 4; margin-right: 24px;"
+          },
+          {
+            "text": "Contratos Civiles y Comerciales",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Migratorio",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Adquisiciones y Fusiones",
+            "order": "order: 5;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotriz",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Alimenticia",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufactura y Servicios de Maquila",
+            "order": "order: 1;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Diplomado en Comercio Exterior y Derecho Aduanal, Universidad Marista de San Luis Potosí, San Luis Potosí, México."
+          },
+          {
+            "item": "Diploma en Derecho de la Propiedad Intelectual e Industrial, Organización Mundial de la Propiedad Intelectual."
+          },
+          {
+            "item": "Licenciada en Derecho, Universidad Marista de San Luis Potosí, San Luis Potosí, México."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": ""
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": "Reconocimiento de excelencia por concluir la carrera de Licenciada en Derecho con promedio general de 9.8 otorgado por la Universidad Marista de San Luis Potosí, San Luis Potosí, México."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Español"
+          },
+          {
+            "item": "Inglés"
+          },
+          {
+            "item": "Japonés (Principiante)"
+          }
+        ]
+      }
+    },
+    "membersTemplate8": {
+      "leftBar": {
+        "area": "asociada",
+        "member": "Vivian Ramírez Valladolid",
+        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Vivian Ramírez brinda asesoría a compañías nacionales e internacionales principalmente en la materia de Derecho Empresarial."
+          },
+          {
+            "text": "Parte de su práctica consiste en la negociación de contratos comerciales y la realización de procesos de due diligence enfocados al cumplimiento general o de materias específicas."
+          },
+          {
+            "text": "Asimismo, ha intervenido en esquemas de servicios legales in-situ asesorando a empresas en la administración de su información legal, y la definición y desarrollo de políticas y procedimientos empresariales."
+          },
+          {
+            "text": "Vivian también ha participado en procedimientos fiscales de impugnación de créditos, entre otros procedimientos administrativos."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Corporativo",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Empresarial",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Contratos Civiles y Comerciales",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Procedimientos Administrativos",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotriz",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Petroquímica",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufactura y Servicios de Maquila",
+            "order": "order: 1;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Especialidad en Derecho Privado, Universidad Autónoma de San Luis Potosí – Unidad de Posgrado de Derecho, San Luis Potosí, México."
+          },
+          {
+            "item": "5° Foro Mundial de la OCDE sobre Estadísticas, Conocimiento y Política, Guadalajara, México."
+          },
+          {
+            "item": "Licenciada en Derecho, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, México."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": ""
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": "Reconocimiento por concluir la carrera de Licenciado en Derecho con promedio general de 9.18, otorgado por la Universidad Autónoma de San Luis Potosí, San Luis Potosí, México."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Español"
+          },
+          {
+            "item": "Inglés"
+          },
+          {
+            "item": "Alemán"
           }
         ]
       }
