@@ -14,12 +14,12 @@
     {% endfor %}
     <div class="nav-lang-container">
       <div class="nav-lang-content">
-        <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/quienes-somos' %} /en/about-us.html {% elif section == 'es/miembros' %} /en/members.html {% elif section == 'es/contactanos' %} /en/contact.html {% elif section == 'es/trabaja-con-nosotros' %} /en/careers.html {% endif %}">
+        <a href="{% include 'partials/navChangeEN.njk' %}">
           <span class="nav-lang link-section {% include 'partials/navLangEN.njk' %}">EN</span>
         </a>
       </div>
       <div class="nav-lang-content">
-        <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'en/about-us' %} /es/quienes-somos.html {% elif section == 'en/members' %} /es/miembros.html {% elif section == 'en/contact' %} /es/contactanos.html {% elif section == 'en/careers' %} /es/trabaja-con-nosotros.html {% endif %}">
+        <a href="{% include 'partials/navChangeES.njk' %}">
           <span class="nav-lang link-section {% include 'partials/navLangES.njk' %}">ES</span>
         </a>
       </div>
@@ -49,12 +49,12 @@
     <div class="hamburger-menu-body nunitosans-regular" data-attribute="">
       <div class="nav-lang-container">
         <div class="nav-lang-content">
-          <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/quienes-somos' %} /en/about-us.html {% elif section == 'es/miembros' %} /en/members.html {% elif section == 'es/contactanos' %} /en/contact.html {% elif section == 'es/trabaja-con-nosotros' %} /en/careers.html {% endif %}">
+          <a href="{% include 'partials/navChangeEN.njk' %}">
             <span class="nav-lang link-section {% include 'partials/navLangEN.njk' %}">EN</span>
           </a>
         </div>
         <div class="nav-lang-content">
-          <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'en/about-us' %} /es/quienes-somos.html {% elif section == 'en/members' %} /es/miembros.html {% elif section == 'en/contact' %} /es/contactanos.html {% elif section == 'en/careers' %} /es/trabaja-con-nosotros.html {% endif %}">
+          <a href="{% include 'partials/navChangeES.njk' %}">
             <span class="nav-lang link-section {% include 'partials/navLangES.njk' %}">ES</span>
           </a>
         </div>
