@@ -6,7 +6,7 @@
 {% set og_url = "" %}
 {% set og_title = "Member | Rivers Legal" %}
 {% set og_description = "Get to know our members" %}
-{% set og_img = "" %}
+{% set og_img = "/img/seo/seo-members.jpg" %}
 {% set og_img_width = "" %}
 {% set og_img_height = "" %}
 
@@ -33,17 +33,10 @@
     <div class="representative">
       <h2 class="information-title">Representative Practice</h2>
       <div class="typeText-wrapper">
-        <div>
-          {% for col1 in en.membersTemplate7.representative.practiceCol1 %}
-            <div class="typeText-container">
-              <span class="typeText">{{ col1.text }}</span>
-            </div>
-          {% endfor %}
-        </div>
-        <div>
-          {% for col2 in en.membersTemplate7.representative.practiceCol2 %}
-            <div class="typeText-container">
-              <span class="typeText">{{ col2.text }}</span>
+        <div class="typeTextWrapp">
+          {% for cols in en.membersTemplate7.representative.practice %}
+            <div class="typeText-container" style="{{ cols.order }}">
+              <span class="typeText">{{ cols.text }}</span>
             </div>
           {% endfor %}
         </div>
@@ -53,17 +46,10 @@
     <div class="industry">
       <h2 class="information-title">Industry</h2>
       <div class="typeText-wrapper">
-        <div>
-          {% for col1 in en.membersTemplate7.industry.typesCol1 %}
-            <div class="typeText-container">
-              <span class="typeText">{{ col1.text }}</span>
-            </div>
-          {% endfor %}
-        </div>
-        <div>
-          {% for col2 in en.membersTemplate7.industry.typesCol2 %}
-            <div class="typeText-container">
-              <span class="typeText">{{ col2.text }}</span>
+        <div class="typeTextWrapp">
+          {% for cols in en.membersTemplate7.industry.types %}
+            <div class="typeText-container" style="{{ cols.order }}">
+              <span class="typeText">{{ cols.text }}</span>
             </div>
           {% endfor %}
         </div>
@@ -78,15 +64,6 @@
         {% endfor %}
       </ul>
     </div>
-
-    <!-- <div class="affiliations">
-      <h2 class="information-title">Affiliations</h2>
-      <ul>
-        {% for list in en.membersTemplate7.affiliations.list %}
-          <li class="information-text">{{ list.item }}</li>
-        {% endfor %}
-      </ul>
-    </div> -->
 
     <div class="recognitions">
       <h2 class="information-title">Recognitions</h2>

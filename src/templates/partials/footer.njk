@@ -1,16 +1,27 @@
 <footer class="footer">
   <div class="footer-logo-container">
-    <a href="index.html">
-      <img src="{{es.footer.logo}}" alt="{{es.footer.logoAlt}}">
+    <a href="/es/index.html">
+      <img class="footer-logo" src="{{es.footer.logo}}" alt="{{es.footer.logoAlt}}">
     </a>
   </div>
-  <div>
-    {% for section in es.footer.sections %}
+  <div class="footer-content">
     <div>
-      <a href="{{section.link}}">
-        <span>{{section.name}}</span>
+      <div class="footer-link-container">
+        {% for section in es.footer.sections %}
+        <a href="{{section.link}}">
+          <span class="link-section">{{section.name}}</span>
+        </a>
+        {% endfor %}
+      </div>
+      <a class="footer-inLink" href="{{es.footer.inLink}}" target="_blank">
+        <img class="footer-inIcon" src="{{es.footer.inIcon}}" alt="{{es.footer.inIconAlt}}">
       </a>
+      <span class="footer-copyright">{{es.footer.copyright}}</span>
     </div>
-    {% endfor %}
+    <div class="footer-contacts">
+      <a class="phone" href="tel:+52 (444) 825 36 14">{{es.footer.phone}}</a>
+      <a class="mail" href="mailto:contact@vrs.mx">{{es.footer.mail}}</a>
+      <a class="address" href="https://goo.gl/maps/j7p1oVvC5ak" target="_blank">{{es.footer.address}}</a>
+    </div>
   </div>
 </footer>

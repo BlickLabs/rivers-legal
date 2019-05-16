@@ -1,6 +1,6 @@
 <nav class="nav {% include 'partials/navOtherViewsEN.njk' %}">
   <div>
-    <a href="index.html">
+    <a href="/index.html">
       <img class="nav-logo" src="{{en.nav.logo}}" alt="{{en.nav.logoAlt}}">
     </a>
   </div>
@@ -14,13 +14,13 @@
     {% endfor %}
     <div class="nav-lang-container">
       <div class="nav-lang-content">
-        <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% endif %}">
+        <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/quienes-somos' %} /en/about-us.html {% elif section == 'es/miembros' %} /en/members.html {% elif section == 'es/contactanos' %} /en/contact.html {% elif section == 'es/trabaja-con-nosotros' %} /en/careers.html {% endif %}">
           <span class="nav-lang link-section {% include 'partials/navLangEN.njk' %}">EN</span>
         </a>
       </div>
       <div class="nav-lang-content">
-        <a href="{% if section == 'en/index' %} /es/index.html {% endif %}">
-          <span class="nav-lang link-section">ES</span>
+        <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'en/about-us' %} /es/quienes-somos.html {% elif section == 'en/members' %} /es/miembros.html {% elif section == 'en/contact' %} /es/contactanos.html {% elif section == 'en/careers' %} /es/trabaja-con-nosotros.html {% endif %}">
+          <span class="nav-lang link-section {% include 'partials/navLangES.njk' %}">ES</span>
         </a>
       </div>
     </div>
@@ -38,7 +38,7 @@
   <div class="hamburger-menu-container" id="menuContainer" data-attribute="">
     <div class="hamburger-menu-header" data-attribute="">
       <div class="" data-attribute="">
-        <a href="index.html" data-attribute="">
+        <a href="/index.html" data-attribute="">
           <img class="hamburger-logo" src="{{en.nav.logo}}" data-attribute="" alt="{{en.nav.hamburgerLogoAlt}}">
         </a>
       </div>
@@ -49,13 +49,13 @@
     <div class="hamburger-menu-body nunitosans-regular" data-attribute="">
       <div class="nav-lang-container">
         <div class="nav-lang-content">
-          <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% endif %}">
+          <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/quienes-somos' %} /en/about-us.html {% elif section == 'es/miembros' %} /en/members.html {% elif section == 'es/contactanos' %} /en/contact.html {% elif section == 'es/trabaja-con-nosotros' %} /en/careers.html {% endif %}">
             <span class="nav-lang link-section {% include 'partials/navLangEN.njk' %}">EN</span>
           </a>
         </div>
         <div class="nav-lang-content">
-          <a href="{% if section == 'en/index' %} /es/index.html {% endif %}">
-            <span class="nav-lang link-section">ES</span>
+          <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'en/about-us' %} /es/quienes-somos.html {% elif section == 'en/members' %} /es/miembros.html {% elif section == 'en/contact' %} /es/contactanos.html {% elif section == 'en/careers' %} /es/trabaja-con-nosotros.html {% endif %}">
+            <span class="nav-lang link-section {% include 'partials/navLangES.njk' %}">ES</span>
           </a>
         </div>
       </div>

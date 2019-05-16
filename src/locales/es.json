@@ -1,31 +1,212 @@
 {
   "es": {
     "nav": {
-      "logo": "/img/logos/change-this.png",
+      "logo": "/img/logos/menu-logo.png",
       "logoAlt": "Logo del sitio dentro de la barra de navegación",
       "hamburgerLogoAlt": "Logo del sitio dentro del menu hamburguesa",
       "hamburgerCloseAlt": "Ícono en forma de X para cerrar el menu hamburguesa",
       "sections": [
         {
-          "name": "Inicio",
-          "link": "index.html",
-          "viewName": "homepage"
+          "name": " Quiénes somos",
+          "link": "/es/quienes-somos.html",
+          "viewName": "aboutus"
+        },
+        {
+          "name": "Practice Areas",
+          "link": "/es/practice-areas.html",
+          "viewName": "practiceareas"
+        },
+        {
+          "name": "Miembros",
+          "link": "/es/miembros.html",
+          "viewName": "members"
+        },
+        {
+          "name": "Contáctanos",
+          "link": "/es/contactanos.html",
+          "viewName": "contact"
+        },
+        {
+          "name": "Trabaja con nosotros",
+          "link": "/es/trabaja-con-nosotros.html",
+          "viewName": "careers"
         }
       ]
     },
     "home": {
       "title": "Título de prueba"
     },
+    "members": {
+      "title": "Miembros",
+      "partners": {
+        "title": "socios",
+        "cards": [
+          {
+            "link": "/es/members/jaime-eduardo-martinez-terrazas.html",
+            "category": "socio",
+            "name": "Jaime Eduardo Martínez Terrazas",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "link": "/es/members/manuel-victorio-ortiz-chevaile.html",
+            "category": "socio",
+            "name": "Manuel Victorio Ortiz Chevaile",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "link": "/es/members/francisco-javier-padilla-mitre.html",
+            "category": "socio",
+            "name": "Francisco Javier Padilla Mitre",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "link": "",
+            "category": "socio",
+            "name": "Héctor Alejandro Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "link": "",
+            "category": "socia",
+            "name": "Marcela Patricia Gómez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          }
+        ]
+      },
+      "associates": {
+        "title": "asociados",
+        "cards": [
+          {
+            "link": "/es/members/montserrat-del-rio-castaneda.html",
+            "category": "asociada",
+            "name": "Montserrat del Río Castañeda",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "link": "/es/members/mauricio-cristopher-arevalo-alcalde.html",
+            "category": "asociado",
+            "name": "Mauricio Christopher Arevalo Alcalde",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "link": "/es/members/vivian-ramirez-valladolid.html",
+            "category": "asociada",
+            "name": "Vivian Ramirez Valladolid",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "link": "/es/members/valeria-larrondo-tafoya.html",
+            "category": "asociada",
+            "name": "Valeria Larrondo Tafoya",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "link": "/es/members/Kristopher-ruben-ortiz-hernandez.html",
+            "category": "asociado",
+            "name": "Kristopher Rubén Ortiz Hernández",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "link": "",
+            "category": "asociado",
+            "name": "Mauro Alberto Ortega Castillo",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "link": "",
+            "category": "asociado",
+            "name": "Salvador Rodríguez Sánchez",
+            "photo": "/img/members/member-proof.jpg"
+          }
+        ]
+      },
+      "paralegals": {
+        "title": "pasantes",
+        "cards": [
+          {
+            "link": "",
+            "category": "pasante",
+            "name": "Salim Chemas Torres",
+            "photo": "/img/members/member-proof.jpg"
+          },
+          {
+            "link": "",
+            "category": "pasante",
+            "name": "Pascual Leos Zenteno",
+            "photo": "/img/members/member-proof.jpg"
+          }
+        ]
+      },
+      "ofCounsel": {
+        "title": "consultora",
+        "cards": [
+          {
+            "link": "",
+            "category": "consultora",
+            "name": "Maria Elena Sánchez Guzmán",
+            "photo": "/img/members/member-proof.jpg"
+          }
+        ]
+      }
+    },
+    "contact": {
+      "cover": {
+        "title": "Dirección",
+        "address": "Calle Las Trojes 120-B, Lomas 4ta sección C.P. 78216, San Luis Potosí, S.L.P.",
+        "email": "contact@rvrs.mx",
+        "phone": "+52 (444) 825 36 14"
+      },
+      "leave": {
+        "subtitle": "Deja tu mensaje",
+        "labelName": "Nombre",
+        "labelEmail": "Correo",
+        "labelMessage": "Mensaje",
+        "btn": "enviar"
+      }
+    },
     "footer": {
-      "logo": "/img/logos/logo-footer.png",
-      "logoAlt": "Logo del sitio dentro del pie de página",
+      "logo": "/img/logos/footer-logo.png",
+      "logoAlt": "Logo del sitio en el footer",
       "sections": [
         {
-          "name": "Inicio",
-          "link": "index.html",
-          "viewName": "homepage"
+          "name": " Quiénes somos",
+          "link": "/es/quienes-somos.html",
+          "viewName": "aboutus"
+        },
+        {
+          "name": "Practice Areas",
+          "link": "/es/practice-areas.html",
+          "viewName": "practiceareas"
+        },
+        {
+          "name": "Miembros",
+          "link": "/es/miembros.html",
+          "viewName": "members"
+        },
+        {
+          "name": "Contáctanos",
+          "link": "/es/contactanos.html",
+          "viewName": "contact"
+        },
+        {
+          "name": "Trabaja con nosotros",
+          "link": "/es/trabaja-con-nosotros.html",
+          "viewName": "careers"
         }
-      ]
+      ],
+      "inIcon": "/img/icons/icon-in.png",
+      "inLink": "https://www.linkedin.com/company/rivers-legal-s.c./about/",
+      "inIconAlt": "Ìcono de Linked In",
+      "phoneIcon": "/img/icons/phone-icon.png",
+      "phoneIconAlt": "Ícono de un teléfono",
+      "phone": "+52 (444) 825 36 14",
+      "mailIcon": "/img/icons/mail-icon.png",
+      "mailIconAlt": "Ícono de un sobre",
+      "mail": "contact@rvrs.mx",
+      "addressIcon": "/img/icons/address-icon.png",
+      "addressIconAlt": "Ícono de un pin",
+      "address": "Calle Las Trojes 120-B, Lomas 4ta sección C.P. 78216, San Luis Potosí, S.L.P",
+      "copyright": "Rivers Legal  2019® Copyright"
     }
   }
 }
