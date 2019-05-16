@@ -1,0 +1,32 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Áreas de práctica{% endblock %}
+
+{% set meta_description = "Nuestro campo de experiencia." %}
+{% set og_url = "" %}
+{% set og_title = "Áreas de práctica | Rivers Legal" %}
+{% set og_description = "Nuestro campo de experiencia. " %}
+{% set og_img = "/img/seo/seo-practice-areas.jpg" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "practiceareas" %}
+
+{% block content %}
+<section class="practice">
+  <h1 class="title">{{es.practiceAreas.title}}</h1>
+  <section class="practice-carousel owl-carousel">
+    {% for card in es.practiceAreas.cards %}
+    <a href="{{ card.link }}">
+      <div class="card">
+        <h2 class="card-title">{{ card.title }}</h2>
+        <div class="bgImg {{ card.imgClass }}"></div>
+        <div class="card-layer">
+          <h3 class="card-layer-title">{{ card.title }}</h3>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </section>
+</section>
+{% endblock %}
