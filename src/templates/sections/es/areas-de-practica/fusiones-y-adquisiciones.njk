@@ -1,0 +1,51 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Fusiones y Adquisiciones{% endblock %}
+
+{% set meta_description = "Nuestro campo de experiencia incluye asesoría a clientes nacionales y extranjeros." %}
+{% set og_url = "" %}
+{% set og_title = "Fusiones y Adquisiciones | Rivers Legal" %}
+{% set og_description = "Nuestro campo de experiencia incluye asesoría a clientes nacionales y extranjeros." %}
+{% set og_img = "/img/seo/seo-practice-areas-template.jpg" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "practiceareas" %}
+
+{% block content %}
+<section class="practiceTemplate">
+  <section class="cover">
+    <h1 class="cover-title">{{ es.practiceTemplate2.cover.title }}</h1>
+    <div class="cover-content only-paragraph">
+      <div class="cover-info-col1">
+        <h2 class="cover-subtitle">Rivers Legal, S.C.</h2>
+        <p class="cover-info">{{ es.practiceTemplate2.cover.descriptionOne }}</p>
+      </div>
+      <div class="cover-info-col2">
+        <p class="cover-info">{{ es.practiceTemplate2.cover.descriptionTwo }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="fold2">
+    <div class="fold2-background"></div>
+    <div class="fold2-content">
+      <h3 class="fold2-title">our field of expertise</h3>
+      <h4 class="fold2-subtitle">{{ es.practiceTemplate2.fold2.subtitle }}</h4>
+      <p class="fold2-description">{{ es.practiceTemplate2.fold2.description }}</p>
+    </div>
+  </section>
+
+  <section class="membersPractice">
+    <h2 class="title">Members in the practice</h2>
+    <div class="card-container">
+      {% for member in es.practiceTemplate2.practice.cards %}
+        <div class="card">
+          <h3 class="card-title">{{ member.title }}</h3>
+          <p class="card-description">{{ member.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</section>
+{% endblock %}
