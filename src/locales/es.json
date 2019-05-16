@@ -13,7 +13,7 @@
         },
         {
           "name": "Practice Areas",
-          "link": "/es/practice-areas.html",
+          "link": "/es/areas-de-practica.html",
           "viewName": "practiceareas"
         },
         {
@@ -35,6 +35,367 @@
     },
     "home": {
       "title": "Título de prueba"
+    },
+    "practiceAreas": {
+      "title": "Áreas de Práctica",
+      "cards": [
+        {
+          "link": "/es/areas-de-practica/corporativo.html",
+          "title": "Corporativo",
+          "imgClass": "corporate"
+        },
+        {
+          "link": "/es/areas-de-practica/fusiones-y-adquisiciones.html",
+          "title": "Fusiones y Adquisiciones",
+          "imgClass": "mergersAcquisitions"
+        },
+        {
+          "link": "/es/areas-de-practica/laboral.html",
+          "title": "Laboral",
+          "imgClass": "laborEmployment"
+        },
+        {
+          "link": "/es/areas-de-practica/propiedad-industrial-e-intelectual.html",
+          "title": "Propiedad Industrial e Intelectual",
+          "imgClass": "intellProperty"
+        },
+        {
+          "link": "/es/areas-de-practica/migracion.html",
+          "title": "Migración",
+          "imgClass": "immigration"
+        },
+        {
+          "link": "/es/areas-de-practica/inmobiliario.html",
+          "title": "Inmobiliario",
+          "imgClass": "realEstate"
+        },
+        {
+          "link": "/es/areas-de-practica/inversion-extranjera.html",
+          "title": "Inversión Extranjera",
+          "imgClass": "foreignInvestment"
+        },
+        {
+          "link": "/es/areas-de-practica/amparo-y-procedimientos-administrativos.html",
+          "title": "Amparo y Procedimientos Administrativos",
+          "imgClass": "constitutional"
+        },
+        {
+          "link": "/es/areas-de-practica/litigio-civil-y-mercantil.html",
+          "title": "Litigio Civil y Mercantil",
+          "imgClass": "commercialLitigation"
+        }
+      ]
+    },
+    "practiceTemplate": {
+      "cover": {
+        "title": "Corporativo",
+        "descriptionOne": "Cuenta con vasta experiencia en constitución de sociedades mercantiles, transformaciones societarias, procesos de adquisición, fusión, escisión, disolución y liquidación de sociedades, así como en la adopción estratégica de resoluciones y actos corporativos (asambleas de accionistas, acuerdos entre accionistas y sesiones de consejo). La Firma se especializa también en el cumplimiento de la legislación en materia",
+        "descriptionTwo": "de inversión extranjera, protección de datos personales, anticorrupción, derecho de la competencia, entre otras. Los abogados de nuestra Firma cuentan también con una experiencia considerable en materia de ejecución y coordinación de procesos de “due diligence”, incluyendo emisión de opiniones legales, ya sea en modalidad preventiva, correctiva y/o en proceso de compra o venta de compañías u otros activos."
+      },
+      "fold2": {
+        "subtitle": "Nuestro campo de experiencia incluye la planificación preparación estratégica de reestructura asociativa y/o corporativa",
+        "description": "(Planeación patrimonial, gobierno corporativo, continuidad generacional, asociación estratégica, etc.), transacciones nacionales e internacionales, instrumentación y negociación de contratos y convenios, así como en la gestión y mantenimiento de permisos, licencias, autorizaciones, certificaciones, entre otros, ante autoridades del gobierno federal, estatal y municipal."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "socio",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "socio",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "asociada",
+            "description": "Montserrat del Río Castañeda"
+          },
+          {
+            "title": "asociada",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "asociada",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate2": {
+      "cover": {
+        "title": "Fusiones y Adquisiciones",
+        "descriptionOne": "Cuenta con amplia experiencia y un profundo conocimiento en el manejo de fusiones y adquisiciones.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "Incluye asesoría a clientes nacionales y extranjeros,",
+        "description": "En la instrumentación de alianzas estratégicas, adquisiciones apalancadas y buy-outs, estrategias o reestructuras asociativas y/o corporativas, entre otros esquemas de desarrollo comercial."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "socio",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "socio",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "asociada",
+            "description": "Montserrat del Río Castañeda"
+          },
+          {
+            "title": "asociada",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "asociada",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate3": {
+      "cover": {
+        "title": "Laboral",
+        "descriptionOne": "El enfoque de nuestro Departamento de Práctica de Derecho Laboral es principalmente preventivo, y cubre todos los aspectos de una relación laboral (individual y colectiva), incluyendo asesoría y asistencia en la celebración de contratos individuales y colectivos de trabajo",
+        "descriptionTwo": "Aunado a nuestro enfoque preventivo, Rivers Legal, S.C. cuenta con abogados expertos en la atención y representación en procedimientos contenciosos, así como el desahogo y contestación de visitas y requerimientos realizados por parte de autoridades laborales federales y locales."
+      },
+      "fold2": {
+        "subtitle": "Incluye el diseño y ejecución de estrategias relacionadas con la transferencia de personal en reestructuras,",
+        "description": "Así como asesoría respecto de los esquemas de contratación de personal extranjero asignado a México y personal mexicano asignado al extranjero."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "socio",
+            "description": "Francisco Javier Padilla Mitre"
+          },
+          {
+            "title": "asociado",
+            "description": "Mauricio Christopher Arevalo Alcalde"
+          },
+          {
+            "title": "asociado",
+            "description": "Kristopher Ruben Ortiz Hernández"
+          }
+        ]
+      }
+    },
+    "practiceTemplate4": {
+      "cover": {
+        "title": "Propiedad Industrial e Industrial",
+        "descriptionOne": "Cuenta con especialistas en materia de protección de derechos de propiedad industrial, incluyendo estudios previos y procesos de solicitud de registro en materia de invenciones y signos distintivos, derechos de autor, incluyendo elaboración, negociación y formalización de contratos de licencia, franquicia, transferencia de tecnología, confidencialidad y desarrollo de software.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "Incluye asesoría estratégica en la protección de información confidencial y secretos industriales,",
+        "description": "Y otros que involucren la cesión y protección de derechos en materia de propiedad intelectual."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "socio",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "socio",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "asociado",
+            "description": "Mauricio Christopher Arevalo Alcalde"
+          },
+          {
+            "title": "asociada",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "asociada",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate5": {
+      "cover": {
+        "title": "Migración",
+        "descriptionOne": "Cuenta con amplia experiencia en el manejo de todo tipo de trámites migratorios requeridos por empresas para la contratación de extranjeros o por extranjeros para su legal estancia en el país.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "Incluye la gestión de trámites de obtención y renovación de visas ante",
+        "description": "Consulados o Embajadas de otros países."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "socio",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "asociado",
+            "description": "Mauricio Christopher Arevalo Alcalde"
+          },
+          {
+            "title": "asociada",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "asociada",
+            "description": "Valeria Larrondo Tafoya"
+          },
+          {
+            "title": "asociado",
+            "description": "Kristopher Ruben Ortiz Hernández"
+          }
+        ]
+      }
+    },
+    "practiceTemplate6": {
+      "cover": {
+        "title": "Inmobiliario",
+        "descriptionOne": "Ha participado en proyectos de desarrollo inmobiliario de tipo industrial, comercial y de vivienda, asesorando a sus clientes en todos los aspectos legales desde la etapa de planeación, construcción, venta y hasta la finalización del proyecto.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "Incluye la asesoría en la adquisición y venta de bienes inmuebles,",
+        "description": "Así como la ejecución y coordinación de procesos de “due diligence” en materia inmobiliaria."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "socio",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "socio",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "socio",
+            "description": "Héctor Alejandro Gómez Sánchez"
+          },
+          {
+            "title": "asociada",
+            "description": "Montserrat del Río Castañeda"
+          },
+          {
+            "title": "asociada",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "asociada",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate7": {
+      "cover": {
+        "title": "Inversión Extranjera",
+        "descriptionOne": "Cuenta con vasta experiencia en proyectos de inversión extranjera en México, y han asesorado tanto a clientes extranjeros con esquemas de inversión en el país, así como a clientes mexicanos en proyectos de coinversión con inversionistas extranjeros.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "Incluye  la asesoría en el cumplimiento de la legislación aplicable en materia de inversión extranjera",
+        "description": "Así como la representación ante la Comisión Nacional de Inversión Extranjera, la Dirección General de Inversión Extranjera y el Registro Nacional de Inversión Extranjera, entre otras."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "socio",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "socio",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "asociada",
+            "description": "Montserrat del Río Castañeda"
+          },
+          {
+            "title": "asociada",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "asociada",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate8": {
+      "cover": {
+        "title": "Amparo y Procedimientos Administrativos",
+        "descriptionOne": "Cuentan con amplia experiencia en la gestión de licencias, permisos y autorizaciones administrativas ante las diferentes dependencias de gobierno, así como en la revisión e implementación de acciones a desarrollar para dar cumplimiento a la legislación administrativa federal, estatal y municipal.",
+        "descriptionTwo": "En adición al enfoque preventivo, los abogados de esta área se involucran en el desarrollo, seguimiento y desahogo de visitas de verificación iniciadas por autoridades administrativas federales, estatales y/o municipales hacia nuestros clientes, así como en la impugnación de resoluciones administrativas, y la representación en litigios ante Tribunales Contenciosos Administrativos Federales y Locales."
+      },
+      "fold2": {
+        "subtitle": "Incluye  incluye la especialización en materia de Amparo,",
+        "description": "Procedimiento a través del cual se ha logrado tener gran éxito en la impugnación de leyes, actos administrativos, resoluciones judiciales, entre otros actos que afectan en forma ilegal los intereses de nuestros clientes."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "socio",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "socio",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "socio",
+            "description": "Héctor Alejandro Gómez Sánchez"
+          },
+          {
+            "title": "socia",
+            "description": "Marcela Patricia Gómez Sánchez"
+          },
+          {
+            "title": "asociada",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "asociada",
+            "description": "Valeria Larrondo Tafoya"
+          },
+          {
+            "title": "asociado",
+            "description": "Mauro Alberto Ortega Castillo"
+          }
+        ]
+      }
+    },
+    "practiceTemplate9": {
+      "cover": {
+        "title": "Litigio Civil y Mercantil",
+        "descriptionOne": "Cuenta con un equipo de abogados especialistas en materia de Litigio Civil y Mercantil, quienes son expertos en el manejo de conflictos derivados de la ejecución de contratos, conflictos societarios y hechos ilícitos en general,",
+        "descriptionTwo": "A través de la representación en medios alternos de solución de controversias, o en procedimientos que deban tramitarse ante los tribunales mexicanos."
+      },
+      "fold2": {
+        "subtitle": "Incluye como principal enfoque el evitar en la medida de lo posible la promoción de litigios largos y costosos",
+        "description": "Que sean poco prácticos desde una óptica de negocios para nuestros clientes."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "socio",
+            "description": "Héctor Alejandro Gómez Sánchez"
+          },
+          {
+            "title": "socia",
+            "description": "Marcela Patricia Gómez Sánchez"
+          },
+          {
+            "title": "asociado",
+            "description": "Mauro Alberto Ortega Castillo"
+          }
+        ]
+      }
     },
     "members": {
       "title": "Miembros",
@@ -175,7 +536,7 @@
         },
         {
           "name": "Practice Areas",
-          "link": "/es/practice-areas.html",
+          "link": "/es/areas-de-practica.html",
           "viewName": "practiceareas"
         },
         {
