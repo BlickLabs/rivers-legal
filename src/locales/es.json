@@ -22,7 +22,7 @@
           "viewName": "members"
         },
         {
-          "name": "Contáctanos",
+          "name": "Contacto",
           "link": "/es/contactanos.html",
           "viewName": "contact"
         },
@@ -34,7 +34,73 @@
       ]
     },
     "home": {
-      "title": "Título de prueba"
+      "cover": {
+        "title": "Asesoría Legal",
+        "titleSpan": "con Enfoque de Negocios",
+        "subtitle": "Comprensión del Negocio de Nuestros Clientes para Satisfacer sus Necesidades Legales",
+        "link": "/es/quienes-somos.html",
+        "linkText": "quiénes somos",
+        "scroll": "/img/icons/scroll-indicator.png",
+        "scrollAlt": "índicador de scroll hacia abajo."
+      },
+      "practice": {
+        "carousel": [
+          {
+            "title": "Corporativo",
+            "imgClass": "corporate",
+            "layerTitle": "Corporativo",
+            "url": "/es/areas-de-practica/corporativo.html"
+          },
+          {
+            "title": "Fusiones y Adquisiciones",
+            "imgClass": "mergersAcquisitions",
+            "layerTitle": "Fusiones y Adquisiciones",
+            "url": "/es/areas-de-practica/fusiones-y-adquisiciones.html"
+          },
+          {
+            "title": "Laboral",
+            "imgClass": "laborEmployment",
+            "layerTitle": "Laboral",
+            "url": "/es/areas-de-practica/laboral.html"
+          },
+          {
+            "title": "Propiedad Industrial e Intelectual",
+            "imgClass": "intellProperty",
+            "layerTitle": "Propiedad Industrial e Intelectual",
+            "url": "/es/areas-de-practica/propiedad-industrial-e-intelectual.html"
+          },
+          {
+            "title": "Migración",
+            "imgClass": "immigration",
+            "layerTitle": "Migración",
+            "url": "/es/areas-de-practica/migracion.html"
+          },
+          {
+            "title": "Inmobiliario",
+            "imgClass": "realEstate",
+            "layerTitle": "Inmobiliario",
+            "url": "/es/areas-de-practica/inmobiliario.html"
+          },
+          {
+            "title": "Inversión Extranjera",
+            "imgClass": "foreignInvestment",
+            "layerTitle": "Inversión Extranjera",
+            "url": "/es/areas-de-practica/inversion-extranjera.html"
+          },
+          {
+            "title": "Amparo y Procedimientos Administrativos",
+            "imgClass": "constitutional",
+            "layerTitle": "Amparo y Procedimientos Administrativos",
+            "url": "/es/areas-de-practica/amparo-y-procedimientos-administrativos.html"
+          },
+          {
+            "title": "Litigio Civil & Mercantil",
+            "imgClass": "commercialLitigation",
+            "layerTitle": "Litigio Civil & Mercantil",
+            "url": "/es/areas-de-practica/litigio-civil-y-mercantil.html"
+          }
+        ]
+      }
     },
     "practiceAreas": {
       "title": "Áreas de Práctica",
@@ -1356,7 +1422,7 @@
           "viewName": "aboutus"
         },
         {
-          "name": "Practice Areas",
+          "name": "Áreas de práctica",
           "link": "/es/areas-de-practica.html",
           "viewName": "practiceareas"
         },
@@ -1366,7 +1432,7 @@
           "viewName": "members"
         },
         {
-          "name": "Contáctanos",
+          "name": "Contacto",
           "link": "/es/contactanos.html",
           "viewName": "contact"
         },
