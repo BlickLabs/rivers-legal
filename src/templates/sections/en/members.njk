@@ -23,7 +23,7 @@
       <a class="card-container" href="{{ card.link }}">
         <span class="category">{{ card.category }}</span>
         <span class="name">{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}</span>
-        <img class="photo" src="{{ card.photo }}" alt="{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}">
+        <img class="photo" src="{{ card.photo }}" alt="{{ card.name }} {% if card.lastname %}{{ card.lastname }}{% endif %}">
       </a>
       {% endfor %}
     </div>
@@ -36,7 +36,7 @@
       <a class="card-container" href="{{ card.link }}">
         <span class="category">{{ card.category }}</span>
         <span class="name">{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}</span>
-        <img class="photo" src="{{ card.photo }}" alt="{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}">
+        <img class="photo" src="{{ card.photo }}" alt="{{ card.name }} {% if card.lastname %}{{ card.lastname }}{% endif %}">
       </a>
       {% endfor %}
     </div>
@@ -49,7 +49,7 @@
         <a class="card-container" href="{{ card.link }}">
           <span class="category">{{ card.category }}</span>
           <span class="name">{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}</span>
-          <img class="photo" src="{{ card.photo }}" alt="{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}">
+          <img class="photo" src="{{ card.photo }}" alt="{{ card.name }} {% if card.lastname %}{{ card.lastname }}{% endif %}">
         </a>
         {% endfor %}
       </div>
@@ -62,7 +62,7 @@
         <a class="card-container" href="{{ card.link }}">
           <span class="category">{{ card.category }}</span>
           <span class="name">{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}</span>
-          <img class="photo" src="{{ card.photo }}" alt="{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}">
+          <img class="photo" src="{{ card.photo }}" alt="{{ card.name }} {% if card.lastname %}{{ card.lastname }}{% endif %}">
         </a>
         {% endfor %}
       </div>
