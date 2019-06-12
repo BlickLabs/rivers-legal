@@ -162,35 +162,35 @@
             "category": "partner",
             "name": "Jaime Eduardo",
             "lastname": "Martínez Terrazas",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/jaime-martinez.jpg"
           },
           {
             "link": "/en/members/manuel-victorio-ortiz-chevaile.html",
             "category": "partner",
             "name": "Manuel Victorio",
             "lastname": "Ortiz Chevaile",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/victorio-ortiz.jpg"
           },
           {
             "link": "/en/members/francisco-javier-padilla-mitre.html",
             "category": "partner",
             "name": "Francisco Javier",
             "lastname": "Padilla Mitre",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/francisco-padilla.jpg"
           },
           {
             "link": "",
             "category": "partner",
             "name": "Héctor Alejandro",
             "lastname": "Gómez Sánchez",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/alejandro-gomez.jpg"
           },
           {
             "link": "",
             "category": "partner",
             "name": "Marcela Patricia",
             "lastname": "Gómez Sánchez",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/marcela-gomez.jpg"
           }
         ]
       },
@@ -201,46 +201,46 @@
             "link": "/en/members/montserrat-del-rio-castaneda.html",
             "category": "associate",
             "name": "Montserrat del Río Castañeda",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/montse-del-rio.jpg"
           },
           {
             "link": "/en/members/mauricio-cristopher-arevalo-alcalde.html",
             "category": "associate",
             "name": "Mauricio Christopher",
             "lastname": "Arevalo Alcalde",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/mauricio-arevalo.jpg"
           },
           {
             "link": "/en/members/vivian-ramirez-valladolid.html",
             "category": "associate",
             "name": "Vivian Ramírez Valladolid",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/vivian-ramirez.jpg"
           },
           {
             "link": "/en/members/valeria-larrondo-tafoya.html",
             "category": "associate",
             "name": "Valeria Larrondo Tafoya",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/valeria-larrondo.jpg"
           },
           {
             "link": "/en/members/Kristopher-ruben-ortiz-hernandez.html",
             "category": "associate",
             "name": "Kristopher Rubén",
             "lastname": "Ortiz Hernández",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/kristopher-ortiz.jpg"
           },
           {
             "link": "",
             "category": "associate",
             "name": "Mauro Alberto",
             "lastname": "Ortega Castillo",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/mauro-alberto.jpg"
           },
           {
             "link": "",
             "category": "associate",
             "name": "Salvador Rodríguez Sánchez",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/salvador-rodriguez.jpg"
           }
         ]
       },
@@ -252,13 +252,13 @@
             "category": "paralegal",
             "name": "Salim Chemas",
             "lastname": "Torres",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/salim-torres.jpg"
           },
           {
             "link": "",
             "category": "paralegal",
             "name": "Pascual Leos Zenteno",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/pascual-leos.jpg"
           }
         ]
       },
@@ -268,7 +268,7 @@
           {
             "link": "",
             "category": "of counsel",
-            "name": "Maria Elena",
+            "name": "María Elena",
             "lastname": "Sánchez Guzmán",
             "photo": "/img/members/member-proof.jpg"
           }
@@ -294,7 +294,7 @@
       "leftBar": {
         "area": "partner",
         "member": "Francisco Javier Padilla Mitre",
-        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+        "photo": "/img/members/francisco-padilla.jpg"
       },
       "overview": {
         "paragraphs": [
@@ -387,7 +387,7 @@
       "leftBar": {
         "area": "partner",
         "member": "Jaime Eduardo Martínez Terrazas",
-        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+        "photo": "/img/members/jaime-martinez.jpg"
       },
       "overview": {
         "paragraphs": [
@@ -507,7 +507,7 @@
       "leftBar": {
         "area": "associate",
         "member": "Kristopher Ruben Ortiz Hernández",
-        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+        "photo": "/img/members/kristopher-ortiz.jpg"
       },
       "overview": {
         "paragraphs": [
@@ -601,7 +601,7 @@
       "leftBar": {
         "area": "associate",
         "member": "Mauricio Cristopher Arévalo Alcalde",
-        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+        "photo": "/img/members/mauricio-arevalo.jpg"
       },
       "overview": {
         "paragraphs": [
@@ -704,7 +704,7 @@
       "leftBar": {
         "area": "associate",
         "member": "Montserrat del Río Castañeda",
-        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+        "photo": "/img/members/montse-del-rio.jpg"
       },
       "overview": {
         "paragraphs": [
@@ -795,7 +795,7 @@
       "leftBar": {
         "area": "partner",
         "member": "Manuel Victorio Ortiz Chevaile",
-        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+        "photo": "/img/members/victorio-ortiz.jpg"
       },
       "overview": {
         "paragraphs": [
@@ -909,7 +909,7 @@
       "leftBar": {
         "area": "associate",
         "member": "Valeria Larrondo Tafoya",
-        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+        "photo": "/img/members/valeria-larrondo.jpg"
       },
       "overview": {
         "paragraphs": [
@@ -1016,7 +1016,7 @@
       "leftBar": {
         "area": "associate",
         "member": "Vivian Ramírez Valladolid",
-        "photo": "/img/members/jaime-eduardo-martinez-terrazas.jpg"
+        "photo": "/img/members/vivian-ramirez.jpg"
       },
       "overview": {
         "paragraphs": [
