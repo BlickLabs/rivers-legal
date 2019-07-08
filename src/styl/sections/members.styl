@@ -79,6 +79,9 @@
         margin 15px
         width 192px
 
+        &.noPointerEvents
+          pointer-events none
+
         .category
           align-items center
           background-color $c-strongBlue
@@ -131,7 +134,24 @@
     .tree
       .wrapper
         max-width 320px
+        padding 0 5px
 
       .card
         &-container
-          zoom 0.72
+          // zoom 0.72
+          height 235px
+          margin 5px
+          width 145px
+
+          .category
+            font-size 12px
+
+          .name
+            font-size 12px
+            height 45px
+            line-height 15px
+
+          .photo
+            height 162px
+            object-fit cover
+            width 145px

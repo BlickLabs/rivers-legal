@@ -11,6 +11,6 @@ practiceCarousel.owlCarousel ({
   center: true
 });
 
-practiceCarousel.each(function(index) {
-  $(this).find('.owl-nav, .owl-dots').wrapAll("<div class='practice-carousel-controls'></div>");
-});
+// practiceCarousel.each(function(index) {
+//   $(this).find('.owl-nav, .owl-dots').wrapAll("<div class='practice-carousel-controls'></div>");
+// });

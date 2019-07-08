@@ -12,7 +12,7 @@
           "viewName": "aboutus"
         },
         {
-          "name": "Practice Areas",
+          "name": "Áreas de Práctica",
           "link": "/es/areas-de-practica.html",
           "viewName": "practiceareas"
         },
@@ -159,7 +159,7 @@
         "descriptionTwo": "de inversión extranjera, protección de datos personales, anticorrupción, derecho de la competencia, entre otras. Los abogados de nuestra Firma cuentan también con una experiencia considerable en materia de ejecución y coordinación de procesos de “due diligence”, incluyendo emisión de opiniones legales, ya sea en modalidad preventiva, correctiva y/o en proceso de compra o venta de compañías u otros activos."
       },
       "fold2": {
-        "subtitle": "Nuestro campo de experiencia incluye la planificación preparación estratégica de reestructura asociativa y/o corporativa",
+        "subtitle": "Incluye la planificación preparación estratégica de reestructura asociativa y/o corporativa",
         "description": "(Planeación patrimonial, gobierno corporativo, continuidad generacional, asociación estratégica, etc.), transacciones nacionales e internacionales, instrumentación y negociación de contratos y convenios, así como en la gestión y mantenimiento de permisos, licencias, autorizaciones, certificaciones, entre otros, ante autoridades del gobierno federal, estatal y municipal."
       },
       "practice": {
@@ -491,6 +491,7 @@
           },
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "socio",
             "name": "Héctor Alejandro",
             "lastname": "Gómez Sánchez",
@@ -498,6 +499,7 @@
           },
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "socia",
             "name": "Marcela Patricia",
             "lastname": "Gómez Sánchez",
@@ -542,6 +544,7 @@
           },
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "asociado",
             "name": "Mauro Alberto",
             "lastname": "Ortega Castillo",
@@ -549,6 +552,7 @@
           },
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "asociado",
             "name": "Salvador Rodríguez Sánchez",
             "photo": "/img/members/salvador-rodriguez.jpg"
@@ -560,6 +564,7 @@
         "cards": [
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "pasante",
             "name": "Salim Chemas",
             "lastname": "Torres",
@@ -567,6 +572,7 @@
           },
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "pasante",
             "name": "Pascual Leos Zenteno",
             "photo": "/img/members/pascual-leos.jpg"
@@ -578,10 +584,24 @@
         "cards": [
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "consultora",
             "name": "María Elena",
             "lastname": "Sánchez Guzmán",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/valeria-larrondo.jpg"
+          }
+        ]
+      },
+      "administrative": {
+        "title": "administrativo",
+        "cards": [
+          {
+            "link": "",
+            "noPointerEvents": true,
+            "category": "administrativa",
+            "name": "María Elena",
+            "lastname": "Sánchez Guzmán",
+            "photo": "/img/members/valeria-larrondo.jpg"
           }
         ]
       }

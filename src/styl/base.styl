@@ -14,7 +14,7 @@ html
 
 body
   font-size inherit
-  margin 0 0 359px 0
+  // margin 0 0 359px 0
 
   &.noscroll
     overflow hidden
@@ -24,9 +24,12 @@ body
       opacity 1
       z-index 9
 
+main
+  flex 1
+
 @media screen and (max-width 765px)
-  body
-    margin-bottom 500px
+  // body
+  //   margin-bottom 500px
 
 a
   outline 0
@@ -35,9 +38,12 @@ a
     text-decoration none
 
 #page
-  margin 0
-  overflow hidden
-  padding 0
+  display flex
+  flex-direction column
+  min-height 100vh
+  // margin 0
+  // overflow hidden
+  // padding 0
 
 h1, h2, h3, h4, h5, h6, p
   margin 0
