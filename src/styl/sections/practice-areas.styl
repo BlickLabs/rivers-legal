@@ -68,11 +68,9 @@
     .owl-prev,
     .owl-next
       background-color $c-strongBlue !important
-      bottom 0
       height 53px
-      margin auto 0
       position absolute
-      top 0
+      top -65px
       width 51px
 
       & svg path
@@ -80,13 +78,20 @@
 
     .owl-prev
       left 0
+      margin-left auto
+      margin-right auto
+      right 100px
 
     .owl-next
+      left 100px
+      margin-left auto
+      margin-right auto
       right 0
 
     .owl-dots
       display flex
       justify-content center
+      margin-top 72px
 
       .owl-dot
         background-color $c-white
@@ -154,31 +159,31 @@
         // width 367px
 
         &.corporate
-          background-image url("../img/home/corporate.jpg")
+          background-image url("../img/practice-areas/corporate.jpg")
 
         &.mergersAcquisitions
-          background-image url("../img/home/mergers-acquisitions.jpg")
+          background-image url("../img/practice-areas/mergers-acquisitions.jpg")
 
         &.laborEmployment
-          background-image url("../img/home/labor-employment.jpg")
+          background-image url("../img/practice-areas/labor-employment.jpg")
 
         &.intellProperty
-          background-image url("../img/home/intellectual-property.jpg")
+          background-image url("../img/practice-areas/intellectual-property.jpg")
 
         &.immigration
-          background-image url("../img/home/immigration.jpg")
+          background-image url("../img/practice-areas/immigration.jpg")
 
         &.realEstate
-          background-image url("../img/home/real-estate.jpg")
+          background-image url("../img/practice-areas/real-estate.jpg")
 
         &.foreignInvestment
-          background-image url("../img/home/foreign-investment.jpg")
+          background-image url("../img/practice-areas/foreign-investment.jpg")
 
         &.constitutional
-          background-image url("../img/home/constitutional-amparo-administrative-proceedings.jpg")
+          background-image url("../img/practice-areas/constitutional-amparo-administrative-proceedings.jpg")
 
         &.commercialLitigation
-          background-image url("../img/home/civil-commercial-litigation.jpg")
+          background-image url("../img/practice-areas/civil-commercial-litigation.jpg")
 
 @media screen and (max-width 480px)
   .practice

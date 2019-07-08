@@ -173,9 +173,10 @@
         width 146px
 
     .card
-      height 121px
+      height 90px
       margin 10px
-      width 328px
+      // width 328px
+      width 318px
 
       &-container
         display flex
@@ -191,7 +192,7 @@
         font-family 'DINNextW01Bold'
         font-size 16px
         font-weight normal
-        height 48px
+        height 45px
         letter-spacing 3.3px
         padding 0 24px
         text-transform uppercase
@@ -203,9 +204,9 @@
         color $c-strongBlue
         display flex
         font-family 'DINNextW01Regular'
-        font-size 18px
+        font-size 16px
         font-weight normal
-        height 73px
+        height 43px
         letter-spacing 0.3px
         line-height 27px
         padding 0 24px
@@ -267,7 +268,16 @@
 
 @media screen and (max-width 420px)
   .practiceTemplate
+    .cover
+      &-title
+        &:before
+          width 280px
+
     .membersPractice
+      .title
+        &:before
+          width 280px
+
       .card-container
         justify-content center
         width 100%

@@ -180,6 +180,7 @@
           },
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "partner",
             "name": "Héctor Alejandro",
             "lastname": "Gómez Sánchez",
@@ -187,6 +188,7 @@
           },
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "partner",
             "name": "Marcela Patricia",
             "lastname": "Gómez Sánchez",
@@ -231,6 +233,7 @@
           },
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "associate",
             "name": "Mauro Alberto",
             "lastname": "Ortega Castillo",
@@ -238,6 +241,7 @@
           },
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "associate",
             "name": "Salvador Rodríguez Sánchez",
             "photo": "/img/members/salvador-rodriguez.jpg"
@@ -245,10 +249,11 @@
         ]
       },
       "paralegals": {
-        "title": "paralegals",
+        "title": "paralegal",
         "cards": [
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "paralegal",
             "name": "Salim Chemas",
             "lastname": "Torres",
@@ -256,6 +261,7 @@
           },
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "paralegal",
             "name": "Pascual Leos Zenteno",
             "photo": "/img/members/pascual-leos.jpg"
@@ -267,10 +273,24 @@
         "cards": [
           {
             "link": "",
+            "noPointerEvents": true,
             "category": "of counsel",
             "name": "María Elena",
             "lastname": "Sánchez Guzmán",
-            "photo": "/img/members/member-proof.jpg"
+            "photo": "/img/members/valeria-larrondo.jpg"
+          }
+        ]
+      },
+      "administrative": {
+        "title": "administrative",
+        "cards": [
+          {
+            "link": "",
+            "noPointerEvents": true,
+            "category": "administrative",
+            "name": "María Elena",
+            "lastname": "Sánchez Guzmán",
+            "photo": "/img/members/valeria-larrondo.jpg"
           }
         ]
       }

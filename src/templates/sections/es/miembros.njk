@@ -6,7 +6,7 @@
 {% set og_url = "" %}
 {% set og_title = "Conoce a todos nuestros miembros | Rivers Legal" %}
 {% set og_description = "Servicios Orientados al Desarrollo Comercial." %}
-{% set og_img = "" %}
+{% set og_img = "/img/seo/seo-members.jpg" %}
 {% set og_img_width = "" %}
 {% set og_img_height = "" %}
 
@@ -20,7 +20,7 @@
     <h2 class="subtitle">{{ es.members.partners.title }}</h2>
     <div class="wrapper">
       {% for card in es.members.partners.cards %}
-      <a class="card-container" href="{{ card.link }}">
+      <a class="card-container{% if card.noPointerEvents %} noPointerEvents{% endif %}" href="{{ card.link }}">
         <span class="category">{{ card.category }}</span>
         <span class="name">{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}</span>
         <img class="photo" src="{{ card.photo }}" alt="{{ card.name }} {% if card.lastname %}{{ card.lastname }}{% endif %}">
@@ -33,7 +33,7 @@
     <h2 class="subtitle">{{ es.members.associates.title }}</h2>
     <div class="wrapper">
       {% for card in es.members.associates.cards %}
-      <a class="card-container" href="{{ card.link }}">
+      <a class="card-container{% if card.noPointerEvents %} noPointerEvents{% endif %}" href="{{ card.link }}">
         <span class="category">{{ card.category }}</span>
         <span class="name">{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}</span>
         <img class="photo" src="{{ card.photo }}" alt="{{ card.name }} {% if card.lastname %}{{ card.lastname }}{% endif %}">
@@ -46,7 +46,7 @@
       <h2 class="subtitle">{{ es.members.paralegals.title }}</h2>
       <div class="wrapper">
         {% for card in es.members.paralegals.cards %}
-        <a class="card-container" href="{{ card.link }}">
+        <a class="card-container{% if card.noPointerEvents %} noPointerEvents{% endif %}" href="{{ card.link }}">
           <span class="category">{{ card.category }}</span>
           <span class="name">{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}</span>
           <img class="photo" src="{{ card.photo }}" alt="{{ card.name }} {% if card.lastname %}{{ card.lastname }}{% endif %}">
@@ -59,7 +59,20 @@
       <h2 class="subtitle">{{ es.members.ofCounsel.title }}</h2>
       <div class="wrapper">
         {% for card in es.members.ofCounsel.cards %}
-        <a class="card-container" href="{{ card.link }}">
+        <a class="card-container{% if card.noPointerEvents %} noPointerEvents{% endif %}" href="{{ card.link }}">
+          <span class="category">{{ card.category }}</span>
+          <span class="name">{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}</span>
+          <img class="photo" src="{{ card.photo }}" alt="{{ card.name }} {% if card.lastname %}{{ card.lastname }}{% endif %}">
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="tree">
+      <h2 class="subtitle">{{ es.members.administrative.title }}</h2>
+      <div class="wrapper">
+        {% for card in es.members.administrative.cards %}
+        <a class="card-container{% if card.noPointerEvents %} noPointerEvents{% endif %}" href="{{ card.link }}">
           <span class="category">{{ card.category }}</span>
           <span class="name">{{ card.name }}<br>{% if card.lastname %}{{ card.lastname }}{% endif %}</span>
           <img class="photo" src="{{ card.photo }}" alt="{{ card.name }} {% if card.lastname %}{{ card.lastname }}{% endif %}">
