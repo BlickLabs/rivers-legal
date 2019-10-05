@@ -225,13 +225,6 @@
             "photo": "/img/members/valeria-larrondo.jpg"
           },
           {
-            "link": "/en/members/Kristopher-ruben-ortiz-hernandez.html",
-            "category": "associate",
-            "name": "Kristopher Rubén",
-            "lastname": "Ortiz Hernández",
-            "photo": "/img/members/kristopher-ortiz.jpg"
-          },
-          {
             "link": "",
             "noPointerEvents": true,
             "category": "associate",
@@ -240,8 +233,7 @@
             "photo": "/img/members/mauro-alberto.jpg"
           },
           {
-            "link": "",
-            "noPointerEvents": true,
+            "link": "/en/members/salvador-rodriguez-sanchez.html",
             "category": "associate",
             "name": "Salvador Rodríguez Sánchez",
             "photo": "/img/members/salvador-rodriguez.jpg"
@@ -277,7 +269,7 @@
             "category": "of counsel",
             "name": "María Elena",
             "lastname": "Sánchez Guzmán",
-            "photo": "/img/members/valeria-larrondo.jpg"
+            "photo": "/img/members/silueta.jpg"
           }
         ]
       },
@@ -288,9 +280,17 @@
             "link": "",
             "noPointerEvents": true,
             "category": "administrative",
-            "name": "María Elena",
-            "lastname": "Sánchez Guzmán",
-            "photo": "/img/members/valeria-larrondo.jpg"
+            "name": "Patricia",
+            "lastname": "Carvajal Olavarrieta",
+            "photo": "/img/members/silueta.jpg"
+          },
+          {
+            "link": "",
+            "noPointerEvents": true,
+            "category": "administrative",
+            "name": "Freida",
+            "lastname": "Beverido Solá",
+            "photo": "/img/members/silueta.jpg"
           }
         ]
       }
@@ -1131,15 +1131,98 @@
         ]
       }
     },
+    "membersTemplate9": {
+      "leftBar": {
+        "area": "associate",
+        "member": "Salvador Rodríguez Sánchez",
+        "photo": "/img/members/salvador-rodriguez.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Salvador Rodríguez is a specialist in tax and administrative litigation. Throughout his professional career he has represented local and transnational companies in disputes regarding taxes and contributions, either before federal or local jurisdictions."
+          },
+          {
+            "text": "Salvador counsels on compliance of tax obligations, assists in tax audit reviews and tax credit procedures, and has successfully implemented defense strategies against tax authority resolutions."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Taxes (Advice and Litigation)",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Social Security Contributions (Advice and Litigation)",
+            "order": "order: 2; margin-right: 24px;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 4;"
+          },
+          {
+            "text": "Logistics",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Construction",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Expositor of Tax related matters and Professor of Law Introduction, Tax Law, Administrative Law, State and Government, Customs Law at Universidad Autónoma de San Luis Potosí and Universidad Marista de San Luis Potosí."
+          },
+          {
+            "item": "Various postgraduate courses and seminars on Tax Law, Administrative Law, Human Rights and Legal Argumentation."
+          },
+          {
+            "item": "BA in Law (Licenciado en Derecho), Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, Mexico."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": "Member of the Mexican National Lawyers’ Bar Association (Barra Mexicana Colegio de Abogados)."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          }
+        ]
+      }
+    },
     "practiceTemplate": {
       "cover": {
         "title": "Corporate",
-        "descriptionOne": "Has vast experience in incorporation of Mexican business corporations, transformations, Mergers and Acquisitions, spin-offs, dissolution and winding-up processes, so as strategic decision making and corporate actions (shareholders’ resolutions, shareholders’ agreements and board meetings). The firm also specializes in compliance with foreign investment laws, privacy, anti-corruption, anti-trust laws, among others.",
-        "descriptionTwo": "Our lawyers also have considerable experience in coordination and performance of due diligence processes, including issuance of legal opinions for preventive, corrective or transactional purposes, either for stock acquisitions or other assets; our field of expertise includes planning and preparing corporate and associative strategies, restructure (asset management, corporate governance, succession, strategic alliances, etc.), domestic and international transactions, drafting and negotiation of all sorts of contracts, agreements,"
+        "descriptionOne": "Has vast experience in incorporation of Mexican business corporations, transformations, Mergers and Acquisitions, spin-offs, dissolution and winding-up processes, so as strategic decision making and corporate actions (shareholders’ resolutions, shareholders’ agreements and board meetings).",
+        "descriptionTwo": "The firm also specializes in compliance with foreign investment laws, privacy, anti-corruption, anti-trust laws, among others."
       },
       "fold2": {
-        "subtitle": "Includes planning and preparing corporate and associative strategies,",
-        "description": "Restructure (asset management, corporate governance, succession, strategic alliances, etc.), domestic and international transactions, drafting and negotiation of all sorts of contracts, agreements, understandings, letters of intent, so as following-up of administrative compliance, including filing for, renewing and updating of licenses, permits and authorizations, either local, state or federal."
+        "subtitle": "",
+        "description": "Our lawyers also have considerable experience in coordination and performance of due diligence processes, including issuance of legal opinions for preventive, corrective or transactional purposes, either for stock acquisitions or other assets; our field of expertise includes planning and preparing corporate and associative strategies, restructure (asset management, corporate governance, succession, strategic alliances, etc.), domestic and international transactions, drafting and negotiation of all sorts of contracts, agreements, understandings, letters of intent, so as following-up of administrative compliance, including filing for, renewing and updating of licenses, permits and authorizations, either local, state or federal."
       },
       "practice": {
         "cards": [
@@ -1169,12 +1252,12 @@
     "practiceTemplate2": {
       "cover": {
         "title": "Mergers & Acquisitions",
-        "descriptionOne": "Lawyers have broad experience and in-depth knowledge in handling mergers and acquisitions.",
+        "descriptionOne": "Our lawyers have broad experience and in-depth knowledge in handling mergers and acquisitions and, they have advised to national and international clients in the instrumentation of joint ventures, corporate and associative strategies or restructures and other commercial development schemes.",
         "descriptionTwo": ""
       },
       "fold2": {
-        "subtitle": "Include advising to national and international clients,",
-        "description": "In the instrumentation of joint ventures, corporate and associative strategies or restructures and other schemes of commercial development."
+        "subtitle": "",
+        "description": "Also, our members have successfully represented buyers and sellers of Mexican corporations, lead due diligence processes and implemented entity merger and spin-off transactions."
       },
       "practice": {
         "cards": [
@@ -1208,8 +1291,8 @@
         "descriptionTwo": "Besides our preventive approach, all members to the Labor Law Practice Group have plenty of experience in handling cases and representing our clients on litigation proceedings, so as administrative inspections by state or federal authorities."
       },
       "fold2": {
-        "subtitle": "Includes preparation and execution of strategies,",
-        "description": "Associated with transferring personnel due to corporate restructuring, as well as hiring foreign staff and sending Mexican staff for training abroad."
+        "subtitle": "",
+        "description": "Our practice includes preparation and execution of strategies associated with transferring personnel due to corporate restructuring, as well as hiring foreign staff and sending Mexican staff for training abroad. "
       },
       "practice": {
         "cards": [
@@ -1231,12 +1314,12 @@
     "practiceTemplate4": {
       "cover": {
         "title": "Intellectual Property",
-        "descriptionOne": "Has a practice group specialized in intellectual property, including feasibility analysis for inventions and trademarks, copyright and drafting and negotiation of licences, franchises, transfer of technologies, confidentiality, software development.",
+        "descriptionOne": "Has a practice group specialized in intellectual property, including feasibility analysis for inventions and trademarks, copyright and drafting and negotiation of licences, franchises, transfer of technologies, confidentiality, software development, advertising and other transactions involving transfer or protection of intellectual property.",
         "descriptionTwo": ""
       },
       "fold2": {
-        "subtitle": "Includes advising on strategies for confidential information",
-        "description": "As well as for trade secrets, advertising and other transactions involving transfer or protection of intellectual property."
+        "subtitle": "",
+        "description": "Additionally, our practice group specializes in advising on strategies for confidential information, as well as for trade secrets. "
       },
       "practice": {
         "cards": [
@@ -1266,12 +1349,12 @@
     "practiceTemplate5": {
       "cover": {
         "title": "Immigration",
-        "descriptionOne": "Has vast experience in handling all sorts of immigration proceedings required by companies hiring foreign staff and/or due to new job offers, corporate restructure and so on.",
+        "descriptionOne": "We have vast experience in handling all sorts of immigration proceedings required by companies hiring foreign staff and/or due to new job offers, corporate restructure and so on.",
         "descriptionTwo": ""
       },
       "fold2": {
-        "subtitle": "Includes assistance in obtaining and/or renewing visas",
-        "description": "Granted by other countries through their respective Consulates or Embassies."
+        "subtitle": "",
+        "description": "This area of practice includes assistance in obtaining and/or renewing visas granted by other countries through their respective Consulates or Embassies."
       },
       "practice": {
         "cards": [
@@ -1301,12 +1384,12 @@
     "practiceTemplate6": {
       "cover": {
         "title": "Real Estate",
-        "descriptionOne": "Members have been involved in real estate development projects of industrial, commercial and housing type, supporting its clients in all legal aspects during the planning, construction, sale and up to the finalization of the project.",
+        "descriptionOne": "Our expertise in this area includes our assistance in transactions related to the sale and acquisition of real estate properties, so as the coordination and performance of enhanced due diligence processes in connection to such properties.",
         "descriptionTwo": ""
       },
       "fold2": {
-        "subtitle": "Includes our assistance in transactions",
-        "description": "Related to the sale and acquisition of real estate properties, so as the coordination and performance of enhanced due diligence processes in connection to such properties."
+        "subtitle": "",
+        "description": "Also, our members have been involved in real estate development projects of industrial, commercial and housing type, supporting its clients in all legal aspects during the planning, construction, sale and up to the finalization of the project."
       },
       "practice": {
         "cards": [
@@ -1340,12 +1423,12 @@
     "practiceTemplate7": {
       "cover": {
         "title": "Foreign Investment",
-        "descriptionOne": "Lawyers have vast experience with foreign investment projects in Mexico, counseling foreign clients with investment schemes in Mexico, as well as Mexican clients with investment projects with foreign investors.",
+        "descriptionOne": "Our lawyers have vast experience with foreign investment projects in Mexico, counseling foreign clients with investment schemes in Mexico, as well as Mexican clients with investment projects with foreign investors.",
         "descriptionTwo": ""
       },
       "fold2": {
-        "subtitle": "Includes the counseling on the compliance",
-        "description": "Of applicable foreign investment laws, and the representation before the National Foreign Investment Commission, the General Bureau of Foreign Investment, and the National Foreign Investment Registry, among others."
+        "subtitle": "",
+        "description": "Our practice includes the counseling on the compliance of applicable foreign investment laws, and the representation before the National Foreign Investment Commission, the General Bureau of Foreign Investment, and the National Foreign Investment Registry, among others."
       },
       "practice": {
         "cards": [
@@ -1375,12 +1458,12 @@
     "practiceTemplate8": {
       "cover": {
         "title": "Constitutional Amparo & Administrative Proceedings",
-        "descriptionOne": "Specialize in filing for and keeping up to date all governmental licences, permits and authorizations before the government authorities, as well as in the performance of due diligence procedures and the improvement of actions tending to comply with the administrative laws, regulations and ordinances, either federal, state and/or municipal.",
+        "descriptionOne": "We specialize in filing for and keeping up to date all governmental licences, permits and authorizations before the government authorities, as well as in the performance of due diligence procedures and the improvement of actions tending to comply with the administrative laws, regulations and ordinances, either federal, state and/or municipal.",
         "descriptionTwo": "In addition to the preventive approach, the lawyers of this practice area handle the assistance and monitoring of audits or reviews initiated to our clients by administrative authorities, either federal, state or municipal, as well as in the challenging of authority resolutions, and the representation of our clients in litigations before Federal and Local Administrative Courts."
       },
       "fold2": {
-        "subtitle": "Includes specialize in Amparo proceedings",
-        "description": "Which is a highly sophisticated constitutional appeal, through which we have achieved great success in the challenging of laws, administrative or judicial authority resolutions, among other acts that unlawfully restrict our clients’ interests."
+        "subtitle": "",
+        "description": "Also, this practice area has specialists in Amparo proceedings (which is a highly sophisticated constitutional appeal), through which we have achieved great success in the challenging of laws, administrative or judicial authority resolutions, among other acts that unlawfully restrict our clients’ interests."
       },
       "practice": {
         "cards": [
@@ -1418,12 +1501,12 @@
     "practiceTemplate9": {
       "cover": {
         "title": "Civil & Commercial Litigation",
-        "descriptionOne": "Has a team of specialists in civil & commercial litigation, who have a broad knowledge and experience in the handling of conflicts aroused from the performance of contractual obligations, shareholders’ disputes, and wrongful acts in general,",
-        "descriptionTwo": "Through the representation in alternative dispute resolution methods, or in court trials to be held before local and federal courts in Mexico."
+        "descriptionOne": "Has a team of specialists in civil & commercial litigation, who have a broad knowledge and experience in the handling of conflicts aroused from the performance of contractual obligations, shareholders’ disputes, and wrongful acts in general, through the representation in alternative dispute resolution methods, or in court trials to be held before local and federal courts in Mexico.",
+        "descriptionTwo": ""
       },
       "fold2": {
-        "subtitle": "Includes the main approach of avoiding",
-        "description": "To the extent possible, the promotion of lengthy litigations with big costs that tend to be impractical from our client’s business standpoint."
+        "subtitle": "",
+        "description": "This Practice Area has the main approach of avoiding, to the extent possible, the promotion of lengthy litigations with big costs that tend to be impractical from our client’s business standpoint."
       },
       "practice": {
         "cards": [

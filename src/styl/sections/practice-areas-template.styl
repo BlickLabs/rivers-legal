@@ -2,10 +2,11 @@
   padding-top 94px
 
   .cover
-    background-image url("../img/practice-areas-template/practice-areas-template-cover.jpg")
+    background-image url("../img/practice-areas-template/practice-areas-template-cover.png")
     background-position bottom right
     background-repeat no-repeat
-    background-size cover
+    // background-size cover
+    background-size 70%
     // height 542px
     height auto
     padding-bottom 70px
@@ -83,12 +84,40 @@
     display flex
 
     &-background
-      background-image url("../img/practice-areas-template/practice-areas-template-fold2.jpg")
-      background-position center
+      // background-image url("../img/practice-areas-template/practice-areas-template-fold2.jpg")
+      background-position bottom
       background-repeat no-repeat
       background-size cover
       // height 470px
-      width 550px
+      // width 550px
+      width 370px
+
+      &.amparoBG
+        background-image url("../img/practice-areas/constitutional-amparo-administrative-proceedings.png")
+
+      &.corporativoBG
+        background-image url("../img/practice-areas/corporate.png")
+
+      &.fusionesBG
+        background-image url("../img/practice-areas/mergers-acquisitions.png")
+
+      &.inmobiliarioBG
+        background-image url("../img/practice-areas/real-estate.png")
+
+      &.inversionBG
+        background-image url("../img/practice-areas/foreign-investment.png")
+
+      &.laboralBG
+        background-image url("../img/practice-areas/labor-employment.png")
+
+      &.litigioBG
+        background-image url("../img/practice-areas/civil-commercial-litigation.png")
+
+      &.migracionBG
+        background-image url("../img/practice-areas/immigration.png")
+
+      &.propiedadBG
+        background-image url("../img/practice-areas/intellectual-property.png")
 
     &-content
       display flex
@@ -133,7 +162,8 @@
       font-weight normal
       letter-spacing 0.3px
       line-height 29px
-      margin 50px 0 0 150px
+      // margin 50px 0 0 150px
+      margin 0
       max-width 518px
 
   .membersPractice
@@ -211,11 +241,11 @@
         line-height 27px
         padding 0 24px
 
-@media screen and (max-width 1250px) and (min-width 1151px)
-  .practiceTemplate
-    .fold2
-      &-description
-        margin-left 20%
+// @media screen and (max-width 1250px) and (min-width 1151px)
+//   .practiceTemplate
+//     .fold2
+//       &-description
+//         margin-left 20%
 
 @media screen and (max-width 1150px)
   .practiceTemplate
@@ -237,8 +267,10 @@
 @media screen and (max-width 749px)
   .practiceTemplate
     .cover
+      background-size 150%
       height auto
-      padding-bottom 250px
+      // padding-bottom 250px
+      padding-bottom 160px
 
       &-content
         align-items center
@@ -256,11 +288,12 @@
       flex-direction column
 
       &-background
-        height 180px
+        // height 180px
+        height 360px
         width 100%
 
       &-content
-        padding 71px 30px 50px 70px
+        padding 71px 30px 50px 30px
 
     .membersPractice
       .card-container
@@ -272,6 +305,10 @@
       &-title
         &:before
           width 280px
+    
+    .fold2
+      &-background
+        height 180px
 
     .membersPractice
       .title

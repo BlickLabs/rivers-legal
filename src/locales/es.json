@@ -155,12 +155,12 @@
     "practiceTemplate": {
       "cover": {
         "title": "Corporativo",
-        "descriptionOne": "Cuenta con vasta experiencia en constitución de sociedades mercantiles, transformaciones societarias, procesos de adquisición, fusión, escisión, disolución y liquidación de sociedades, así como en la adopción estratégica de resoluciones y actos corporativos (asambleas de accionistas, acuerdos entre accionistas y sesiones de consejo). La Firma se especializa también en el cumplimiento de la legislación en materia",
-        "descriptionTwo": "de inversión extranjera, protección de datos personales, anticorrupción, derecho de la competencia, entre otras. Los abogados de nuestra Firma cuentan también con una experiencia considerable en materia de ejecución y coordinación de procesos de “due diligence”, incluyendo emisión de opiniones legales, ya sea en modalidad preventiva, correctiva y/o en proceso de compra o venta de compañías u otros activos."
+        "descriptionOne": "Cuenta con vasta experiencia en constitución de sociedades mercantiles, transformaciones societarias, procesos de adquisición, fusión, escisión, disolución y liquidación de sociedades, así como en la adopción estratégica de resoluciones y actos corporativos (asambleas de accionistas, acuerdos entre accionistas y sesiones de consejo).",
+        "descriptionTwo": "La Firma se especializa también en el cumplimiento de la legislación en materia de inversión extranjera, protección de datos personales, anticorrupción, derecho de la competencia, entre otras (general and specific compliance)."
       },
       "fold2": {
-        "subtitle": "Incluye la planificación preparación estratégica de reestructura asociativa y/o corporativa",
-        "description": "(Planeación patrimonial, gobierno corporativo, continuidad generacional, asociación estratégica, etc.), transacciones nacionales e internacionales, instrumentación y negociación de contratos y convenios, así como en la gestión y mantenimiento de permisos, licencias, autorizaciones, certificaciones, entre otros, ante autoridades del gobierno federal, estatal y municipal."
+        "subtitle": "",
+        "description": "Los abogados de nuestra Firma cuentan también con una experiencia considerable en materia de ejecución y coordinación de procesos de “due diligence”, incluyendo emisión de opiniones legales, ya sea en modalidad preventiva, correctiva y/o en proceso de compra o venta de compañías u otros activos, preparación estratégica de reestructura asociativa y/o corporativa (planeación patrimonial, gobierno corporativo, continuidad generacional, asociación estratégica, etc.), transacciones nacionales e internacionales, instrumentación y negociación de contratos y convenios, así como en la gestión y mantenimiento de permisos, licencias, autorizaciones, certificaciones, entre otros, ante autoridades del gobierno federal, estatal y municipal."
       },
       "practice": {
         "cards": [
@@ -190,12 +190,12 @@
     "practiceTemplate2": {
       "cover": {
         "title": "Fusiones y Adquisiciones",
-        "descriptionOne": "Cuenta con amplia experiencia y un profundo conocimiento en el manejo de fusiones y adquisiciones.",
+        "descriptionOne": "Los abogados de Rivers Legal, S.C. cuentan con amplia experiencia y un profundo conocimiento en el manejo de fusiones y adquisiciones, y han asesorado a clientes nacionales y extranjeros en la instrumentación de alianzas estratégicas, adquisiciones apalancadas y buy-outs, estrategias o reestructuras asociativas y/o corporativas, entre otros esquemas de desarrollo comercial.",
         "descriptionTwo": ""
       },
       "fold2": {
-        "subtitle": "Incluye asesoría a clientes nacionales y extranjeros,",
-        "description": "En la instrumentación de alianzas estratégicas, adquisiciones apalancadas y buy-outs, estrategias o reestructuras asociativas y/o corporativas, entre otros esquemas de desarrollo comercial."
+        "subtitle": "",
+        "description": "Asimismo, los abogados de la firma han representado a compradores y vendedores de compañías en México, coordinado procesos de “due diligence” e instrumentado operaciones de fusión y escisión de sociedades."
       },
       "practice": {
         "cards": [
@@ -225,12 +225,12 @@
     "practiceTemplate3": {
       "cover": {
         "title": "Laboral",
-        "descriptionOne": "El enfoque de nuestro Departamento de Práctica de Derecho Laboral es principalmente preventivo, y cubre todos los aspectos de una relación laboral (individual y colectiva), incluyendo asesoría y asistencia en la celebración de contratos individuales y colectivos de trabajo",
+        "descriptionOne": "El enfoque de nuestro Departamento de Práctica de Derecho Laboral es principalmente preventivo, y cubre todos los aspectos de una relación laboral (individual y colectiva), incluyendo asesoría y asistencia en la celebración de contratos individuales y colectivos de trabajo.",
         "descriptionTwo": "Aunado a nuestro enfoque preventivo, Rivers Legal, S.C. cuenta con abogados expertos en la atención y representación en procedimientos contenciosos, así como el desahogo y contestación de visitas y requerimientos realizados por parte de autoridades laborales federales y locales."
       },
       "fold2": {
-        "subtitle": "Incluye el diseño y ejecución de estrategias relacionadas con la transferencia de personal en reestructuras,",
-        "description": "Así como asesoría respecto de los esquemas de contratación de personal extranjero asignado a México y personal mexicano asignado al extranjero."
+        "subtitle": "",
+        "description": "Nuestra práctica abarca el diseño y ejecución de estrategias relacionadas con la transferencia de personal en reestructuras corporativas, así como asesoría respecto de los esquemas de contratación de personal extranjero asignado a México y personal mexicano asignado al extranjero."
       },
       "practice": {
         "cards": [
@@ -251,13 +251,13 @@
     },
     "practiceTemplate4": {
       "cover": {
-        "title": "Propiedad Industrial e Industrial",
-        "descriptionOne": "Cuenta con especialistas en materia de protección de derechos de propiedad industrial, incluyendo estudios previos y procesos de solicitud de registro en materia de invenciones y signos distintivos, derechos de autor, incluyendo elaboración, negociación y formalización de contratos de licencia, franquicia, transferencia de tecnología, confidencialidad y desarrollo de software.",
+        "title": "Propiedad Industrial e Intelectual",
+        "descriptionOne": "Cuenta con especialistas en materia de protección de derechos de propiedad industrial, incluyendo estudios previos y procesos de solicitud de registro en materia de invenciones y signos distintivos, derechos de autor, incluyendo elaboración, negociación y formalización de contratos de licencia, franquicia, transferencia de tecnología, confidencialidad, desarrollo de software, publicitarios u otros que involucren la cesión y protección de derechos en materia de propiedad intelectual.",
         "descriptionTwo": ""
       },
       "fold2": {
-        "subtitle": "Incluye asesoría estratégica en la protección de información confidencial y secretos industriales,",
-        "description": "Y otros que involucren la cesión y protección de derechos en materia de propiedad intelectual."
+        "subtitle": "",
+        "description": "Adicionalmente, nuestros abogados brindan asesoría estratégica en la protección de información confidencial y secretos industriales."
       },
       "practice": {
         "cards": [
@@ -291,8 +291,8 @@
         "descriptionTwo": ""
       },
       "fold2": {
-        "subtitle": "Incluye la gestión de trámites de obtención y renovación de visas ante",
-        "description": "Consulados o Embajadas de otros países."
+        "subtitle": "",
+        "description": "Esta área de práctica abarca la gestión de trámites de obtención y renovación de visas ante Consulados o Embajadas de otros países."
       },
       "practice": {
         "cards": [
@@ -322,12 +322,12 @@
     "practiceTemplate6": {
       "cover": {
         "title": "Inmobiliario",
-        "descriptionOne": "Ha participado en proyectos de desarrollo inmobiliario de tipo industrial, comercial y de vivienda, asesorando a sus clientes en todos los aspectos legales desde la etapa de planeación, construcción, venta y hasta la finalización del proyecto.",
+        "descriptionOne": "Nuestra experiencia en esta área incluye la asesoría en la adquisición y venta de bienes inmuebles, así como la ejecución y coordinación de procesos de “due diligence” en materia inmobiliaria.",
         "descriptionTwo": ""
       },
       "fold2": {
-        "subtitle": "Incluye la asesoría en la adquisición y venta de bienes inmuebles,",
-        "description": "Así como la ejecución y coordinación de procesos de “due diligence” en materia inmobiliaria."
+        "subtitle": "",
+        "description": "Asimismo, los abogados de la firma han participado en proyectos de desarrollo inmobiliario de tipo industrial, comercial y de vivienda, asesorando a sus clientes en todos los aspectos legales desde la etapa de planeación, construcción, venta y hasta la finalización del proyecto."
       },
       "practice": {
         "cards": [
@@ -361,12 +361,12 @@
     "practiceTemplate7": {
       "cover": {
         "title": "Inversión Extranjera",
-        "descriptionOne": "Cuenta con vasta experiencia en proyectos de inversión extranjera en México, y han asesorado tanto a clientes extranjeros con esquemas de inversión en el país, así como a clientes mexicanos en proyectos de coinversión con inversionistas extranjeros.",
+        "descriptionOne": "Los abogados de Rivers Legal, S.C. cuentan con vasta experiencia en proyectos de inversión extranjera en México, y han asesorado tanto a clientes extranjeros con esquemas de inversión en el país, así como a clientes mexicanos en proyectos de coinversión con inversionistas extranjeros.",
         "descriptionTwo": ""
       },
       "fold2": {
-        "subtitle": "Incluye  la asesoría en el cumplimiento de la legislación aplicable en materia de inversión extranjera",
-        "description": "Así como la representación ante la Comisión Nacional de Inversión Extranjera, la Dirección General de Inversión Extranjera y el Registro Nacional de Inversión Extranjera, entre otras."
+        "subtitle": "",
+        "description": "Nuestra práctica abarca la asesoría en el cumplimiento de la legislación aplicable en materia de inversión extranjera, así como la representación ante la Comisión Nacional de Inversión Extranjera, la Dirección General de Inversión Extranjera y el Registro Nacional de Inversión Extranjera, entre otras."
       },
       "practice": {
         "cards": [
@@ -396,12 +396,12 @@
     "practiceTemplate8": {
       "cover": {
         "title": "Amparo y Procedimientos Administrativos",
-        "descriptionOne": "Cuentan con amplia experiencia en la gestión de licencias, permisos y autorizaciones administrativas ante las diferentes dependencias de gobierno, así como en la revisión e implementación de acciones a desarrollar para dar cumplimiento a la legislación administrativa federal, estatal y municipal.",
+        "descriptionOne": "Los abogados de Rivers Legal, S.C. cuentan con amplia experiencia en la gestión de licencias, permisos y autorizaciones administrativas ante las diferentes dependencias de gobierno, así como en la revisión e implementación de acciones a desarrollar para dar cumplimiento a la legislación administrativa federal, estatal y municipal.",
         "descriptionTwo": "En adición al enfoque preventivo, los abogados de esta área se involucran en el desarrollo, seguimiento y desahogo de visitas de verificación iniciadas por autoridades administrativas federales, estatales y/o municipales hacia nuestros clientes, así como en la impugnación de resoluciones administrativas, y la representación en litigios ante Tribunales Contenciosos Administrativos Federales y Locales."
       },
       "fold2": {
-        "subtitle": "Incluye  incluye la especialización en materia de Amparo,",
-        "description": "Procedimiento a través del cual se ha logrado tener gran éxito en la impugnación de leyes, actos administrativos, resoluciones judiciales, entre otros actos que afectan en forma ilegal los intereses de nuestros clientes."
+        "subtitle": "",
+        "description": "Asimismo, esta área de práctica cuenta con especialistas en materia de Amparo, procedimiento a través del cuál se ha logrado tener gran éxito en la impugnación de leyes, actos administrativos, resoluciones judiciales, entre otros actos que afectan en forma ilegal los intereses de nuestros clientes."
       },
       "practice": {
         "cards": [
@@ -439,12 +439,12 @@
     "practiceTemplate9": {
       "cover": {
         "title": "Litigio Civil y Mercantil",
-        "descriptionOne": "Cuenta con un equipo de abogados especialistas en materia de Litigio Civil y Mercantil, quienes son expertos en el manejo de conflictos derivados de la ejecución de contratos, conflictos societarios y hechos ilícitos en general,",
-        "descriptionTwo": "A través de la representación en medios alternos de solución de controversias, o en procedimientos que deban tramitarse ante los tribunales mexicanos."
+        "descriptionOne": "Cuenta con un equipo de abogados especialistas en materia de Litigio Civil y Mercantil, quienes son expertos en el manejo de conflictos derivados de la ejecución de contratos, conflictos societarios y hechos ilícitos en general, a través de la representación en medios alternos de solución de controversias, o en procedimientos que deban tramitarse ante los tribunales mexicanos.",
+        "descriptionTwo": ""
       },
       "fold2": {
-        "subtitle": "Incluye como principal enfoque el evitar en la medida de lo posible la promoción de litigios largos y costosos",
-        "description": "Que sean poco prácticos desde una óptica de negocios para nuestros clientes."
+        "subtitle": "",
+        "description": "Esta Área de Práctica, tiene como principal enfoque el evitar en la medida de lo posible la promoción de litigios largos y costosos que sean poco prácticos desde una óptica de negocios para nuestros clientes."
       },
       "practice": {
         "cards": [
@@ -536,13 +536,6 @@
             "photo": "/img/members/valeria-larrondo.jpg"
           },
           {
-            "link": "/es/miembros/Kristopher-ruben-ortiz-hernandez.html",
-            "category": "asociado",
-            "name": "Kristopher Rubén",
-            "lastname": "Ortiz Hernández",
-            "photo": "/img/members/kristopher-ortiz.jpg"
-          },
-          {
             "link": "",
             "noPointerEvents": true,
             "category": "asociado",
@@ -588,7 +581,7 @@
             "category": "consultora",
             "name": "María Elena",
             "lastname": "Sánchez Guzmán",
-            "photo": "/img/members/valeria-larrondo.jpg"
+            "photo": "/img/members/silueta.jpg"
           }
         ]
       },
@@ -599,9 +592,17 @@
             "link": "",
             "noPointerEvents": true,
             "category": "administrativa",
-            "name": "María Elena",
-            "lastname": "Sánchez Guzmán",
-            "photo": "/img/members/valeria-larrondo.jpg"
+            "name": "Patricia",
+            "lastname": "Carvajal Olavarrieta",
+            "photo": "/img/members/silueta.jpg"
+          },
+          {
+            "link": "",
+            "noPointerEvents": true,
+            "category": "administrativa",
+            "name": "Freida",
+            "lastname": "Beverido Solá",
+            "photo": "/img/members/silueta.jpg"
           }
         ]
       }
@@ -1423,6 +1424,89 @@
           },
           {
             "item": "Alemán"
+          }
+        ]
+      }
+    },
+    "membersTemplate9": {
+      "leftBar": {
+        "area": "asociado",
+        "member": "Salvador Rodríguez Sánchez",
+        "photo": "/img/members/salvador-rodriguez.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Salvador Rodríguez es especialista en litigio fiscal y administrativo. A lo largo de su carrera, ha representado a empresas locales y transnacionales en controversias relacionadas con impuestos y contribuciones, tanto en el ámbito local como federal."
+          },
+          {
+            "text": "Asimismo, Salvador asesora a clientes en el cumplimiento de sus obligaciones tributarias, así como en procedimientos de fiscalización, ejecución y determinación de créditos fiscales, habiendo implementado exitosamente estrategias de defensa en contra de actos de autoridades fiscales."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Impuestos (Consultoría y Litigio)",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Aportaciones de Seguridad Social (Consultoría y Litigio)",
+            "order": "order: 2; margin-right: 24px;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotriz",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Alimenticia",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufactura y Servicios de Maquila",
+            "order": "order: 4;"
+          },
+          {
+            "text": "Logística",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Construcción",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Expositor de temas fiscales en diversos foros y profesor de las materias de Entorno Legal para la Operación del Estado y Gobierno, Introducción al Derecho, Derecho Aduanal, Derecho Administrativo y Derecho Fiscal en la Universidad Autónoma de San Luis Potosí y en la Universidad Marista de San Luis Potosí."
+          },
+          {
+            "item": "Diversos diplomados y seminarios en Derecho Fiscal, Derecho Administrativo, Derechos Humanos y Argumentación Jurídica."
+          },
+          {
+            "item": "Licenciado en Derecho, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, México."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": "Miembro de la Barra Mexicana Colegio de Abogados."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Español"
+          },
+          {
+            "item": "Inglés"
           }
         ]
       }
