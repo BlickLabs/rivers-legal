@@ -581,28 +581,20 @@
             "category": "consultora",
             "name": "María Elena",
             "lastname": "Sánchez Guzmán",
-            "photo": "/img/members/silueta.jpg"
+            "photo": ""
           }
         ]
       },
       "administrative": {
-        "title": "administrativo",
+        "title": "personal administrativo",
         "cards": [
           {
             "link": "",
             "noPointerEvents": true,
-            "category": "administrativa",
+            "category": "asistente de dirección",
             "name": "Patricia",
             "lastname": "Carvajal Olavarrieta",
-            "photo": "/img/members/silueta.jpg"
-          },
-          {
-            "link": "",
-            "noPointerEvents": true,
-            "category": "administrativa",
-            "name": "Freida",
-            "lastname": "Beverido Solá",
-            "photo": "/img/members/silueta.jpg"
+            "photo": "/img/members/patricia-carvajal.jpg"
           }
         ]
       }
