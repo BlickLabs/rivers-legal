@@ -1,12 +1,12 @@
 {% extends "partials/base.njk" %}
 
-{% block title %}This{% endblock %}
+{% block title %}Asesoría Legal con Enfoque de Negocios{% endblock %}
 
-{% set meta_description = "" %}
+{% set meta_description = "Comprensión del Negocio de Nuestros Clientes para Satisfacer sus Necesidades Legales." %}
 {% set og_url = "" %}
-{% set og_title = "" %}
-{% set og_description = "" %}
-{% set og_img = "" %}
+{% set og_title = "Asesoría Legal con Enfoque de Negocios | Rivers Legal" %}
+{% set og_description = "Comprensión del Negocio de Nuestros Clientes para Satisfacer sus Necesidades Legales." %}
+{% set og_img = "/img/seo/seo-homepage.jpg" %}
 {% set og_img_width = "" %}
 {% set og_img_height = "" %}
 
@@ -15,7 +15,48 @@
 {% block content %}
 <section class="home">
   <section class="home-cover">
-    <h1>{{es.home.title}}</h1>
+    <h1 class="bigTitle">{{es.home.cover.title}} <span class="bigTitleSpan">{{es.home.cover.titleSpan}}</span></h1>
+    <h2 class="whiteSubtitle">{{es.home.cover.subtitle}}</h2>
+    <a class="btn transparent" href="{{es.home.cover.link}}">{{es.home.cover.linkText}}</a>
+    <img class="home-cover-scroll" src="{{es.home.cover.scroll}}" alt="{{es.home.cover.scrollAlt}}">
+  </section>
+
+  <section class="home-practice">
+    <h2 class="home-practice-title">Áreas de práctica</h2>
+    <div class="home-practice-carousel owl-carousel">
+      {% for item in es.home.practice.carousel %}
+      <a href="{{item.url}}">
+        <div class="home-practice-item">
+          <span class="item-title">{{item.title}}</span>
+          <div class="item-img {{item.imgClass}}"></div>
+          <div class="layer">
+            <h3 class="layer-title">{{item.layerTitle}}</h3>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    <a class="btn blue" href="/es/areas-de-practica.html">ver todas</a>
+  </section>
+
+  <section class="home-members">
+    <div class="first">
+      <span class="home-members-tag">rivers legal</span>
+      <h2 class="home-members-title">Conoce a todos <span class="home-members-titleSpan">nuestros miembros</span></h2>
+    </div>
+    <div class="second">
+      <h3 class="home-members-tag">Soluciones Legales Integrales</h3>
+      <span class="home-members-tag">Servicios Orientados al Desarrollo Comercial.</span>
+      <a class="btn blue" href="/es/miembros.html">ver miembros</a>
+    </div>
+  </section>
+
+  <section class="home-contact">
+    <h2 class="home-contact-title">Contáctanos</h2>
+    <div class="home-contact-info">
+      <p class="home-contact-desc">Para asesoramiento o para una cotización, por favor póngase en contacto.</p>
+      <a class="btn blue" href="/es/contactanos.html">contacto</a>
+    </div>
   </section>
 </section>
 {% endblock %}

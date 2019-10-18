@@ -8,27 +8,27 @@
       "sections": [
         {
           "name": " About Us",
-          "link": "about-us.html",
+          "link": "/en/about-us.html",
           "viewName": "aboutus"
         },
         {
           "name": "Practice Areas",
-          "link": "practice-areas.html",
+          "link": "/en/practice-areas.html",
           "viewName": "practiceareas"
         },
         {
           "name": "Members",
-          "link": "members.html",
+          "link": "/en/members.html",
           "viewName": "members"
         },
         {
           "name": "Contact",
-          "link": "contact.html",
+          "link": "/en/contact.html",
           "viewName": "contact"
         },
         {
           "name": "Careers",
-          "link": "en/careers.html",
+          "link": "/en/careers.html",
           "viewName": "careers"
         }
       ]
@@ -38,7 +38,7 @@
         "title": "Business Aligned",
         "titleSpan": "Legal Advice",
         "subtitle": "Understanding Our Clients Business to Meet Their Legal Needs",
-        "link": "about-us.html",
+        "link": "/en/about-us.html",
         "linkText": "about us",
         "scroll": "/img/icons/scroll-indicator.png",
         "scrollAlt": "Scroll down indicator"
@@ -48,47 +48,1471 @@
           {
             "title": "Corporate",
             "imgClass": "corporate",
-            "layerTitle": "Corporate"
+            "layerTitle": "Corporate",
+            "url": "/en/practice-areas/corporate.html"
           },
           {
             "title": "Mergers & Acquisitions",
             "imgClass": "mergersAcquisitions",
-            "layerTitle": "Mergers & Acquisitions"
+            "layerTitle": "Mergers & Acquisitions",
+            "url": "/en/practice-areas/mergers-and-acquisitions.html"
           },
           {
             "title": "Labor & Employment",
             "imgClass": "laborEmployment",
-            "layerTitle": "Labor & Employment"
+            "layerTitle": "Labor & Employment",
+            "url": "/en/practice-areas/labor-and-employment.html"
           },
           {
             "title": "Intellectual Property",
             "imgClass": "intellProperty",
-            "layerTitle": "Intellectual Property"
+            "layerTitle": "Intellectual Property",
+            "url": "/en/practice-areas/intellectual-property.html"
           },
           {
             "title": "Immigration",
             "imgClass": "immigration",
-            "layerTitle": "Immigration"
+            "layerTitle": "Immigration",
+            "url": "/en/practice-areas/immigration.html"
           },
           {
             "title": "Real Estate",
             "imgClass": "realEstate",
-            "layerTitle": "Real Estate"
+            "layerTitle": "Real Estate",
+            "url": "/en/practice-areas/real-estate.html"
           },
           {
             "title": "Foreign Investment",
             "imgClass": "foreignInvestment",
-            "layerTitle": "Foreign Investment"
+            "layerTitle": "Foreign Investment",
+            "url": "/en/practice-areas/foreign-investment.html"
           },
           {
             "title": "Constitutional Amparo & Administrative Proceedings",
             "imgClass": "constitutional",
-            "layerTitle": "Constitutional Amparo & Administrative Proceedings"
+            "layerTitle": "Constitutional Amparo & Administrative Proceedings",
+            "url": "/en/practice-areas/constitutional-amparo-and-administrative-proceedings.html"
           },
           {
             "title": "Civil & Commercial Litigation",
             "imgClass": "commercialLitigation",
-            "layerTitle": "Civil & Commercial Litigation"
+            "layerTitle": "Civil & Commercial Litigation",
+            "url": "/en/practice-areas/civil-and-commercial-litigation.html"
+          }
+        ]
+      }
+    },
+    "practiceAreas": {
+      "title": "Practice Areas",
+      "cards": [
+        {
+          "link": "/en/practice-areas/corporate.html",
+          "title": "Corporate",
+          "imgClass": "corporate"
+        },
+        {
+          "link": "/en/practice-areas/mergers-and-acquisitions.html",
+          "title": "Mergers & Acquisitions",
+          "imgClass": "mergersAcquisitions"
+        },
+        {
+          "link": "/en/practice-areas/labor-and-employment.html",
+          "title": "Labor & Employment",
+          "imgClass": "laborEmployment"
+        },
+        {
+          "link": "/en/practice-areas/intellectual-property.html",
+          "title": "Intellectual Property",
+          "imgClass": "intellProperty"
+        },
+        {
+          "link": "/en/practice-areas/immigration.html",
+          "title": "Immigration",
+          "imgClass": "immigration"
+        },
+        {
+          "link": "/en/practice-areas/real-estate.html",
+          "title": "Real Estate",
+          "imgClass": "realEstate"
+        },
+        {
+          "link": "/en/practice-areas/foreign-investment.html",
+          "title": "Foreign Investment",
+          "imgClass": "foreignInvestment"
+        },
+        {
+          "link": "/en/practice-areas/constitutional-amparo-and-administrative-proceedings.html",
+          "title": "Constitutional Amparo & Administrative Proceedings",
+          "imgClass": "constitutional"
+        },
+        {
+          "link": "/en/practice-areas/civil-and-commercial-litigation.html",
+          "title": "Civil & Commercial Litigation",
+          "imgClass": "commercialLitigation"
+        }
+      ]
+    },
+    "members": {
+      "title": "Members",
+      "partners": {
+        "title": "partners",
+        "cards": [
+          {
+            "link": "/en/members/jaime-eduardo-martinez-terrazas.html",
+            "category": "partner",
+            "name": "Jaime Eduardo",
+            "lastname": "Martínez Terrazas",
+            "photo": "/img/members/jaime-martinez.jpg"
+          },
+          {
+            "link": "/en/members/manuel-victorio-ortiz-chevaile.html",
+            "category": "partner",
+            "name": "Manuel Victorio",
+            "lastname": "Ortiz Chevaile",
+            "photo": "/img/members/victorio-ortiz.jpg"
+          },
+          {
+            "link": "/en/members/francisco-javier-padilla-mitre.html",
+            "category": "partner",
+            "name": "Francisco Javier",
+            "lastname": "Padilla Mitre",
+            "photo": "/img/members/francisco-padilla.jpg"
+          },
+          {
+            "link": "",
+            "noPointerEvents": true,
+            "category": "partner",
+            "name": "Héctor Alejandro",
+            "lastname": "Gómez Sánchez",
+            "photo": "/img/members/alejandro-gomez.jpg"
+          },
+          {
+            "link": "",
+            "noPointerEvents": true,
+            "category": "partner",
+            "name": "Marcela Patricia",
+            "lastname": "Gómez Sánchez",
+            "photo": "/img/members/marcela-gomez.jpg"
+          }
+        ]
+      },
+      "associates": {
+        "title": "associates",
+        "cards": [
+          {
+            "link": "/en/members/montserrat-del-rio-castaneda.html",
+            "category": "associate",
+            "name": "Montserrat del Río Castañeda",
+            "photo": "/img/members/montse-del-rio.jpg"
+          },
+          {
+            "link": "/en/members/mauricio-cristopher-arevalo-alcalde.html",
+            "category": "associate",
+            "name": "Mauricio Christopher",
+            "lastname": "Arevalo Alcalde",
+            "photo": "/img/members/mauricio-arevalo.jpg"
+          },
+          {
+            "link": "/en/members/vivian-ramirez-valladolid.html",
+            "category": "associate",
+            "name": "Vivian Ramírez Valladolid",
+            "photo": "/img/members/vivian-ramirez.jpg"
+          },
+          {
+            "link": "/en/members/valeria-larrondo-tafoya.html",
+            "category": "associate",
+            "name": "Valeria Larrondo Tafoya",
+            "photo": "/img/members/valeria-larrondo.jpg"
+          },
+          {
+            "link": "",
+            "noPointerEvents": true,
+            "category": "associate",
+            "name": "Mauro Alberto",
+            "lastname": "Ortega Castillo",
+            "photo": "/img/members/mauro-alberto.jpg"
+          },
+          {
+            "link": "/en/members/salvador-rodriguez-sanchez.html",
+            "category": "associate",
+            "name": "Salvador Rodríguez Sánchez",
+            "photo": "/img/members/salvador-rodriguez.jpg"
+          }
+        ]
+      },
+      "paralegals": {
+        "title": "paralegal",
+        "cards": [
+          {
+            "link": "",
+            "noPointerEvents": true,
+            "category": "paralegal",
+            "name": "Salim Chemas",
+            "lastname": "Torres",
+            "photo": "/img/members/salim-torres.jpg"
+          },
+          {
+            "link": "",
+            "noPointerEvents": true,
+            "category": "paralegal",
+            "name": "Pascual Leos Zenteno",
+            "photo": "/img/members/pascual-leos.jpg"
+          }
+        ]
+      },
+      "ofCounsel": {
+        "title": "of counsel",
+        "cards": [
+          {
+            "link": "",
+            "noPointerEvents": true,
+            "category": "of counsel",
+            "name": "María Elena",
+            "lastname": "Sánchez Guzmán",
+            "photo": ""
+          }
+        ]
+      },
+      "administrative": {
+        "title": "administrative staff",
+        "cards": [
+          {
+            "link": "",
+            "noPointerEvents": true,
+            "category": "Assistant Manager",
+            "name": "Patricia",
+            "lastname": "Carvajal Olavarrieta",
+            "photo": "/img/members/patricia-carvajal.jpg"
+          }
+        ]
+      }
+    },
+    "contact": {
+      "cover": {
+        "title": "Address",
+        "address": "Calle Las Trojes 120-B, Lomas 4ta sección C.P. 78216, San Luis Potosí, S.L.P.",
+        "email": "contact@rvrs.mx",
+        "phone": "+52 (444) 825 36 14"
+      },
+      "leave": {
+        "subtitle": "Leave your message",
+        "labelName": "Name",
+        "labelEmail": "Email",
+        "labelMessage": "Message",
+        "btn": "send"
+      }
+    },
+    "membersTemplate1": {
+      "leftBar": {
+        "area": "partner",
+        "member": "Francisco Javier Padilla Mitre",
+        "photo": "/img/members/francisco-padilla.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Francisco Padilla’s practice focuses mainly in Labor and Employment Law."
+          },
+          {
+            "text": "He has participated in due diligence processes focused on the compliance with social security, labor and employment laws, he has counseled several local and transnational companies in individual and collective labor matters, including advice in hiring procedures, union matters and social security procedures as well as adversarial and non-adversarial/conciliatory proceedings."
+          },
+          {
+            "text": "His experience includes alternate dispute resolution methods applied to labor matters, such as negotiation, mediation and conciliation."
+          },
+          {
+            "text": "Francisco has successfully represented to local and international companies in labor trials (individual and union-related) before Labor Courts all over Mexico."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Labor and Employment (Advice and Litigation)",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Social Security",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Labor Contracts",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Negotiation",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Logistics",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Postgraduate Course on Reform to the Federal Labor Law, Instituto Tecnológico de Estudios Superiores de Monterrey, San Luis Potosi, Mexico."
+          },
+          {
+            "item": "Diploma Course on Public and Private Law, Universidad Autónoma de San Luis Potosí – Facultad de Derecho, San Luis Potosi, Mexico."
+          },
+          {
+            "item": "BA in Law, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosi, Mexico."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": "Member of the Mexican National Lawyers’ Bar Association (Barra Mexicana Colegio de Abogados)."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          }
+        ]
+      }
+    },
+    "membersTemplate2": {
+      "leftBar": {
+        "area": "partner",
+        "member": "Jaime Eduardo Martínez Terrazas",
+        "photo": "/img/members/jaime-martinez.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Jaime Eduardo Martínez has more than 15 years of experience counseling local and multinational companies on corporate and contractual law, among other fields related with business legal advice. His field of expertise includes counseling and advice in protection of IP rights, as well as in immigration procedures."
+          },
+          {
+            "text": "Jaime Eduardo has acted as counsel to a considerable number of foreign companies all-along their investment process in Mexico, from incorporation and structuring of subsidiaries and including negotiation and improvement of joint venture agreements and other business-integration contracts, including mergers and acquisitions, as well as execution and coordination of due diligence processes."
+          },
+          {
+            "text": "Furthermore, he has participated in the negotiation of commercial contracts for a broad range of transactions among national and multinational clients, including the brokering of credits, provision of securities, shareholders’ agreements, and others."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Corporate",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Mergers and Acquisitions",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Civil and Commercial Contracts",
+            "order": "order: 4; margin-right: 24px;"
+          },
+          {
+            "text": "Real Estate",
+            "order": "order: 6; margin-right: 24px;"
+          },
+          {
+            "text": "Intellectual Property",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Foreign Investment",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Immigration",
+            "order": "order: 5;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Petrochemical",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Food",
+            "order": "order: 4; margin-right: 24px;"
+          },
+          {
+            "text": "Mining",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Logistics",
+            "order": "order: 5;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Various postgraduate courses and seminars on Public and Private International Law, Corporate Law, Intellectual Property and Alternative Dispute Resolution Systems with emphasis on Negotiation, Mediation and Arbitration."
+          },
+          {
+            "item": "Professor of Civil Contracts, Intellectual Property and Public International Law, Instituto Tecnológico de Estudios Superiores of Monterrey – Campus San Luis Potosí, San Luis Potosi, Mexico."
+          },
+          {
+            "item": "Course on Recent Developments in American Law at Fordham Law School, New York, USA."
+          },
+          {
+            "item": "BA in Law , Universidad Marista – Universidad Champagnat, San Luis Potosi,  Mexico."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": "Founding Member of the Barra Mexicana Colegio de Abogados."
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": "Graduated as BA in Law with honors from Universidad Marista – Universidad Champagnat, San Luis Potosi, Mexico."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          }
+        ]
+      }
+    },
+    "membersTemplate3": {
+      "leftBar": {
+        "area": "associate",
+        "member": "Kristopher Ruben Ortiz Hernández",
+        "photo": "/img/members/kristopher-ortiz.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Kristopher Ortiz focuses mainly in the practice of Labor and Employment Law and Immigration Law. "
+          },
+          {
+            "text": "Part of his experience consists in advising national and international companies in individual and collective labor matters, including the representation in adversarial and non-adversarial/conciliatory proceedings. "
+          },
+          {
+            "text": "Additionally, he has participated in several immigration procedures required for the obtaining of the legal residence for expatriates that will work in Mexico and their families."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Labor and Employment (Advise and Litigation)",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Social Security",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Labor Contracts",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Immigration",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Logistics",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Diploma Course on Public, Private and Social Law, Universidad Autónoma de San Luis Potosí – Facultad de Derecho, San Luis Potosi, Mexico."
+          },
+          {
+            "item": "BA in Law, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosi, Mexico."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": ""
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": ""
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          }
+        ]
+      }
+    },
+    "membersTemplate4": {
+      "leftBar": {
+        "area": "associate",
+        "member": "Mauricio Cristopher Arévalo Alcalde",
+        "photo": "/img/members/mauricio-arevalo.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Mauricio Arevalo counsels to local and international companies mainly on Labor and Employment Law and Immigration Law. "
+          },
+          {
+            "text": "He has implemented strategies aiming to prevent labor litigations and has successfully represented to companies before Labor Courts."
+          },
+          {
+            "text": "An important part of his practice has been his consultancy in labor authority audits regarding development and training, health and safety, employee profit sharing, among other obligations of employers in Mexico."
+          },
+          {
+            "text": "Additionally, he has participated in all sort of immigration procedures required for the obtaining of the legal residence for expatriates that will work in Mexico and their families."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Labor and Employment (Advise and Litigation)",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Social Security",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Administrative Proceedings",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Immigration",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Logistics",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Postgraduate Course on Reform to the Federal Labor Law, Instituto Tecnológico de Estudios Superiores de Monterrey, San Luis Potosi, Mexico."
+          },
+          {
+            "item": "Postgraduate Seminar on Fiscal and Administrative Justice, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosi, Mexico."
+          },
+          {
+            "item": "Diploma Course on Public, Private and Social Law, Universidad Autónoma de San Luis Potosí – Facultad de Derecho, San Luis Potosi, Mexico."
+          },
+          {
+            "item": "BA in Law, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosi, Mexico."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": ""
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": ""
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          }
+        ]
+      }
+    },
+    "membersTemplate5": {
+      "leftBar": {
+        "area": "associate",
+        "member": "Montserrat del Río Castañeda",
+        "photo": "/img/members/montse-del-rio.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Montserrat del Río has participated in complex corporate restructuring for local and international business groups, as well as in national and international credit and securities operations. She has acted in numerous transactions involving mergers and acquisitions."
+          },
+          {
+            "text": "She has extensive experience in negotiating and drafting civil and commercial contracts and her field of practice includes counselling with respect to foreign investment, acquisitions and development of properties and legal aspects of asset management strategies."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Corporate",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Mergers and Acquisitions",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Civil and Commercial Contracts",
+            "order": "order: 4; margin-right: 24px;"
+          },
+          {
+            "text": "Real Estate",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Foreign Investment",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufacturing and Maquila Services",
+            "order": "order: 1;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Various postgraduate courses and seminars on Contractual Law, Tax Law, Business Law and Alternative Dispute Resolution Systems with emphasis on Negotiation, Mediation and Arbitration."
+          },
+          {
+            "item": "BA in Law, Universidad Autónoma de San Luis Potosí – Facultad de Derecho, San Luis Potosi, Mexico."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": "Founding Member of the Mexican National Lawyers’ Bar Association (Barra Mexicana Colegio de Abogados)."
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": "Graduated as BA in Law with honors from Universidad Autónoma de San Luis Potosí – Facultad de Derecho, San Luis Potosi, Mexico."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          }
+        ]
+      }
+    },
+    "membersTemplate6": {
+      "leftBar": {
+        "area": "partner",
+        "member": "Manuel Victorio Ortiz Chevaile",
+        "photo": "/img/members/victorio-ortiz.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Victorio Ortiz’s professional practice focuses mainly in Corporate and Business law."
+          },
+          {
+            "text": "He has been engaged in restructuring processes for corporate groups, mergers & acquisitions and incorporation of companies, as well as advising on legal strategies, risk assessment and conducting due diligence processes for both general and specific compliance. "
+          },
+          {
+            "text": "Victorio has led the formation, development and coordination of in-house legal departments for Mexican subsidiaries of international companies, as well as in harmonizing global corporate practices and policies for Mexico and Latin America."
+          },
+          {
+            "text": "He has acted as legal counsel for local and multinational clients in the negotiation of commercial agreements and the performance of its contractual obligations."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Corporate",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Business",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Mergers and Acquisitions",
+            "order": "order: 4; margin-right: 24px;"
+          },
+          {
+            "text": "Civil & Commercial Contracts",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Foreign Investment",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Real Estate",
+            "order": "order: 5;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Petrochemical",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Food",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Postgraduate Course on Translation of Legal Documents: English – Spanish, Escuela Libre de Derecho, Mexico City, Mexico."
+          },
+          {
+            "item": "Diploma Course on Corporate Law, Instituto Nacional Autónomo de México, Mexico City, Mexico."
+          },
+          {
+            "item": "Postgraduate Course on Negotiation and Drafting of Business Agreements, Instituto Nacional Autónomo de México, Mexico City, Mexico."
+          },
+          {
+            "item": "BA in Law, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosi, Mexico."
+          },
+          {
+            "item": "Legal English Course in The London School of English, London, England."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": "Member of the Mexican National Lawyers’ Bar Association (Barra Mexicana Colegio de Abogados)."
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": "Graduated with Excellence Certificate granted by the National Evaluation Center for Higher Education (CENEVAL), Mexico."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          }
+        ]
+      }
+    },
+    "membersTemplate7": {
+      "leftBar": {
+        "area": "associate",
+        "member": "Valeria Larrondo Tafoya",
+        "photo": "/img/members/valeria-larrondo.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Valeria Larrondo’s professional practice focuses mainly in Corporate Law and Administrative Proceedings."
+          },
+          {
+            "text": "Important part of her practice includes advising national and international companies for both general and specific compliance, including the obtention of all kind of government permits, licenses and authorizations, as well as counselling with respect to foreign investment."
+          },
+          {
+            "text": "Her experience includes negotiating and drafting civil and commercial contracts, including trust agreements and other real estate transactions."
+          },
+          {
+            "text": "Additionally, she has participated in all sort of immigration procedures required for the obtaining of the legal residence for expatriates that will work in Mexico and their families, as well as procedures for the obtention of visas for nationals that will travel abroad."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Corporate",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Administrative",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Foreign Investment",
+            "order": "order: 4; margin-right: 24px;"
+          },
+          {
+            "text": "Civil & Commercial Contracts",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Immigration",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Mergers and Acquisitions",
+            "order": "order: 5;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 1;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Diploma Course on Foreign Trade and Customs Law, Universidad Marista de San Luis Potosí, Mexico."
+          },
+          {
+            "item": "Diploma Course on Intellectual and Industrial Property Law, World Intellectual Property Organization."
+          },
+          {
+            "item": "BA in Law, Universidad Marista de San Luis Potosí, San Luis Potosi, Mexico."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": ""
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": "Excellence Recognition for getting the Law Degree with a general average of 9.8 awarded by the Universidad Marista de San Luis Potosí, Mexico."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          },
+          {
+            "item": "Japanese (Beginner)"
+          }
+        ]
+      }
+    },
+    "membersTemplate8": {
+      "leftBar": {
+        "area": "associate",
+        "member": "Vivian Ramírez Valladolid",
+        "photo": "/img/members/vivian-ramirez.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Vivian Ramirez counsels to local and international companies mainly on Business Law. "
+          },
+          {
+            "text": "Important part of her practice consists in the negotiation of commercial agreements and the performance of due diligence processes for both general and specific compliance."
+          },
+          {
+            "text": "Additionally, she has been engaged in in-site legal services advising companies on the management of legal data, and the definition and development of corporate policies and procedures."
+          },
+          {
+            "text": "Vivian also has participated in tax litigations and other administrative procedures."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Corporate",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Business Law",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Commercial Contracts",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Administrative Law",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Petrochemical",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufacturing and Maquila Services",
+            "order": "order: 1;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Specialty Course on Private Law, Universidad Autónoma de San Luis Potosí – Facultad de Derecho, San Luis Potosi, Mexico."
+          },
+          {
+            "item": "5th OECD World Forum on Statistics, Knowledge, and Policy, Guadalajara, México."
+          },
+          {
+            "item": "BA in Law, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, Mexico."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": ""
+          }
+        ]
+      },
+      "recognitions": {
+        "list": [
+          {
+            "item": "Recognition for getting the Law Degree with a general average of 9.18, awarded by the Universidad Autónoma de San Luis Potosí, San Luis Potosi, Mexico."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          },
+          {
+            "item": "German"
+          }
+        ]
+      }
+    },
+    "membersTemplate9": {
+      "leftBar": {
+        "area": "associate",
+        "member": "Salvador Rodríguez Sánchez",
+        "photo": "/img/members/salvador-rodriguez.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Salvador Rodríguez is a specialist in tax and administrative litigation. Throughout his professional career he has represented local and transnational companies in disputes regarding taxes and contributions, either before federal or local jurisdictions."
+          },
+          {
+            "text": "Salvador counsels on compliance of tax obligations, assists in tax audit reviews and tax credit procedures, and has successfully implemented defense strategies against tax authority resolutions."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Taxes (Advice and Litigation)",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Social Security Contributions (Advice and Litigation)",
+            "order": "order: 2; margin-right: 24px;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 4;"
+          },
+          {
+            "text": "Logistics",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Construction",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Expositor of Tax related matters and Professor of Law Introduction, Tax Law, Administrative Law, State and Government, Customs Law at Universidad Autónoma de San Luis Potosí and Universidad Marista de San Luis Potosí."
+          },
+          {
+            "item": "Various postgraduate courses and seminars on Tax Law, Administrative Law, Human Rights and Legal Argumentation."
+          },
+          {
+            "item": "BA in Law (Licenciado en Derecho), Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, Mexico."
+          }
+        ]
+      },
+      "affiliations": {
+        "list": [
+          {
+            "item": "Member of the Mexican National Lawyers’ Bar Association (Barra Mexicana Colegio de Abogados)."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          }
+        ]
+      }
+    },
+    "practiceTemplate": {
+      "cover": {
+        "title": "Corporate",
+        "descriptionOne": "Has vast experience in incorporation of Mexican business corporations, transformations, Mergers and Acquisitions, spin-offs, dissolution and winding-up processes, so as strategic decision making and corporate actions (shareholders’ resolutions, shareholders’ agreements and board meetings).",
+        "descriptionTwo": "The firm also specializes in compliance with foreign investment laws, privacy, anti-corruption, anti-trust laws, among others."
+      },
+      "fold2": {
+        "subtitle": "",
+        "description": "Our lawyers also have considerable experience in coordination and performance of due diligence processes, including issuance of legal opinions for preventive, corrective or transactional purposes, either for stock acquisitions or other assets; our field of expertise includes planning and preparing corporate and associative strategies, restructure (asset management, corporate governance, succession, strategic alliances, etc.), domestic and international transactions, drafting and negotiation of all sorts of contracts, agreements, understandings, letters of intent, so as following-up of administrative compliance, including filing for, renewing and updating of licenses, permits and authorizations, either local, state or federal."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "partner",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "associate",
+            "description": "Montserrat del Río Castañeda"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate2": {
+      "cover": {
+        "title": "Mergers & Acquisitions",
+        "descriptionOne": "Our lawyers have broad experience and in-depth knowledge in handling mergers and acquisitions and, they have advised to national and international clients in the instrumentation of joint ventures, corporate and associative strategies or restructures and other commercial development schemes.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "",
+        "description": "Also, our members have successfully represented buyers and sellers of Mexican corporations, lead due diligence processes and implemented entity merger and spin-off transactions."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "partner",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "associate",
+            "description": "Montserrat del Río Castañeda"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate3": {
+      "cover": {
+        "title": "Labor & Employment",
+        "descriptionOne": "Our Labor Law Practice Group focuses mainly on providing preventive assistance, covering all aspects of a labor relationship (individual and union’s), including all sort of counselling in drafting and execution of individual employment or union contracts.",
+        "descriptionTwo": "Besides our preventive approach, all members to the Labor Law Practice Group have plenty of experience in handling cases and representing our clients on litigation proceedings, so as administrative inspections by state or federal authorities."
+      },
+      "fold2": {
+        "subtitle": "",
+        "description": "Our practice includes preparation and execution of strategies associated with transferring personnel due to corporate restructuring, as well as hiring foreign staff and sending Mexican staff for training abroad. "
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Francisco Javier Padilla Mitre"
+          },
+          {
+            "title": "associate",
+            "description": "Mauricio Christopher Arevalo Alcalde"
+          },
+          {
+            "title": "associate",
+            "description": "Kristopher Ruben Ortiz Hernández"
+          }
+        ]
+      }
+    },
+    "practiceTemplate4": {
+      "cover": {
+        "title": "Intellectual Property",
+        "descriptionOne": "Has a practice group specialized in intellectual property, including feasibility analysis for inventions and trademarks, copyright and drafting and negotiation of licences, franchises, transfer of technologies, confidentiality, software development, advertising and other transactions involving transfer or protection of intellectual property.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "",
+        "description": "Additionally, our practice group specializes in advising on strategies for confidential information, as well as for trade secrets. "
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "partner",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "associate",
+            "description": "Mauricio Christopher Arevalo Alcalde"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate5": {
+      "cover": {
+        "title": "Immigration",
+        "descriptionOne": "We have vast experience in handling all sorts of immigration proceedings required by companies hiring foreign staff and/or due to new job offers, corporate restructure and so on.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "",
+        "description": "This area of practice includes assistance in obtaining and/or renewing visas granted by other countries through their respective Consulates or Embassies."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "associate",
+            "description": "Mauricio Christopher Arevalo Alcalde"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          },
+          {
+            "title": "associate",
+            "description": "Kristopher Ruben Ortiz Hernández"
+          }
+        ]
+      }
+    },
+    "practiceTemplate6": {
+      "cover": {
+        "title": "Real Estate",
+        "descriptionOne": "Our expertise in this area includes our assistance in transactions related to the sale and acquisition of real estate properties, so as the coordination and performance of enhanced due diligence processes in connection to such properties.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "",
+        "description": "Also, our members have been involved in real estate development projects of industrial, commercial and housing type, supporting its clients in all legal aspects during the planning, construction, sale and up to the finalization of the project."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "partner",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "partner",
+            "description": "Héctor Alejandro Gómez Sánchez"
+          },
+          {
+            "title": "associate",
+            "description": "Montserrat del Río Castañeda"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate7": {
+      "cover": {
+        "title": "Foreign Investment",
+        "descriptionOne": "Our lawyers have vast experience with foreign investment projects in Mexico, counseling foreign clients with investment schemes in Mexico, as well as Mexican clients with investment projects with foreign investors.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "",
+        "description": "Our practice includes the counseling on the compliance of applicable foreign investment laws, and the representation before the National Foreign Investment Commission, the General Bureau of Foreign Investment, and the National Foreign Investment Registry, among others."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "partner",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "associate",
+            "description": "Montserrat del Río Castañeda"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          }
+        ]
+      }
+    },
+    "practiceTemplate8": {
+      "cover": {
+        "title": "Constitutional Amparo & Administrative Proceedings",
+        "descriptionOne": "We specialize in filing for and keeping up to date all governmental licences, permits and authorizations before the government authorities, as well as in the performance of due diligence procedures and the improvement of actions tending to comply with the administrative laws, regulations and ordinances, either federal, state and/or municipal.",
+        "descriptionTwo": "In addition to the preventive approach, the lawyers of this practice area handle the assistance and monitoring of audits or reviews initiated to our clients by administrative authorities, either federal, state or municipal, as well as in the challenging of authority resolutions, and the representation of our clients in litigations before Federal and Local Administrative Courts."
+      },
+      "fold2": {
+        "subtitle": "",
+        "description": "Also, this practice area has specialists in Amparo proceedings (which is a highly sophisticated constitutional appeal), through which we have achieved great success in the challenging of laws, administrative or judicial authority resolutions, among other acts that unlawfully restrict our clients’ interests."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Jaime Eduardo Martínez Terrazas"
+          },
+          {
+            "title": "partner",
+            "description": "Manuel Victorio Ortiz Chevaile"
+          },
+          {
+            "title": "partner",
+            "description": "Héctor Alejandro Gómez Sánchez"
+          },
+          {
+            "title": "partner",
+            "description": "Marcela Patricia Gómez Sánchez"
+          },
+          {
+            "title": "associate",
+            "description": "Vivian Ramírez Valladolid"
+          },
+          {
+            "title": "associate",
+            "description": "Valeria Larrondo Tafoya"
+          },
+          {
+            "title": "associate",
+            "description": "Mauro Alberto Ortega Castillo"
+          }
+        ]
+      }
+    },
+    "practiceTemplate9": {
+      "cover": {
+        "title": "Civil & Commercial Litigation",
+        "descriptionOne": "Has a team of specialists in civil & commercial litigation, who have a broad knowledge and experience in the handling of conflicts aroused from the performance of contractual obligations, shareholders’ disputes, and wrongful acts in general, through the representation in alternative dispute resolution methods, or in court trials to be held before local and federal courts in Mexico.",
+        "descriptionTwo": ""
+      },
+      "fold2": {
+        "subtitle": "",
+        "description": "This Practice Area has the main approach of avoiding, to the extent possible, the promotion of lengthy litigations with big costs that tend to be impractical from our client’s business standpoint."
+      },
+      "practice": {
+        "cards": [
+          {
+            "title": "partner",
+            "description": "Héctor Alejandro Gómez Sánchez"
+          },
+          {
+            "title": "partner",
+            "description": "Marcela Patricia Gómez Sánchez"
+          },
+          {
+            "title": "associate",
+            "description": "Mauro Alberto Ortega Castillo"
           }
         ]
       }
@@ -99,27 +1523,27 @@
       "sections": [
         {
           "name": " About Us",
-          "link": "about-us.html",
+          "link": "/en/about-us.html",
           "viewName": "aboutus"
         },
         {
           "name": "Practice Areas",
-          "link": "practice-areas.html",
+          "link": "/en/practice-areas.html",
           "viewName": "practiceareas"
         },
         {
           "name": "Members",
-          "link": "members.html",
+          "link": "/en/members.html",
           "viewName": "members"
         },
         {
           "name": "Contact",
-          "link": "contact.html",
+          "link": "/en/contact.html",
           "viewName": "contact"
         },
         {
           "name": "Careers",
-          "link": "en/careers.html",
+          "link": "/en/careers.html",
           "viewName": "careers"
         }
       ],

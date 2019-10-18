@@ -1,0 +1,32 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Practice Areas{% endblock %}
+
+{% set meta_description = "Our field of expertise " %}
+{% set og_url = "" %}
+{% set og_title = "Practice Areas | Rivers Legal" %}
+{% set og_description = "Our field of expertise " %}
+{% set og_img = "/img/seo/seo-practice-areas.jpg" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "practiceareas" %}
+
+{% block content %}
+<section class="practice">
+  <h1 class="title">{{en.practiceAreas.title}}</h1>
+  <section class="practice-carousel owl-carousel">
+    {% for card in en.practiceAreas.cards %}
+    <a href="{{ card.link }}">
+      <div class="card">
+        <h2 class="card-title">{{ card.title }}</h2>
+        <div class="bgImg {{ card.imgClass }}"></div>
+        <div class="card-layer">
+          <h3 class="card-layer-title">{{ card.title }}</h3>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </section>
+</section>
+{% endblock %}

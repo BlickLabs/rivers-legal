@@ -5,7 +5,7 @@ server {
   root /home/static/rivers-legal;
   index index.html index.htm;
 
-  server_name sandbox.rivers-legal.getmore.mx;
+  server_name sandbox.rivers-legal.getmore.mx rvrs.mx;
 
   location / {
       try_files $uri $uri/ =404;

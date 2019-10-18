@@ -1,0 +1,96 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Member{% endblock %}
+
+{% set meta_description = "Get to know our members" %}
+{% set og_url = "" %}
+{% set og_title = "Member | Rivers Legal" %}
+{% set og_description = "Get to know our members" %}
+{% set og_img = "/img/seo/seo-members-template.jpg" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "members" %}
+
+{% block content %}
+<section class="membersTemplate">
+  <section class="leftBar">
+    <div class="leftBar-content">
+      <span class="leftBar-area">{{ en.membersTemplate2.leftBar.area }}</span>
+      <h1 class="leftBar-member">{{ en.membersTemplate2.leftBar.member }}</h1>
+      <img class="leftBar-photo" src="{{ en.membersTemplate2.leftBar.photo }}" alt="{{ en.membersTemplate2.leftBar.member }}">
+    </div>
+  </section>
+
+  <section class="information">
+    <div class="overview">
+      <h2 class="information-title">Overview</h2>
+      {% for overview in en.membersTemplate2.overview.paragraphs %}
+        <p class="information-text">{{ overview.text }}</p>
+      {% endfor %}
+    </div>
+
+    <div class="representative">
+      <h2 class="information-title">Representative Practice</h2>
+      <div class="typeText-wrapper">
+        <div class="typeTextWrapp">
+          {% for cols in en.membersTemplate2.representative.practice %}
+            <div class="typeText-container" style="{{ cols.order }}">
+              <span class="typeText">{{ cols.text }}</span>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="industry">
+      <h2 class="information-title">Industry</h2>
+      <div class="typeText-wrapper">
+        <div class="typeTextWrapp">
+          {% for cols in en.membersTemplate2.industry.types %}
+            <div class="typeText-container" style="{{ cols.order }}">
+              <span class="typeText">{{ cols.text }}</span>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="education">
+      <h2 class="information-title">Education</h2>
+      <ul>
+        {% for list in en.membersTemplate2.education.list %}
+          <li class="information-text">{{ list.item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="affiliations">
+      <h2 class="information-title">Affiliations</h2>
+      <ul>
+        {% for list in en.membersTemplate2.affiliations.list %}
+          <li class="information-text">{{ list.item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="recognitions">
+      <h2 class="information-title">Recognitions</h2>
+      <ul>
+        {% for list in en.membersTemplate2.recognitions.list %}
+          <li class="information-text">{{ list.item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="languages">
+      <h2 class="information-title">Languages</h2>
+      <ul>
+        {% for list in en.membersTemplate2.languages.list %}
+          <li class="information-text">{{ list.item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+</section>
+{% endblock %}

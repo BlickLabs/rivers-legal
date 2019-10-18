@@ -13,7 +13,7 @@
   </head>
   <body>
     <div id="page">
-      {% if section == 'en/index' or section == 'index' or section == 'en/careers' %}
+      {% if section == 'en/index' or section == 'index' or section  == 'en/about-us' or section == 'en/practice-areas' or section == 'en/members' or section == 'en/contact' or section == 'en/careers' or section == 'en/practice-areas/civil-and-commercial-litigation' or section == 'en/practice-areas/constitutional-amparo-and-administrative-proceedings' or section == 'en/practice-areas/corporate' or section == 'en/practice-areas/foreign-investment' or section == 'en/practice-areas/immigration' or section == 'en/practice-areas/intellectual-property' or section == 'en/practice-areas/labor-and-employment' or section == 'en/practice-areas/mergers-and-acquisitions' or section == 'en/practice-areas/real-estate' or section == 'en/members/francisco-javier-padilla-mitre' or section == 'en/members/jaime-eduardo-martinez-terrazas' or section == 'en/members/Kristopher-ruben-ortiz-hernandez' or section == 'en/members/manuel-victorio-ortiz-chevaile' or section == 'en/members/mauricio-cristopher-arevalo-alcalde' or section == 'en/members/montserrat-del-rio-castaneda' or section == 'en/members/valeria-larrondo-tafoya' or section == 'en/members/vivian-ramirez-valladolid' or section == 'en/members/salvador-rodriguez-sanchez' %}
         {% include 'partials/navbar-en.njk' %}
       {% else %}
         {% include 'partials/navbar.njk' %}
@@ -21,7 +21,7 @@
       <main>
         {% block content %}{% endblock %}
       </main>
-      {% if section == 'en/index' or section == 'index' or section == 'en/careers' %}
+      {% if section == 'en/index' or section == 'index' or section  == 'en/about-us' or section == 'en/practice-areas' or section == 'en/members' or section == 'en/contact' or section == 'en/careers' or section == 'en/practice-areas/civil-and-commercial-litigation' or section == 'en/practice-areas/constitutional-amparo-and-administrative-proceedings' or section == 'en/practice-areas/corporate' or section == 'en/practice-areas/foreign-investment' or section == 'en/practice-areas/immigration' or section == 'en/practice-areas/intellectual-property' or section == 'en/practice-areas/labor-and-employment' or section == 'en/practice-areas/mergers-and-acquisitions' or section == 'en/practice-areas/real-estate' or section == 'en/members/francisco-javier-padilla-mitre' or section == 'en/members/jaime-eduardo-martinez-terrazas' or section == 'en/members/Kristopher-ruben-ortiz-hernandez' or section == 'en/members/manuel-victorio-ortiz-chevaile' or section == 'en/members/mauricio-cristopher-arevalo-alcalde' or section == 'en/members/montserrat-del-rio-castaneda' or section == 'en/members/valeria-larrondo-tafoya' or section == 'en/members/vivian-ramirez-valladolid' or section == 'en/members/salvador-rodriguez-sanchez' %}
         {% include 'partials/footer-en.njk' %}
       {% else %}
         {% include 'partials/footer.njk' %}

@@ -1,0 +1,49 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Foreign Investment{% endblock %}
+
+{% set meta_description = "Our field of expertise includes the counseling on the compliance of applicable foreign investment laws." %}
+{% set og_url = "" %}
+{% set og_title = "Foreign Investment | Rivers Legal" %}
+{% set og_description = "Our field of expertise includes the counseling on the compliance of applicable foreign investment laws." %}
+{% set og_img = "/img/seo/seo-practice-areas-template.jpg" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "practiceareas" %}
+
+{% block content %}
+<section class="practiceTemplate">
+  <section class="cover">
+    <h1 class="cover-title">{{ en.practiceTemplate7.cover.title }}</h1>
+    <div class="cover-content only-paragraph">
+      <div class="cover-info-col1">
+        <h2 class="cover-subtitle">Rivers Legal, S.C.</h2>
+        <p class="cover-info">{{ en.practiceTemplate7.cover.descriptionOne }}</p>
+      </div>
+      <div class="cover-info-col2">
+        <p class="cover-info">{{ en.practiceTemplate7.cover.descriptionTwo }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="fold2">
+    <div class="fold2-background inversionBG"></div>
+    <div class="fold2-content">
+      <p class="fold2-description">{{ en.practiceTemplate7.fold2.description }}</p>
+    </div>
+  </section>
+
+  <section class="membersPractice">
+    <h2 class="title">Members in the practice</h2>
+    <div class="card-container">
+      {% for member in en.practiceTemplate7.practice.cards %}
+        <div class="card">
+          <h3 class="card-title">{{ member.title }}</h3>
+          <p class="card-description">{{ member.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</section>
+{% endblock %}

@@ -1,0 +1,320 @@
+.practiceTemplate
+  padding-top 94px
+
+  .cover
+    background-image url("../img/practice-areas-template/practice-areas-template-cover.png")
+    background-position bottom right
+    background-repeat no-repeat
+    // background-size cover
+    background-size 70%
+    // height 542px
+    height auto
+    padding-bottom 70px
+    padding-top 48px
+
+    &-content
+      display flex
+      justify-content center
+      margin-top 36px
+      padding 0 30px
+
+      &.only-paragraph
+        justify-content flex-start
+        padding-left 21%
+
+    &-title
+      color $c-strongBlue
+      font-family 'PlayfairDisplayRegular'
+      font-size 33px
+      font-weight normal
+      padding-bottom 12px
+      position relative
+      text-align center
+      width 100%
+
+      &:before
+        background-color #d3d3d3
+        bottom 0
+        content ""
+        height 1px
+        left 0
+        margin 0 auto
+        position absolute
+        right 0
+        width 385px
+
+      &:after
+        background-color $c-strongBlue
+        bottom 0
+        content ""
+        height 1px
+        left 0
+        margin 0 auto
+        position absolute
+        right 0
+        width 146px
+
+    &-subtitle
+      color $c-strongBlue
+      font-family 'PlayfairDisplayRegular'
+      font-size 27px
+      font-weight normal
+      letter-spacing -0.24px
+      line-height 26px
+      padding-bottom 23px
+      position relative
+
+    &-info
+      color $c-strongBlue
+      font-family 'DINNextW01Regular'
+      font-size 18px
+      font-weight normal
+      letter-spacing 0.3px
+      line-height 29px
+      max-width 520px
+
+      &-col1
+        p
+          margin-right 55px
+
+      &-col2
+        padding-top 49px
+
+  .fold2
+    display flex
+
+    &-background
+      // background-image url("../img/practice-areas-template/practice-areas-template-fold2.jpg")
+      background-position bottom
+      background-repeat no-repeat
+      background-size cover
+      // height 470px
+      // width 550px
+      width 370px
+
+      &.amparoBG
+        background-image url("../img/practice-areas/constitutional-amparo-administrative-proceedings.png")
+
+      &.corporativoBG
+        background-image url("../img/practice-areas/corporate.png")
+
+      &.fusionesBG
+        background-image url("../img/practice-areas/mergers-acquisitions-template.jpg")
+
+      &.inmobiliarioBG
+        background-image url("../img/practice-areas/real-estate-template.png")
+
+      &.inversionBG
+        background-image url("../img/practice-areas/foreign-investment.png")
+
+      &.laboralBG
+        background-image url("../img/practice-areas/labor-employment-template.png")
+
+      &.litigioBG
+        background-image url("../img/practice-areas/civil-commercial-litigation.png")
+
+      &.migracionBG
+        background-image url("../img/practice-areas/immigration.png")
+
+      &.propiedadBG
+        background-image url("../img/practice-areas/intellectual-property-template.jpg")
+
+    &-content
+      display flex
+      flex 1
+      flex-direction column
+      background-color #43517b
+      padding 71px 93px 50px 128px
+
+    &-title
+      color $c-white
+      font-family 'DINNextW01Regular'
+      font-size 12px
+      font-weight normal
+      letter-spacing 1.03px
+      position relative
+      text-transform uppercase
+
+      &:before
+        background-color $c-white
+        content ""
+        display block
+        height 1px
+        left -50px
+        position absolute
+        top 6px
+        width 39px
+
+    &-subtitle
+      color $c-white
+      font-family 'PlayfairDisplayRegular'
+      font-size 20px
+      font-weight normal
+      letter-spacing 0.4px
+      line-height 30px
+      margin-top 12px
+      max-width 410px
+
+    &-description
+      color $c-white
+      font-family 'DINNextW01Regular'
+      font-size 18px
+      font-weight normal
+      letter-spacing 0.3px
+      line-height 29px
+      // margin 50px 0 0 150px
+      margin 0
+      max-width 518px
+
+  .membersPractice
+    background-color #ebf0fc
+    padding 70px 0 92px 0
+
+    .title
+      color $c-strongBlue
+      font-family 'PlayfairDisplayRegular'
+      font-size 33px
+      font-weight normal
+      padding-bottom 12px
+      position relative
+      text-align center
+      width 100%
+
+      &:before
+        background-color #d3d3d3
+        bottom 0
+        content ""
+        height 1px
+        left 0
+        margin 0 auto
+        position absolute
+        right 0
+        width 385px
+
+      &:after
+        background-color $c-strongBlue
+        bottom 0
+        content ""
+        height 1px
+        left 0
+        margin 0 auto
+        position absolute
+        right 0
+        width 146px
+
+    .card
+      height 90px
+      margin 10px
+      // width 328px
+      width 318px
+
+      &-container
+        display flex
+        flex-wrap wrap
+        margin 64px auto 0 auto
+        width 1044px
+
+      &-title
+        align-items center
+        background-color $c-strongBlue
+        color $c-white
+        display flex
+        font-family 'DINNextW01Bold'
+        font-size 16px
+        font-weight normal
+        height 45px
+        letter-spacing 3.3px
+        padding 0 24px
+        text-transform uppercase
+        -webkit-font-smoothing antialiased
+
+      &-description
+        align-items center
+        background-color $c-cream
+        color $c-strongBlue
+        display flex
+        font-family 'DINNextW01Regular'
+        font-size 16px
+        font-weight normal
+        height 43px
+        letter-spacing 0.3px
+        line-height 27px
+        padding 0 24px
+
+// @media screen and (max-width 1250px) and (min-width 1151px)
+//   .practiceTemplate
+//     .fold2
+//       &-description
+//         margin-left 20%
+
+@media screen and (max-width 1150px)
+  .practiceTemplate
+    .fold2
+      &-background
+        background-position center
+        height initial
+        width 30%
+
+      &-description
+        margin-left 0
+
+@media screen and (max-width 1100px)
+  .practiceTemplate
+    .membersPractice
+      .card-container
+        width 696px
+
+@media screen and (max-width 749px)
+  .practiceTemplate
+    .cover
+      background-size 150%
+      height auto
+      // padding-bottom 250px
+      padding-bottom 160px
+
+      &-content
+        align-items center
+        flex-direction column
+        
+        &.only-paragraph
+          justify-content center
+          padding-left 30px
+
+      &-info
+        &-col1 p
+          margin-right 0
+
+    .fold2
+      flex-direction column
+
+      &-background
+        // height 180px
+        height 360px
+        width 100%
+
+      &-content
+        padding 71px 30px 50px 30px
+
+    .membersPractice
+      .card-container
+        width 348px
+
+@media screen and (max-width 420px)
+  .practiceTemplate
+    .cover
+      &-title
+        &:before
+          width 280px
+    
+    .fold2
+      &-background
+        height 180px
+
+    .membersPractice
+      .title
+        &:before
+          width 280px
+
+      .card-container
+        justify-content center
+        width 100%

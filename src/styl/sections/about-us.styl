@@ -1,0 +1,185 @@
+.about
+  margin-top 94px
+
+  &-cover
+    background-color #f7f7f7
+    background-image url("../img/about-us/aboutus-cover.jpg")
+    background-position bottom -90px right
+    background-repeat no-repeat
+    background-size cover
+    height 615px
+    padding 65px 80px 0 114px
+
+    &-title
+      color $c-strongBlue
+      font-family 'PlayfairDisplayRegular'
+      font-size 33px
+      font-weight normal
+      line-height 26px
+      margin-bottom 40px
+      padding-bottom 11px
+      position relative
+
+      &:before,
+      &:after
+        bottom 0
+        content ""
+        height 1px
+        position absolute
+
+      &:before
+        background-color #d3d3d3
+        width 287px
+
+      &:after
+        background-color $c-strongBlue
+        left 0
+        width 133px
+
+    &-info
+      margin-left 344px
+      max-width 650px
+
+    &-subtitle
+      color $c-strongBlue
+      font-family 'PlayfairDisplayRegular'
+      font-size 33px
+      font-weight normal
+      letter-spacing -0.3px
+      line-height 42px
+
+      & span
+        font-family 'PlayfairDisplayItalic'
+        font-weight normal
+
+    &-description
+      color $c-strongBlue
+      font-family 'DINNextW01Regular'
+      font-size 18px
+      font-weight normal
+      letter-spacing 0.3px
+      line-height 27px
+      margin 30px 0 50px 0
+
+  &-mvv
+    background-image url("../img/about-us/aboutus-mvv-bg.jpg")
+    background-position bottom left
+    background-size cover
+    padding 111px 0 118px 0
+
+    &-content
+      display flex
+      flex-wrap wrap
+      margin 0 auto
+      width 1257px
+
+    &-card
+      // background-color #f1f1f1
+      background-color rgba(241, 241, 241, 0.3)
+      height 249px
+      margin 15px
+      width 389px
+
+      &-spanish
+        height 275px
+
+      & .card-title
+        align-items center
+        background-color $c-strongBlue
+        color $c-white
+        display flex
+        font-family 'PlayfairDisplayRegular'
+        font-size 20px
+        font-weight normal
+        height 53px
+        letter-spacing 0.6px
+        justify-content center
+        -webkit-font-smoothing antialiased
+
+      & .card-description
+        color $c-strongBlue
+        font-family 'DINNextW01Regular'
+        font-size 15px
+        font-weight normal
+        letter-spacing 0.3px
+        line-height 27px
+        padding 32px 30px 20px 67px
+        -webkit-font-smoothing antialiased
+
+      & .card-ul
+        margin 0
+        list-style none
+        padding 32px 55px 20px 67px
+
+      & .card-li
+        color $c-strongBlue
+        font-family 'DINNextW01Regular'
+        font-size 15px
+        font-weight normal
+        letter-spacing 0.3px
+        line-height 27px
+        -webkit-font-smoothing antialiased
+
+        &:before
+          background-color $c-strongBlue
+          // content ""
+          display inline-block
+          height 1px
+          margin-right 20px
+          vertical-align middle
+          width 19px
+
+@media screen and (max-width 1320px)
+  .about
+    &-mvv
+      &-content
+        width 838px
+
+@media screen and (max-width 1100px)
+  .about
+    &-cover
+      padding 65px 60px 0 60px
+
+      &-info
+        margin-left 0
+
+@media screen and (max-width 890px)
+  .about
+    &-mvv
+      padding 50px 0
+
+      &-content
+        width 419px
+
+@media screen and (max-width 670px)
+  .about
+    &-cover
+      height auto
+      padding-bottom 350px
+
+@media screen and (max-width 480px)
+  .about
+    &-cover
+      // background-position bottom -138px right
+      background-size 325%
+      padding 60px 30px 260px 30px
+
+      &-title
+        &:before
+          width 230px
+
+    &-mvv
+      &-content
+        width 100%
+
+      &-card
+        height auto
+        margin-left 30px
+        margin-right 30px
+        width 100%
+
+        & .card-description
+          padding 30px
+
+        & .card-ul
+          padding 30px

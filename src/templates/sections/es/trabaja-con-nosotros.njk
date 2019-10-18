@@ -1,0 +1,47 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Estamos buscando personas talentosas{% endblock %}
+
+{% set meta_description = "Si está interesado en formar parte de nuestro equipo envíe su currículum vitae." %}
+{% set og_url = "" %}
+{% set og_title = "Estamos buscando personas talentosas | Rivers Legal" %}
+{% set og_description = "Si está interesado en formar parte de nuestro equipo envíe su currículum vitae." %}
+{% set og_img = "/img/seo/seo-careers.jpg" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "careers" %}
+
+{% block content %}
+<section class="careers">
+  <section class="cover">
+    <div>
+      <h1 class="title">Trabaja con Nosotros</h1>
+      <h2 class="subtitle">Rivers Legal, S.C.</h2>
+      <p class="description">Es una firma comprometida en prestar servicios de excelencia a través de personal altamente calificado e identificado con nuestros valores. Estamos buscando personas talentosas que tengan afinidad con nuestros valores y cuyas metas profesionales se identifiquen con nuestra visión como firma.</p>
+    </div>
+    <div class="column-right">
+      <h3 class="send-subtitle">envíanos tu currículum vitae</h3>
+      <p class="send-description">Si está interesado en formar parte de nuestro equipo envíe su currículum vitae a hr@rvrs.mx.</p>
+    </div>
+  </section>
+  <section class="form">
+    <form name="rivers-careers" action="http://integrations.blick.mx/riverslegal/careers/" method="post">
+      <div class="form-content-wrapper">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-content-wrapper">
+        <label for="email">Correo</label>
+        <input type="text" id="email" name="email" required>
+      </div>
+      <div class="form-content-wrapper">
+        <label for="phone" name="phone">Teléfono</label>
+        <input type="text" id="phone" name="phone">
+      </div>
+      <button class="btn blue" type="submit">aplicar</button>
+    </form>
+    <p class="description">Muchas gracias por su interés en Rivers Legal, S.C.<br>En breve nos pondremos en contacto con Usted.</p>
+  </section>
+</section>
+{% endblock %}

@@ -14,7 +14,7 @@ html
 
 body
   font-size inherit
-  margin 0 0 359px 0
+  // margin 0 0 359px 0
 
   &.noscroll
     overflow hidden
@@ -24,9 +24,12 @@ body
       opacity 1
       z-index 9
 
+main
+  flex 1
+
 @media screen and (max-width 765px)
-  body
-    margin-bottom 500px
+  // body
+  //   margin-bottom 500px
 
 a
   outline 0
@@ -35,9 +38,12 @@ a
     text-decoration none
 
 #page
-  margin 0
-  overflow hidden
-  padding 0
+  display flex
+  flex-direction column
+  min-height 100vh
+  // margin 0
+  // overflow hidden
+  // padding 0
 
 h1, h2, h3, h4, h5, h6, p
   margin 0
@@ -101,6 +107,7 @@ textarea
 .btn
   align-items center
   color $c-white
+  cursor pointer
   display flex
   font-family 'DINNextW01Regular'
   font-size $fs16
@@ -126,6 +133,22 @@ textarea
     &:hover
       background-color $c-grayBlue
       border solid 1px $c-grayBlue
+
+.alertify-logs.bottom,
+.alertify-logs-bottom .error
+  font-family 'DINNextW01Regular'
+
+form label.error
+  bottom -4px
+  color rgba(244,67,54,.8) !important
+  font-size 13px !important
+  position absolute
+  right 0
+
+.form-content-wrapper
+  display flex
+  flex-direction column
+  position relative
 
 @import 'partials/navbar'
 

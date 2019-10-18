@@ -6,7 +6,7 @@
 {% set og_url = "" %}
 {% set og_title = "We are looking for talented people | Rivers Legal" %}
 {% set og_description = "If you are interested in becoming a part of our team, please send us your resume." %}
-{% set og_img = "" %}
+{% set og_img = "/img/seo/seo-careers.jpg" %}
 {% set og_img_width = "" %}
 {% set og_img_height = "" %}
 
@@ -26,13 +26,19 @@
     </div>
   </section>
   <section class="form">
-    <form action="">
-      <label for="name">Name</label>
-      <input type="text" id="name">
-      <label for="email">E-mail</label>
-      <input type="text" id="email">
-      <label for="phone">Phone number</label>
-      <input type="text" id="phone">
+    <form name="rivers-careers" action="http://integrations.blick.mx/riverslegal/careers/" method="post">
+      <div class="form-content-wrapper">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-content-wrapper">
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="email" required>
+      </div>
+      <div class="form-content-wrapper">
+        <label for="phone" name="phone">Phone number</label>
+        <input type="text" id="phone" name="phone">
+      </div>
       <button class="btn blue" type="submit">send application</button>
     </form>
     <p class="description">We appreciate your interest in Rivers Legal, S.C.<br>We will contact you shortly.</p>

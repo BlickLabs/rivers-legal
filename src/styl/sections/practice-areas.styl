@@ -1,0 +1,224 @@
+.practice
+  // background-color #e9e9e9
+  background linear-gradient(180deg, #e9e9e9 50%, #dde5f8 50%)
+  margin-top 94px
+  padding 60px 0 66px 0
+
+  .title
+    color $c-strongBlue
+    font-family 'PlayfairDisplayRegular'
+    font-size 33px
+    font-weight normal
+    margin-bottom 79px
+    padding-bottom 12px
+    position relative
+    text-align center
+    width 100%
+
+    &:before
+      background-color #d3d3d3
+      bottom 0
+      content ""
+      height 1px
+      left 0
+      margin 0 auto
+      position absolute
+      right 0
+      width 385px
+
+    &:after
+      background-color $c-strongBlue
+      bottom 0
+      content ""
+      height 1px
+      left 0
+      margin 0 auto
+      position absolute
+      right 0
+      width 146px
+
+  &-carousel
+    &-controls
+      margin-top 72px
+      position relative
+
+    .owl-stage
+      align-items center
+      display flex
+      justify-content center
+
+    .owl-item.active.center
+      // transform scale(1)
+      .card
+        height 508px
+        width 367px
+
+        .bgImg
+          height 464px
+          width 367px
+
+    .owl-item
+      // transform scale(0.86)
+      transition all 1s
+
+      .card
+        height 417px
+        width 301px
+
+    .owl-prev,
+    .owl-next
+      background-color $c-strongBlue !important
+      height 53px
+      position absolute
+      top -65px
+      width 51px
+
+      & svg path
+        fill $c-white
+
+    .owl-prev
+      left 0
+      margin-left auto
+      margin-right auto
+      right 100px
+
+    .owl-next
+      left 100px
+      margin-left auto
+      margin-right auto
+      right 0
+
+    .owl-dots
+      display flex
+      justify-content center
+      margin-top 72px
+
+      .owl-dot
+        background-color $c-white
+        border-radius 100px
+        height 11px
+        margin 0 9px
+        width 11px
+
+        &.active
+          background-color $c-bluet2
+
+    .card
+      // height 417px
+      position relative
+      // width 301px
+      // height 508px
+      // width 367px
+
+      &-layer
+        align-items center
+        background-color $c-strongBlue
+        bottom 0
+        display flex
+        left 0
+        justify-content center
+        opacity 0
+        position absolute
+        padding 0 42px
+        right 0
+        top 0
+        transition 0.3s
+
+        &-title
+          color $c-white
+          font-family 'PlayfairDisplayRegular'
+          font-size 19px
+          font-weight normal
+          text-align center
+
+      &:hover .card-layer
+        opacity 1
+        transition 0.3s
+
+      &-title
+        align-items center
+        background-color $c-strongBlue
+        color $c-white
+        display flex
+        font-family 'DINNextW01Regular'
+        font-size 19px
+        font-weight normal
+        height 44px
+        justify-content center
+        letter-spacing 0.6px
+        opacity 0.7
+        text-align center
+        -webkit-font-smoothing antialiased
+
+      .bgImg
+        background-size cover
+        background-position center
+        height 373px
+        width 301px
+        // height 464px
+        // width 367px
+
+        &.corporate
+          background-image url("../img/practice-areas/corporate.jpg")
+
+        &.mergersAcquisitions
+          background-image url("../img/practice-areas/mergers-acquisitions.jpg")
+
+        &.laborEmployment
+          background-image url("../img/practice-areas/labor-employment-template.png")
+
+        &.intellProperty
+          background-image url("../img/practice-areas/intellectual-property.jpg")
+
+        &.immigration
+          background-image url("../img/practice-areas/immigration.jpg")
+
+        &.realEstate
+          background-image url("../img/practice-areas/real-estate.jpg")
+
+        &.foreignInvestment
+          background-image url("../img/practice-areas/foreign-investment.jpg")
+
+        &.constitutional
+          background-image url("../img/practice-areas/constitutional-amparo-administrative-proceedings.jpg")
+
+        &.commercialLitigation
+          background-image url("../img/practice-areas/civil-commercial-litigation.jpg")
+
+@media screen and (max-width 480px)
+  .practice
+    .title
+      &:before
+        width 250px
+
+    &-carousel
+      &-controls
+        margin-top 60px
+
+      .owl-dots
+        flex-wrap wrap
+        margin 0 auto
+        width 174px
+
+      .owl-dot
+        margin 9px !important
+
+      .owl-item.active.center
+      .card
+        height 417px
+        width 301px !important
+
+        &-layer
+          height 417px
+
+        .bgImg
+          // background-color red
+          background-position bottom 30px center
+          background-repeat no-repeat
+          background-size contain
+          // height 373px
+          height 417px !important
+          width 301px !important
+
+          &.laborEmployment
+            background-size cover

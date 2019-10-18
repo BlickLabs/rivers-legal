@@ -19,6 +19,9 @@
       margin-top 110px
       width 12px
 
+     .bigTitle
+       text-align center
+
   &-practice
     align-items center
     background-color #EBF0FC
@@ -126,6 +129,7 @@
         opacity 0.7
         text-align center
         width 100%
+        -webkit-font-smoothing antialiased
 
       & .item-img
         &.corporate,
@@ -137,7 +141,7 @@
         &.foreignInvestment,
         &.constitutional,
         &.commercialLitigation
-          background-position center
+          background-position center bottom
           background-repeat no-repeat
           background-size cover
           height 176px/*143px*/
@@ -150,7 +154,7 @@
           background-image url("../img/home/mergers-acquisitions.jpg")
 
         &.laborEmployment
-          background-image url("../img/home/labor-employment.jpg")
+          background-image url("../img/practice-areas/labor-employment-template.png")
 
         &.intellProperty
           background-image url("../img/home/intellectual-property.jpg")
@@ -353,7 +357,7 @@
 @media screen and (max-width: 860px)
   .home
     &-cover
-      height 100vh/*400px*/
+      height 450px
       padding-bottom 37px
 
       &-scroll
