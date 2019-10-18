@@ -269,28 +269,20 @@
             "category": "of counsel",
             "name": "María Elena",
             "lastname": "Sánchez Guzmán",
-            "photo": "/img/members/silueta.jpg"
+            "photo": ""
           }
         ]
       },
       "administrative": {
-        "title": "administrative",
+        "title": "administrative staff",
         "cards": [
           {
             "link": "",
             "noPointerEvents": true,
-            "category": "administrative",
+            "category": "Assistant Manager",
             "name": "Patricia",
             "lastname": "Carvajal Olavarrieta",
-            "photo": "/img/members/silueta.jpg"
-          },
-          {
-            "link": "",
-            "noPointerEvents": true,
-            "category": "administrative",
-            "name": "Freida",
-            "lastname": "Beverido Solá",
-            "photo": "/img/members/silueta.jpg"
+            "photo": "/img/members/patricia-carvajal.jpg"
           }
         ]
       }
