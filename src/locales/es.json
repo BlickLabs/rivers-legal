@@ -549,6 +549,12 @@
             "category": "asociado",
             "name": "Salvador Rodríguez Sánchez",
             "photo": "/img/members/salvador-rodriguez.jpg"
+          },
+          {
+            "link": "/es/miembros/kristopher-ortiz.html",
+            "category": "asociado",
+            "name": "Kristopher Ruben Ortiz Hernandez ",
+            "photo": "/img/members/kristopher-ortiz.jpg"
           }
         ]
       },
@@ -1489,6 +1495,93 @@
         "list": [
           {
             "item": "Miembro de la Barra Mexicana Colegio de Abogados."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Español"
+          },
+          {
+            "item": "Inglés"
+          }
+        ]
+      }
+    },
+    "membersTemplate10": {
+      "leftBar": {
+        "area": "asociado",
+        "member": "Kristopher Ruben Ortiz Hernandez ",
+        "photo": "/img/members/kristopher-ortiz.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Kristopher Ortiz brinda asesoría a compañías nacionales e internacionales principalmente en la materia de Derecho Empresarial."
+          },
+          {
+            "text": "Parte de su experiencia consiste en asesorar a compañías nacionales e internacionales en la elaboración y negociación de contratos comerciales, así como en la realización de procesos de due diligence enfocados al cumplimiento general o de materias específicas."
+          },
+          {
+            "text": "Ha estado involucrado en la asesoría a empresas sobre la administración y manejo de información legal, así como la definición y desarrollo de políticas y procedimientos empresariales."
+          },
+          {
+            "text": "Finalmente, ha participado en asuntos laborales de índole individual y colectiva, incluyendo la representación en procedimientos litigiosos y paraprocesales ante las juntas laborales, así como trámites migratorios."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Derecho Corporativo",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Derecho Empresarial",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Contratos Civiles y Comerciales",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Derecho Laboral (Consultoría y Litigio)",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotriz",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Petroquímica",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufacturing and Maquila Services",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Alimenticia",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Logística",
+            "order": "order: 4;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Diplomado en Derecho Público, Privado y Social, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, México."
+          },
+          {
+            "item": "Licenciado en Derecho, Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, México."
           }
         ]
       },

@@ -237,6 +237,12 @@
             "category": "associate",
             "name": "Salvador Rodríguez Sánchez",
             "photo": "/img/members/salvador-rodriguez.jpg"
+          },
+          {
+            "link": "/en/members/kristopher-ortiz.html",
+            "category": "associate",
+            "name": "Kristopher Ruben Ortiz Hernandez",
+            "photo": "/img/members/kristopher-ortiz.jpg"
           }
         ]
       },
@@ -1192,6 +1198,93 @@
         "list": [
           {
             "item": "Member of the Mexican National Lawyers’ Bar Association (Barra Mexicana Colegio de Abogados)."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          }
+        ]
+      }
+    },
+    "membersTemplate10": {
+      "leftBar": {
+        "area": "associate",
+        "member": "Kristopher Ruben Ortiz Hernandez ",
+        "photo": "/img/members/kristopher-ortiz.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Kristopher Ortiz counsels to local and international companies mainly on Business Law. "
+          },
+          {
+            "text": "Important part of her practice consists in the negotiation of commercial agreements and the performance of due diligence processes for both general and specific compliance."
+          },
+          {
+            "text": "He has been engaged in the management of legal data, as well as the definition and development of corporate policies and procedures."
+          },
+          {
+            "text": "Finally, he has assisted in individual and collective labor matters, including adversarial and non-adversarial/conciliatory proceedings, as well as immigration procedures."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Corporate",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Business Law",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Commercial Contracts",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Labor and Employment (Advice and Litigation)",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Petrochemical",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufacturing and Maquila Services",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Food",
+            "order": "order: 3;"
+          },
+          {
+            "text": "Logistics",
+            "order": "order: 4;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "Diploma Course on Public, Private and Social Law, Universidad Autónoma de San Luis Potosí – Facultad de Derecho, San Luis Potosi, Mexico."
+          },
+          {
+            "item": "BA in Law (Licenciado en Derecho), Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosi, S.L.P. Mexico."
           }
         ]
       },
