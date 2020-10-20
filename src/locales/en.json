@@ -213,12 +213,6 @@
             "photo": "/img/members/mauricio-arevalo.jpg"
           },
           {
-            "link": "/en/members/vivian-ramirez-valladolid.html",
-            "category": "associate",
-            "name": "Vivian Ramírez Valladolid",
-            "photo": "/img/members/vivian-ramirez.jpg"
-          },
-          {
             "link": "/en/members/valeria-larrondo-tafoya.html",
             "category": "associate",
             "name": "Valeria Larrondo Tafoya",
@@ -242,7 +236,13 @@
             "link": "/en/members/kristopher-ortiz.html",
             "category": "associate",
             "name": "Kristopher Ruben Ortiz Hernandez",
-            "photo": "/img/members/kristopher-ortiz.jpg"
+            "photo": "/img/members/Kristopher_Ortiz.jpg"
+          },
+          {
+            "link": "/en/members/pascual-leo-zenteno.html",
+            "category": "associate",
+            "name": "Pascual Leos Zenteno",
+            "photo": "/img/members/pascual-leos.jpg"
           }
         ]
       },
@@ -261,8 +261,15 @@
             "link": "",
             "noPointerEvents": true,
             "category": "paralegal",
-            "name": "Pascual Leos Zenteno",
-            "photo": "/img/members/pascual-leos.jpg"
+            "name": "Francisco Javier Madrigal Covarrubias",
+            "photo": "/img/members/Francisco_Javier_Madrigal_Covarrubias.jpg"
+          },
+          {
+            "link": "",
+            "noPointerEvents": true,
+            "category": "paralegal",
+            "name": "Jose Miguel Delgado Torres",
+            "photo": "/img/members/Jose_Miguel_Delgado_Torres.jpg"
           }
         ]
       },
@@ -525,7 +532,7 @@
       "leftBar": {
         "area": "associate",
         "member": "Kristopher Ruben Ortiz Hernández",
-        "photo": "/img/members/kristopher-ortiz.jpg"
+        "photo": "/img/members/Kristopher_Ortiz.jpg"
       },
       "overview": {
         "paragraphs": [
@@ -1216,7 +1223,7 @@
       "leftBar": {
         "area": "associate",
         "member": "Kristopher Ruben Ortiz Hernandez ",
-        "photo": "/img/members/kristopher-ortiz.jpg"
+        "photo": "/img/members/Kristopher_Ortiz.jpg"
       },
       "overview": {
         "paragraphs": [
@@ -1295,6 +1302,85 @@
           },
           {
             "item": "English"
+          }
+        ]
+      }
+    },
+    "membersTemplate11": {
+      "leftBar": {
+        "area": "associate",
+        "member": "Pascual Leos Zenteno",
+        "photo": "/img/members/pascual-leos.jpg"
+      },
+      "overview": {
+        "paragraphs": [
+          {
+            "text": "Pascual Leos counsels to local and international companies mainly on Labor and Employment Law."
+          },
+          {
+            "text": "An important part of his practice has been his assistance with alternate dispute resolution methods applied to labor matters, such as negotiation, mediation and conciliation."
+          },
+          {
+            "text": "Additionally, he has participated in different administrative proceedings before Labor Authorities."
+          }
+        ]
+      },
+      "representative": {
+        "practice": [
+          {
+            "text": "Labor and Employment (Advice and Litigation)",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Social Security",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Administrative Proceedings",
+            "order": "order: 1;"
+          }
+        ]
+      },
+      "industry": {
+        "types": [
+          {
+            "text": "Automotive",
+            "order": "order: 0; margin-right: 24px;"
+          },
+          {
+            "text": "Food",
+            "order": "order: 2; margin-right: 24px;"
+          },
+          {
+            "text": "Manufacturing & Maquila Services",
+            "order": "order: 1;"
+          },
+          {
+            "text": "Logistics",
+            "order": "order: 3;"
+          }
+        ]
+      },
+      "education": {
+        "list": [
+          {
+            "item": "BA in Law (Licenciado en Derecho), Universidad Autónoma de San Luis Potosí - Facultad de Derecho, San Luis Potosí, S.L.P. México."
+          },
+          {
+            "item": "Law Semester Exchange Program, Universidad de Granada – Facultad de Derecho, Granada, España."
+          }
+        ]
+      },
+      "languages": {
+        "list": [
+          {
+            "item": "Spanish"
+          },
+          {
+            "item": "English"
+          },
+          {
+            "item": "French"
           }
         ]
       }
