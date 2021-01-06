@@ -1685,7 +1685,7 @@
     "contact": {
       "cover": {
         "title": "Dirección",
-        "address": "Calle Las Trojes 120-B, Lomas 4ta sección C.P. 78216, San Luis Potosí, S.L.P.",
+        "address": "Circuito Real de Catorce # 248, Lomas 4ª sección, San Luis Potosí, S.L.P. C.P. 78216",
         "email": "contact@rvrs.mx",
         "phone": "+52 (444) 825 36 14"
       },
@@ -1738,7 +1738,7 @@
       "mail": "contact@rvrs.mx",
       "addressIcon": "/img/icons/address-icon.png",
       "addressIconAlt": "Ícono de un pin",
-      "address": "Calle Las Trojes 120-B, Lomas 4ta sección C.P. 78216, San Luis Potosí, S.L.P",
+      "address": "Circuito Real de Catorce # 248, Lomas 4ª sección, San Luis Potosí, S.L.P. C.P. 78216",
       "copyright": "Rivers Legal  2019® Copyright"
     }
   }
